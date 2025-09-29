@@ -4,30 +4,31 @@ import { Card, CardContent } from '@/components/ui/card';
 import ScrollReveal from '@/components/ScrollReveal';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import bagProduct1 from '@/assets/bag-product-1.jpg';
-import bagProduct2 from '@/assets/bag-product-2.jpg';
+import bagProduct1 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg';
+import bagProduct2 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02 (1).jpeg';
+import bagProduct3 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.24.jpeg';
 
 const products = [
   {
     id: 1,
-    name: 'Tote Elegante Premium',
-    description: 'Bolsa tote em couro legítimo com acabamento sofisticado',
-    price: 'R$ 2.890',
+    name: 'Mala Louis Vuitton Monogram',
+    description: 'Mala de viagem em canvas Monogram com couro natural e amplo espaço interno',
+    price: 'R$',
     image: bagProduct1,
   },
   {
     id: 2,
-    name: 'Crossbody Luxo',
-    description: 'Bolsa transversal com detalhes dourados e alça ajustável',
-    price: 'R$ 1.690',
+    name: 'Louis Vuitton NeoNoé Monogram',
+    description: 'Bolsa bucket em canvas Monogram com interior rosa e alça de couro trançada',
+    price: 'R$',
     image: bagProduct2,
   },
   {
     id: 3,
-    name: 'Clutch Sofisticada',
-    description: 'Clutch minimalista para ocasiões especiais',
-    price: 'R$ 890',
-    image: bagProduct1,
+    name: 'Chanel Top Handle Matelassê',
+    description: 'Bolsa Chanel em couro caviar com quilting clássico e alça estruturada.',
+    price: 'R$',
+    image: bagProduct3,
   },
   {
     id: 4,

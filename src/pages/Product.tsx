@@ -7,39 +7,65 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { ArrowLeft, Heart, Share2, Shield, Truck, RefreshCw } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import bagProduct1 from '@/assets/bag-product-1.jpg';
-import bagProduct2 from '@/assets/bag-product-2.jpg';
-import bagProduct3 from '@/assets/bag-product-3.jpg';
-import bagProduct4 from '@/assets/bag-product-4.jpg';
-import bagProduct5 from '@/assets/bag-product-5.jpg';
-import bagProduct6 from '@/assets/bag-product-6.jpg';
+
+import bagProduct1 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.34.14.jpeg';
+import bagProduct2 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.34.59 (1).jpeg';
+import bagProduct3 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.34.59 (2).jpeg';
+import bagProduct4 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.34.59.jpeg';
+import bagProduct5 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.00 (1).jpeg';
+import bagProduct6 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.00 (2).jpeg';
+import bagProduct7 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.00 (3).jpeg';
+import bagProduct8 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.00.jpeg';
+import bagProduct9 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (1).jpeg';
+import bagProduct10 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg';
+import bagProduct11 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (3).jpeg';
+import bagProduct12 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01.jpeg';
+
+import bagProduct21 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02 (1).jpeg';
+import bagProduct22 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg';
+import bagProduct23 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.03 (1).jpeg';
+import bagProduct24 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.03.jpeg';
+import bagProduct25 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.04.jpeg';
+
+import bagProduct31 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.17.jpeg';
+import bagProduct32 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.19 (1).jpeg';
+import bagProduct33 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.19.jpeg';
+import bagProduct34 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.20.jpeg';
+import bagProduct35 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.23 (1).jpeg';
+import bagProduct36 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.23 (2).jpeg';
+import bagProduct37 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.23.jpeg';
+import bagProduct38 from '@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.24.jpeg';
+
+
 
 const products = {
   '1': {
     id: 1,
-    name: 'Tote Elegante Premium',
-    price: 'R$ 2.890',
+    name: 'Mala Louis Vuitton Monogram',
+    price: 'R$',
     originalPrice: 'R$ 3.200',
-    description: 'Esta magnífica bolsa tote em couro legítimo representa o ápice da elegância e funcionalidade. Confeccionada com couro italiano de primeira qualidade, apresenta acabamento sofisticado e detalhes que demonstram a maestria artesanal.',
+    description: 'Combinação perfeita de elegância e funcionalidade: confeccionada em canvas Monogram com detalhes e alças em couro natural, possui amplo espaço interno e fecho com zíper para viagens de fim de semana ou escapadas rápidas. Um clássico atemporal para quem viaja com estilo.',
     features: [
-      'Couro italiano legítimo de alta qualidade',
-      'Forro interno em tecido premium',
-      'Fechamento com zíper YKK',
-      'Alças resistentes e confortáveis',
-      'Bolsos internos organizadores',
-      'Pés metálicos protetores na base'
-    ],
-    dimensions: '40cm x 30cm x 15cm',
-    color: 'Bege Clássico',
-    material: 'Couro Italiano',
-    images: [bagProduct1, bagProduct2, bagProduct3, bagProduct4, bagProduct5, bagProduct6],
+  'Canvas Monogram icônico',
+  'Detalhes em couro natural',
+  'Amplo espaço interno',
+  'Fechamento seguro com zíper',
+  'Alças resistentes e confortáveis',
+  'Bolsos internos organizadores',
+  'Pés metálicos protetores na base'
+],
+
+    dimensions: '55cm × 31cm × 24 cm',
+    color: 'Marrom com detalhes caramelo',
+    material: 'Canvas Monogram e couro natural',
+    images: [bagProduct1, bagProduct2, bagProduct3, bagProduct4, bagProduct5, bagProduct6, bagProduct7, bagProduct8, bagProduct9, bagProduct10, bagProduct11, bagProduct12],
   },
   '2': {
     id: 2,
-    name: 'Crossbody Luxo',
-    price: 'R$ 1.690',
+    name: 'Louis Vuitton NeoNoé Monogram',
+    price: 'R$',
     originalPrice: 'R$ 1.890',
-    description: 'Bolsa transversal sofisticada com design contemporâneo e funcionalidade excepcional. Os detalhes dourados conferem elegância extra, enquanto a alça ajustável garante conforto durante todo o dia.',
+    description: 'Confeccionada em canvas Monogram icônico com interior em couro rosa, alça superior trançada e fecho em cordão de couro natural, esta bolsa bucket une tradição e modernidade. Espaçosa e versátil, transita do casual ao elegante com o charme atemporal da maison.',
     features: [
       'Design contemporâneo e versátil',
       'Detalhes em hardware dourado',
@@ -48,10 +74,29 @@ const products = {
       'Bolso frontal com zíper',
       'Couro macio ao toque'
     ],
-    dimensions: '25cm x 18cm x 8cm',
-    color: 'Caramelo',
-    material: 'Couro Nappa',
-    images: [bagProduct2, bagProduct1, bagProduct3, bagProduct4, bagProduct5, bagProduct6],
+    dimensions: '26cm × 26cm × 17,5cm',
+    color: 'Marrom com interior rosa',
+    material: 'Canvas Monogram e couro natural',
+    images: [bagProduct21, bagProduct22, bagProduct23, bagProduct24, bagProduct25],
+  },
+  '3': {
+    id: 3,
+    name: 'Chanel Top Handle Matelassê',
+    price: 'R$',
+    originalPrice: 'R$ 1.890',
+    description: 'Feita em couro caviar branco com o clássico quilting em losangos, apresenta alça superior estruturada e corrente dourada com entrelaçamento em couro. O fecho com o icônico CC torna esta peça atemporal e sofisticada, perfeita para elevar qualquer look.',
+    features: [
+      'Couro caviar de alta durabilidade',
+      'Quilting em losangos',
+      'Alça superior trançada',
+      'Corrente dourada com couro entrelaçado',
+      'Fecho CC icônico',
+      'Elegância atemporal'
+    ],
+    dimensions: '25cm × 18cm × 8cm',
+    color: 'Branco',
+    material: 'Couro caviar',
+    images: [bagProduct31, bagProduct32, bagProduct33, bagProduct34, bagProduct35, bagProduct36, bagProduct37, bagProduct38],
   },
 };
 

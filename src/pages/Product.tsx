@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { ArrowLeft, Heart, Share2, Shield, Truck, RefreshCw } from 'lucide-react';
+import { ArrowLeft, Heart, Share2 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -269,8 +269,32 @@ const Product = () => {
 
   const handleWhatsAppClick = () => {
     const message = `Olá! Tenho interesse na ${product.name} - ${product.price}. Gostaria de mais informações e fotos adicionais.`;
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/554498762890?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
+  };
+
+  const handleShare = async () => {
+    const shareData = {
+      title: product.name,
+      text: `Confira este produto incrível: ${product.name} - ${product.price}`,
+      url: window.location.href,
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        console.log("Compartilhado com sucesso!");
+      } catch (err) {
+        console.log("Compartilhamento cancelado:", err);
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(shareData.url);
+        alert("Link copiado para a área de transferência!");
+      } catch (err) {
+        alert("Não foi possível compartilhar ou copiar o link.");
+      }
+    }
   };
 
   return (
@@ -437,28 +461,14 @@ const Product = () => {
                       Favoritar
                     </Button>
                     
-                    <Button variant="outline" className="flex-1 btn-outline-gold">
+                    <Button 
+                      variant="outline" 
+                      className="flex-1 btn-outline-gold"
+                      onClick={handleShare}
+                    >
                       <Share2 className="mr-2 h-4 w-4" />
                       Compartilhar
                     </Button>
-                  </div>
-                </div>
-
-                {/* Guarantees */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
-                  <div className="flex items-center space-x-2">
-                    <Shield className="h-5 w-5 text-primary" />
-                    <span className="text-sm text-muted-foreground">Autenticidade Garantida</span>
-                  </div>
-                  
-                  <div className="flex items-center space-x-2">
-                    <Truck className="h-5 w-5 text-primary" />
-                    <span className="text-sm text-muted-foreground">Frete Grátis</span>
-                  </div>
-                  
-                  <div className="flex items-center space-x-2">
-                    <RefreshCw className="h-5 w-5 text-primary" />
-                    <span className="text-sm text-muted-foreground">Troca Garantida</span>
                   </div>
                 </div>
               </div>

@@ -54,7 +54,7 @@ const Footer = () => {
             </h3>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/viccarinhena"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-background hover:bg-primary hover:text-white transition-all duration-200 hover-lift"
@@ -62,15 +62,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-full bg-background hover:bg-primary hover:text-white transition-all duration-200 hover-lift"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/554498762890"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-background hover:bg-primary hover:text-white transition-all duration-200 hover-lift"

@@ -84,7 +84,7 @@ const products = [
 const Catalog = () => {
   const handleWhatsAppClick = (productName: string, price: string) => {
     const message = `Olá! Tenho interesse na ${productName} - ${price}. Gostaria de mais informações.`;
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/554498762890?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

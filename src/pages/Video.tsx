@@ -1,0 +1,133 @@
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import { Button } from '@/components/ui/button';
+import { Play } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+const Video = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      
+      <main className="pt-20">
+        {/* Hero Section */}
+        <section className="bg-gradient-hero py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 className="text-luxury-title mb-4">
+              Nossa Curadoria
+            </h1>
+            <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto">
+              Conheça o processo por trás da seleção das nossas bolsas de luxo
+            </p>
+          </div>
+        </section>
+
+        {/* Video Section */}
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              {/* Video Player Placeholder */}
+              <div className="aspect-video bg-secondary/30 rounded-2xl flex items-center justify-center shadow-elegant">
+                <div className="text-center space-y-4">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto hover-lift cursor-pointer">
+                    <Play className="h-8 w-8 text-white ml-1" />
+                  </div>
+                  <div>
+                    <h3 className="font-tenor text-2xl font-semibold text-foreground mb-2">
+                      O Processo de Curadoria
+                    </h3>
+                    <p className="text-body-elegant max-w-md mx-auto">
+                      Descubra como cada bolsa é cuidadosamente selecionada e 
+                      autenticada antes de chegar até você
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Video Description */}
+              <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div className="space-y-6">
+                  <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground">
+                    Transparência e Confiança
+                  </h2>
+                  
+                  <div className="space-y-4 text-body-elegant">
+                    <p>
+                      Neste vídeo exclusivo, Vitória Carinhena compartilha os bastidores 
+                      do seu processo de curadoria, revelando como cada peça é 
+                      criteriosamente escolhida.
+                    </p>
+                    
+                    <p>
+                      Você verá de perto os métodos de autenticação utilizados, 
+                      os critérios de qualidade aplicados e a paixão que move 
+                      cada seleção.
+                    </p>
+                  </div>
+
+                  <Button asChild className="btn-gold">
+                    <Link to="/catalogo">
+                      Ver Coleção Atual
+                    </Link>
+                  </Button>
+                </div>
+
+                {/* Features List */}
+                <div className="space-y-6">
+                  <h3 className="font-tenor text-2xl font-semibold text-foreground">
+                    O que você verá no vídeo:
+                  </h3>
+                  
+                  <div className="space-y-4">
+                    {[
+                      'Processo de autenticação detalhado',
+                      'Critérios de seleção de qualidade',
+                      'Histórias por trás das peças',
+                      'Dicas para identificar autenticidade',
+                      'Cuidados e conservação',
+                    ].map((item, index) => (
+                      <div key={index} className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0" />
+                        <span className="text-body-elegant">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-16 bg-secondary/20">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-4">
+              Pronta para Encontrar sua Bolsa Ideal?
+            </h2>
+            <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
+              Explore nossa coleção curada e descubra a peça perfeita para você
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button asChild className="btn-gold">
+                <Link to="/catalogo">
+                  Explorar Catálogo
+                </Link>
+              </Button>
+              
+              <Button asChild variant="outline" className="btn-outline-gold">
+                <Link to="/contato">
+                  Falar Conosco
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Video;

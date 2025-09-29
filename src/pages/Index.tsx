@@ -6,9 +6,9 @@ import { ArrowRight, Star, Shield, Truck } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import heroBackground from '@/assets/hero-background.png';
-import bagCollection1 from '@/assets/bag-collection-1.jpg';
-import bagProduct1 from '@/assets/bag-product-1.jpg';
-import bagProduct2 from '@/assets/bag-product-2.jpg';
+import fotoVi from '@/assets/fotoVi.jpeg';
+import bagProduct1 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg';
+import bagProduct2 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg';
 
 const Index = () => {
   const [animatedElements, setAnimatedElements] = useState<number[]>([]);
@@ -35,14 +35,14 @@ const Index = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: 'Tote Elegante Premium',
-      price: 'R$ 2.890',
+      name: 'Mala Louis Vuitton Monogram',
+      price: 'R$7.490,00',
       image: bagProduct1,
     },
     {
       id: 2,
-      name: 'Crossbody Luxo',
-      price: 'R$ 1.690',
+      name: 'Louis Vuitton NeoNoé Monogram',
+      price: 'R$12.990,00',
       image: bagProduct2,
     },
   ];
@@ -114,7 +114,7 @@ const Index = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
               {featuredProducts.map((product, index) => (
-                <Card key={product.id} className={`card-luxury hover-lift group animate-fade-up ${animatedElements.includes(5 + index) ? 'animate-in' : ''}`} data-index={5 + index} style={{ transitionDelay: `${(index + 1) * 200}ms` }}>
+                <Card key={product.id} className={`card-luxury hover-lift group h-full flex flex-col animate-fade-up ${animatedElements.includes(5 + index) ? 'animate-in' : ''}`} data-index={5 + index} style={{ transitionDelay: `${(index + 1) * 200}ms` }}>
                   <CardContent className="p-0">
                     <Link to={`/produto/${product.id}`}>
                       <div className="aspect-square overflow-hidden rounded-t-xl">
@@ -126,7 +126,7 @@ const Index = () => {
                       </div>
                     </Link>
                     
-                    <div className="p-8 text-center">
+                    <div className="p-8 text-center min-h-[260px] flex flex-col justify-between">
                       <Link to={`/produto/${product.id}`}>
                         <h3 className="font-tenor text-2xl font-medium text-foreground group-hover:text-primary transition-colors duration-200 mb-2">
                           {product.name}
@@ -137,7 +137,7 @@ const Index = () => {
                         {product.price}
                       </span>
                       
-                      <Button asChild className="btn-gold w-full">
+                      <Button asChild className="w-full">
                         <Link to={`/produto/${product.id}`}>
                           Ver Detalhes
                         </Link>
@@ -170,9 +170,7 @@ const Index = () => {
                 </h2>
                 
                 <p className="text-body-elegant text-lg leading-relaxed">
-                  Há mais de uma década dedicada à arte de selecionar as mais belas 
-                  e autênticas bolsas de luxo. Cada peça passa por um rigoroso processo 
-                  de autenticação e seleção.
+                  Com sensibilidade, bom gosto e uma verdadeira paixão pelo universo do luxo, Vitória Carinhena dedica-se a escolher pessoalmente cada peça da coleção. Seu olhar atento e apurado garante autenticidade, elegância e uma curadoria criteriosa que valoriza a exclusividade e o estilo atemporal de cada bolsa.
                 </p>
                 
                 <Button asChild className="btn-gold">
@@ -183,15 +181,24 @@ const Index = () => {
                 </Button>
               </div>
               
-              <div className={`relative animate-fade-right ${animatedElements.includes(9) ? 'animate-in' : ''}`} data-index="9" style={{ transitionDelay: '200ms' }}>
-                <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-elegant">
-                  <img
-                    src={bagCollection1}
-                    alt="Coleção de bolsas de luxo"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
+<div
+  className={`relative animate-fade-right ${animatedElements.includes(9) ? 'animate-in' : ''}`}
+  data-index="9"
+  style={{ transitionDelay: '200ms' }}
+>
+  {/* Camada de fundo visual com blur e cor translúcida */}
+  <div className="absolute -inset-4 bg-[#c69296]/50 blur-xl rounded-3xl z-0" />
+
+  {/* Imagem principal acima do fundo */}
+  <div className="aspect-[4/6] overflow-hidden rounded-2xl shadow-elegant relative z-10">
+    <img
+      src={fotoVi}
+      alt="Coleção de bolsas de luxo"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+
             </div>
           </div>
         </section>
@@ -227,8 +234,7 @@ const Index = () => {
                   Curadoria Especializada
                 </h3>
                 <p className="text-body-elegant">
-                  Mais de 10 anos de experiência na seleção das mais belas 
-                  e exclusivas bolsas de luxo do mercado.
+                  Seleção cuidadosa das mais belas e exclusivas bolsas de luxo, com foco em autenticidade e sofisticação.
                 </p>
               </div>
 
@@ -240,8 +246,7 @@ const Index = () => {
                   Entrega Segura
                 </h3>
                 <p className="text-body-elegant">
-                  Frete grátis para todo o Brasil com embalagem de luxo 
-                  e seguro total da mercadoria.
+                  tendimento personalizado via WhatsApp. Envio com embalagem de luxo e seguro incluso.
                 </p>
               </div>
             </div>

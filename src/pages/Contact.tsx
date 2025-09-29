@@ -3,13 +3,14 @@ import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { MessageCircle, Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
+import { MessageCircle, Instagram, Mail, Phone } from 'lucide-react';
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-    const message = "Olá! Gostaria de saber mais sobre as bolsas de luxo da Vitória Carinhena.";
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
+    const phone = "554498762890"; // DDI + DDD + número, sem espaços nem traços
+  const message = "Olá! Gostaria de saber mais sobre as bolsas de luxo da Vitória Carinhena.";
+  const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.open(whatsappUrl, "_blank");
   };
 
   return (
@@ -32,10 +33,10 @@ const Contact = () => {
         {/* Contact Options */}
         <section className="py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
               {/* Contact Cards */}
               <ScrollReveal animation="fade-left">
-                <div className="space-y-6">
+                <div className="space-y-6 flex flex-col h-full">
                   <h2 className="font-tenor text-3xl font-semibold text-foreground mb-8">
                     Fale Conosco
                   </h2>
@@ -85,7 +86,7 @@ const Contact = () => {
                   </Card>
 
                   {/* Phone Card */}
-                  <Card className="card-luxury hover-lift">
+                  <Card className="card-luxury hover-lift flex-1">
                     <CardContent className="p-6">
                       <div className="flex items-center space-x-4">
                         <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
@@ -96,7 +97,7 @@ const Contact = () => {
                             Telefone
                           </h3>
                           <p className="text-body-elegant">
-                            (11) 99999-9999
+                            (44) 9876-2890
                           </p>
                         </div>
                       </div>
@@ -107,12 +108,12 @@ const Contact = () => {
 
               {/* Social Media & Info */}
               <ScrollReveal animation="fade-right" delay={200}>
-                <div className="space-y-6">
+                <div className="space-y-6 flex flex-col h-full">
                   <h2 className="font-tenor text-3xl font-semibold text-foreground mb-8">
                     Redes Sociais
                   </h2>
 
-                  {/* Social Media Cards */}
+                  {/* Social Media Card */}
                   <Card className="card-luxury hover-lift">
                     <CardContent className="p-6">
                       <div className="flex items-center space-x-4">
@@ -124,13 +125,13 @@ const Contact = () => {
                             Instagram
                           </h3>
                           <p className="text-body-elegant">
-                            @vitoriacarinhena
+                            @viccarinhena
                           </p>
                         </div>
                         <Button 
                           variant="outline" 
                           className="btn-outline-gold"
-                          onClick={() => window.open('https://instagram.com/vitoriacarinhena', '_blank')}
+                          onClick={() => window.open('https://instagram.com/viccarinhena', '_blank')}
                         >
                           Seguir
                         </Button>
@@ -138,34 +139,9 @@ const Contact = () => {
                     </CardContent>
                   </Card>
 
-                  <Card className="card-luxury hover-lift">
-                    <CardContent className="p-6">
-                      <div className="flex items-center space-x-4">
-                        <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-                          <Facebook className="h-6 w-6 text-white" />
-                        </div>
-                        <div className="flex-1">
-                          <h3 className="font-tenor text-xl font-semibold text-foreground">
-                            Facebook
-                          </h3>
-                          <p className="text-body-elegant">
-                            Vitória Carinhena Bolsas
-                          </p>
-                        </div>
-                        <Button 
-                          variant="outline" 
-                          className="btn-outline-gold"
-                          onClick={() => window.open('https://facebook.com/vitoriacarinhena', '_blank')}
-                        >
-                          Curtir
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  {/* Hours Card */}
-                  <Card className="card-luxury">
-                    <CardContent className="p-6">
+                  {/* Hours Card ocupa todo o restante */}
+                  <Card className="card-luxury flex-1 flex flex-col">
+                    <CardContent className="p-6 flex-1">
                       <div className="space-y-4">
                         <h3 className="font-tenor text-xl font-semibold text-foreground">
                           Horário de Atendimento

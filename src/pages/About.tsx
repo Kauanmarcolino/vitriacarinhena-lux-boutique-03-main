@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import vitoriaPortrait from '@/assets/vitoria-portrait.jpg';
+import vitoriaPortrait from '@/assets/fotoSobre.jpeg';
 
 const About = () => {
   return (
@@ -25,68 +25,67 @@ const About = () => {
 
         {/* About Content */}
         <section className="py-16">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              {/* Image */}
-              <ScrollReveal animation="fade-left">
-                <div className="relative">
-                  <div className="aspect-[4/5] overflow-hidden rounded-2xl shadow-elegant">
-                    <img
-                      src={vitoriaPortrait}
-                      alt="Vitória Carinhena"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </ScrollReveal>
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      
+      {/* Imagem com efeito de blur dourado */}
+      <ScrollReveal animation="fade-left">
+  <div className="relative w-fit">
+    {/* Glow com blur */}
+    <div className="absolute -inset-4 rounded-3xl bg-[#c9b17c]/40 filter blur-2xl"></div>
 
-              {/* Content */}
-              <ScrollReveal animation="fade-right" delay={200}>
-                <div className="space-y-6">
-                  <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground">
-                    A História por Trás da Curadoria
-                  </h2>
-                  
-                  <div className="space-y-4 text-body-elegant">
-                    <p>
-                      Há mais de uma década, Vitória Carinhena dedica-se à arte de selecionar 
-                      as mais belas e autênticas bolsas de luxo do mercado. Com um olhar 
-                      refinado e expertise reconhecida, ela transformou sua paixão por 
-                      acessórios em uma curadoria exclusiva.
-                    </p>
-                    
-                    <p>
-                      Cada peça em nossa coleção passa por um rigoroso processo de 
-                      autenticação e seleção, garantindo que você adquira não apenas 
-                      um acessório, mas uma obra de arte que reflete seu bom gosto 
-                      e sofisticação.
-                    </p>
-                    
-                    <p>
-                      Nossa missão é democratizar o acesso ao luxo autêntico, oferecendo 
-                      peças cuidadosamente escolhidas com a garantia de qualidade e 
-                      originalidade que você merece.
-                    </p>
-                  </div>
+    {/* Imagem */}
+    <div className="aspect-[4/5] overflow-hidden rounded-2xl shadow-elegant relative z-10">
+      <img
+        src={vitoriaPortrait}
+        alt="Vitória Carinhena"
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+</ScrollReveal>
 
-                  <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                    <Button asChild className="btn-gold">
-                      <Link to="/catalogo">
-                        Ver Catálogo
-                      </Link>
-                    </Button>
-                    
-                    <Button asChild variant="outline" className="btn-outline-gold">
-                      <Link to="/contato">
-                        Entrar em Contato
-                      </Link>
-                    </Button>
-                  </div>
-                </div>
-              </ScrollReveal>
-            </div>
+      {/* Texto à direita */}
+      <ScrollReveal animation="fade-right" delay={200}>
+        <div className="space-y-6">
+          <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground">
+            A História por Trás da Curadoria
+          </h2>
+          
+          <div className="space-y-4 text-body-elegant">
+            <p>
+              Advogada por formação e mãe dedicada, Vitória Carinhena encontrou na moda um novo caminho para expressar sua sensibilidade e apreço pelo luxo autêntico. Movida por sua paixão por bolsas sofisticadas, ela iniciou uma curadoria especial que une elegância, autenticidade e cuidado em cada detalhe.
+            </p>
+            
+            <p>
+              Cada peça de nossa coleção é escolhida com critério e responsabilidade, passando por um processo rigoroso de seleção e verificação de autenticidade. Mais do que acessórios, oferecemos verdadeiras expressões de estilo e bom gosto.
+            </p>
+            
+            <p>
+              Nosso propósito é tornar o luxo acessível, com transparência e confiança, conectando mulheres a peças únicas que valorizam sua personalidade e história.
+            </p>
           </div>
-        </section>
+
+          <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <Button asChild className="btn-gold">
+              <Link to="/catalogo">
+                Ver Catálogo
+              </Link>
+            </Button>
+            
+            <Button asChild variant="outline" className="btn-outline-gold">
+              <Link to="/contato">
+                Entrar em Contato
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </ScrollReveal>
+      
+    </div>
+  </div>
+</section>
+
 
         {/* Values Section */}
         <section className="py-16 bg-secondary/20">
@@ -110,7 +109,7 @@ const About = () => {
                     Autenticidade
                   </h3>
                   <p className="text-body-elegant">
-                    Garantia de originalidade em cada peça selecionada
+                    Selecionamos cuidadosamente produtos que carregam procedência e história, com garantia de originalidade e certificação de autenticidade, para que você tenha em mãos muito mais do que um acessório: uma obra única e legítima.
                   </p>
                 </div>
               </ScrollReveal>
@@ -124,7 +123,7 @@ const About = () => {
                     Qualidade
                   </h3>
                   <p className="text-body-elegant">
-                    Rigoroso processo de seleção e inspeção
+                    Nossa curadoria segue um processo rigoroso de avaliação, inspeção e seleção. Desde a estrutura até os acabamentos, cada peça é analisada criteriosamente para garantir durabilidade, beleza e padrão elevado de qualidade.
                   </p>
                 </div>
               </ScrollReveal>
@@ -138,7 +137,7 @@ const About = () => {
                     Elegância
                   </h3>
                   <p className="text-body-elegant">
-                    Peças que refletem sofisticação e bom gosto
+                    As bolsas de nossa coleção são escolhidas para valorizar o estilo atemporal e sofisticado de mulheres que apreciam o luxo com discrição, classe e personalidade. Um toque de requinte que transforma qualquer ocasião.
                   </p>
                 </div>
               </ScrollReveal>

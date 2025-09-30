@@ -15,6 +15,7 @@ import bagProduct8 from '@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.30.jpeg'
 import bagProduct9 from '@/assets/b9/WhatsApp Image 2025-09-25 at 16.39.57.jpeg';
 
 
+
 const products = [
   {
     id: 1,
@@ -136,8 +137,13 @@ const Catalog = () => {
 
                 <div className="mt-auto space-y-4">
                   <span className="font-tenor text-2xl font-semibold text-primary block">
-                    {product.price}
-                  </span>
+    {product.price.split("(")[0].trim()}
+  </span>
+  {product.price.includes("(") && (
+    <span className="text-sm text-green-600">
+      {product.price.match(/\((.*?)\)/)?.[1]}
+    </span>
+  )}
 
                   <Button
                     onClick={() => handleWhatsAppClick(product.name, product.price)}

@@ -10,6 +10,9 @@ import Video from "./pages/Video";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
+import { FavoritesProvider } from "./context/FavoritesContext";
+import Favorites from "./pages/Favorites";
+
 
 const queryClient = new QueryClient();
 
@@ -19,16 +22,18 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/catalogo" element={<Catalog />} />
-          <Route path="/sobre" element={<About />} />
-          <Route path="/video" element={<Video />} />
-          <Route path="/contato" element={<Contact />} />
-          <Route path="/produto/:id" element={<Product />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <FavoritesProvider> {/* <-- envolve aqui */}
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/catalogo" element={<Catalog />} />
+            <Route path="/sobre" element={<About />} />
+            <Route path="/video" element={<Video />} />
+            <Route path="/contato" element={<Contact />} />
+            <Route path="/produto/:id" element={<Product />} />
+            <Route path="*" element={<NotFound />} />
+            <Route path="/favoritos" element={<Favorites />} />
+          </Routes>
+        </FavoritesProvider>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

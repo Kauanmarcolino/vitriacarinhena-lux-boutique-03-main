@@ -78,7 +78,7 @@ const Contact = () => {
                             E-mail
                           </h3>
                           <p className="text-body-elegant">
-                            contato@vitoriacarinhena.com.br
+                            carinhenavitoria@gmail.com
                           </p>
                         </div>
                       </div>

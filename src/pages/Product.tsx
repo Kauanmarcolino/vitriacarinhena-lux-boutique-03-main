@@ -167,7 +167,7 @@ const Product = () => {
     </span>
   )}
   {product.originalPrice && (
-  <span className="text-xl text-red-600 line-through">
+  <span className="text-xl text-stone-600 line-through">
     {product.originalPrice}
   </span>
 )}

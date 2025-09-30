@@ -12,7 +12,7 @@ import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
 import { FavoritesProvider } from "./context/FavoritesContext";
 import Favorites from "./pages/Favorites";
-
+import CatalogImportados from "./pages/imports";
 
 const queryClient = new QueryClient();
 
@@ -24,15 +24,16 @@ const App = () => (
       <BrowserRouter>
         <FavoritesProvider> {/* <-- envolve aqui */}
           <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/catalogo" element={<Catalog />} />
-            <Route path="/sobre" element={<About />} />
-            <Route path="/video" element={<Video />} />
-            <Route path="/contato" element={<Contact />} />
-            <Route path="/produto/:id" element={<Product />} />
-            <Route path="*" element={<NotFound />} />
-            <Route path="/favoritos" element={<Favorites />} />
-          </Routes>
+  <Route path="/" element={<Index />} />
+  <Route path="/catalogo" element={<Catalog />} />
+  <Route path="/imports" element={<CatalogImportados />} />  
+  <Route path="/sobre" element={<About />} />
+  <Route path="/video" element={<Video />} />
+  <Route path="/contato" element={<Contact />} />
+  <Route path="/produto/:id" element={<Product />} />
+  <Route path="/favoritos" element={<Favorites />} />
+  <Route path="*" element={<NotFound />} />
+</Routes>
         </FavoritesProvider>
       </BrowserRouter>
     </TooltipProvider>

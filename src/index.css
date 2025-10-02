@@ -89,6 +89,10 @@
 @layer base {
   * {
     @apply border-border;
+    @apply select-none;
+  }
+  input, textarea {
+    @apply select-text;
   }
 
   body {
@@ -100,7 +104,7 @@
   /* Typography hierarchy */
   h1, h2, h3, h4, h5, h6 {
     @apply font-tenor;
-  }
+  } 
 
   /* Smooth scrolling */
   html {
@@ -154,67 +158,50 @@
            text-muted-foreground;
   }
 
-  /* AOS-style animations */
-  .animate-fade-up {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  }
-
-  .animate-fade-up.animate-in {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  .animate-fade-left {
-    opacity: 0;
-    transform: translateX(-30px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  }
-
-  .animate-fade-left.animate-in {
-    opacity: 1;
-    transform: translateX(0);
-  }
-
-  .animate-fade-right {
-    opacity: 0;
-    transform: translateX(30px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  }
-
-  .animate-fade-right.animate-in {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-up {
+/* ===== ScrollReveal Animations (integrado com Tailwind) ===== */
+.scroll-reveal,
+.scroll-reveal-left,
+.scroll-reveal-right,
+.scroll-reveal-scale {
   opacity: 0;
-  transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-.animate-in {
-  animation: fade-up 0.8s ease-out forwards;
+/* Fade Up */
+.scroll-reveal {
+  transform: translateY(30px);
 }
-
-.animate-fade-up.animate-in {
+.revealed.scroll-reveal {
   opacity: 1;
   transform: translateY(0);
 }
 
+/* Fade Left */
+.scroll-reveal-left {
+  transform: translateX(-40px);
+}
+.revealed.scroll-reveal-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Fade Right */
+.scroll-reveal-right {
+  transform: translateX(40px);
+}
+.revealed.scroll-reveal-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Scale (zoom in) */
+.scroll-reveal-scale {
+  transform: scale(0.95);
+}
+.revealed.scroll-reveal-scale {
+  opacity: 1;
+  transform: scale(1);
+}
 @keyframes crazyHeader {
   0% {
     opacity: 0;
@@ -255,4 +242,4 @@
 .animate-crazy-hero {
   animation: crazyHero 1.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
-
+}

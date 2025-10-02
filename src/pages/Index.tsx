@@ -29,7 +29,7 @@ const Index = () => {
 
   const handleWhatsAppClick = () => {
     const message = "Olá! Gostaria de conhecer mais sobre as bolsas de luxo da Vitória Carinhena.";
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5544998762890?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

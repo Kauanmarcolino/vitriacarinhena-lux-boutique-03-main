@@ -14,8 +14,6 @@ import bagProduct7 from '@/assets/b7/WhatsApp Image 2025-09-25 at 16.38.00.jpeg'
 import bagProduct8 from '@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.30.jpeg';
 import bagProduct9 from '@/assets/b9/WhatsApp Image 2025-09-25 at 16.39.57.jpeg';
 
-
-
 const products = [
   {
     id: 1,
@@ -85,7 +83,7 @@ const products = [
 const Catalog = () => {
   const handleWhatsAppClick = (productName: string, price: string) => {
     const message = `Olá! Tenho interesse na ${productName} - ${price}. Gostaria de mais informações.`;
-    const whatsappUrl = `https://wa.me/554498762890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5544998762890?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

@@ -32,7 +32,7 @@ const Product = () => {
 
   const handleWhatsAppClick = () => {
     const message = `Olá! Tenho interesse na ${product.name} - ${product.price}. Gostaria de mais informações e fotos adicionais.`;
-    const whatsappUrl = `https://wa.me/554498762890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5544998762890?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

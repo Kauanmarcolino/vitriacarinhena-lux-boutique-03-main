@@ -7,7 +7,7 @@ import { MessageCircle, Instagram, Mail, Phone } from 'lucide-react';
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-    const phone = "554498762890"; // DDI + DDD + número, sem espaços nem traços
+    const phone = "5544998762890"; // DDI + DDD + número, sem espaços nem traços
   const message = "Olá! Gostaria de saber mais sobre as bolsas de luxo da Vitória Carinhena.";
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(whatsappUrl, "_blank");
@@ -97,7 +97,7 @@ const Contact = () => {
                             Telefone
                           </h3>
                           <p className="text-body-elegant">
-                            (44) 9876-2890
+                            (44) 99876-2890
                           </p>
                         </div>
                       </div>

@@ -12,7 +12,6 @@ import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
 import { FavoritesProvider } from "./context/FavoritesContext";
 import Favorites from "./pages/Favorites";
-import CatalogImportados from "./pages/imports";
 
 const queryClient = new QueryClient();
 
@@ -26,7 +25,6 @@ const App = () => (
           <Routes>
   <Route path="/" element={<Index />} />
   <Route path="/catalogo" element={<Catalog />} />
-  <Route path="/imports" element={<CatalogImportados />} />  
   <Route path="/sobre" element={<About />} />
   <Route path="/video" element={<Video />} />
   <Route path="/contato" element={<Contact />} />

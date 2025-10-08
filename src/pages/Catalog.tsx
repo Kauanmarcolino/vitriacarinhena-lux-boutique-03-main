@@ -96,7 +96,7 @@ const Catalog = () => {
         <section className="bg-gradient-hero py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-luxury-title mb-4">
-              Nosso Catálogo
+              Nosso catálogo
             </h1>
             <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto">
               Descubra nossa seleção exclusiva de bolsas de luxo autênticas
@@ -147,7 +147,7 @@ const Catalog = () => {
                     onClick={() => handleWhatsAppClick(product.name, product.price)}
                     className="w-full btn-gold"
                   >
-                    Comprar pelo WhatsApp
+                    Comprar pelo whatsApp
                   </Button>
                 </div>
               </div>

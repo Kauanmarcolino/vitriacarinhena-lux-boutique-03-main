@@ -10,6 +10,8 @@ import heroBackground from '@/assets/hero-background.png';
 import fotoVi from '@/assets/fotoVi.jpeg';
 import bagProduct1 from '@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg';
 import bagProduct2 from '@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg';
+import bolsaGrupo from '@/assets/bolsa-grupo.jpg';
+import InstagramFeed from '@/components/InstagramFeed';
 
 const Index = () => {
   const featuredProducts = [
@@ -29,7 +31,7 @@ const Index = () => {
 
   const handleWhatsAppClick = () => {
     const message = "Olá! Gostaria de conhecer mais sobre as bolsas de luxo da Vitória Carinhena.";
-    const whatsappUrl = `https://wa.me/5544998762890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -52,9 +54,9 @@ const Index = () => {
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up" delay={200}>
               <h1 className="text-luxury-title mb-6 text-foreground">
-                Bolsas de Luxo Autênticas,
+                Bolsas de luxo autênticas,
                 <br />
-                <span className="text-primary">Selecionadas para Você</span>
+                <span className="text-primary">selecionadas para você</span>
               </h1>
             </ScrollReveal>
 
@@ -69,7 +71,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild className="btn-gold text-lg px-8 py-4">
                   <Link to="/catalogo">
-                    Ver Catálogo
+                    Ver catálogo
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
@@ -79,7 +81,7 @@ const Index = () => {
                   variant="outline" 
                   className="btn-outline-gold text-lg px-8 py-4"
                 >
-                  Falar Conosco
+                  Falar conosco
                 </Button>
               </div>
             </ScrollReveal>
@@ -92,7 +94,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <ScrollReveal animation="fade-up">
                 <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
-                  Peças em Destaque
+                  Peças em destaque
                 </h2>
               </ScrollReveal>
 
@@ -131,7 +133,7 @@ const Index = () => {
 
                         <Button asChild className="w-full">
                           <Link to={`/produto/${product.id}`}>
-                            Ver Detalhes
+                            Ver detalhes
                           </Link>
                         </Button>
                       </div>
@@ -145,7 +147,7 @@ const Index = () => {
               <div className="text-center mt-12">
                 <Button asChild variant="outline" className="btn-outline-gold text-lg px-8 py-3">
                   <Link to="/catalogo">
-                    Ver Todo o Catálogo
+                    Ver todo o catálogo
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
@@ -161,7 +163,7 @@ const Index = () => {
               <ScrollReveal animation="fade-left">
                 <div className="space-y-6">
                   <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground">
-                    Curadoria Exclusiva por
+                    Curadoria exclusiva por
                     <span className="text-primary block">Vitória Carinhena</span>
                   </h2>
                   
@@ -171,7 +173,7 @@ const Index = () => {
                   
                   <Button asChild className="btn-gold">
                     <Link to="/sobre">
-                      Conhecer a História
+                      Conhecer a história
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
@@ -200,7 +202,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <ScrollReveal animation="fade-up">
                 <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
-                  Por que Escolher a Vitória Carinhena?
+                  Por que escolher comprar conosco?
                 </h2>
               </ScrollReveal>
             </div>
@@ -212,7 +214,7 @@ const Index = () => {
                     <Shield className="h-10 w-10 text-primary" />
                   </div>
                   <h3 className="font-tenor text-2xl font-semibold text-foreground">
-                    Autenticidade Garantida
+                    Autenticidade garantida
                   </h3>
                   <p className="text-body-elegant">
                     Cada bolsa passa por rigoroso processo de autenticação. 
@@ -227,7 +229,7 @@ const Index = () => {
                     <Star className="h-10 w-10 text-primary" />
                   </div>
                   <h3 className="font-tenor text-2xl font-semibold text-foreground">
-                    Curadoria Especializada
+                    Curadoria especializada
                   </h3>
                   <p className="text-body-elegant">
                     Seleção cuidadosa das mais belas e exclusivas bolsas de luxo, com foco em autenticidade e sofisticação.
@@ -252,12 +254,116 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Instagram Feed Section */}
+<InstagramFeed />
+
+        
+
+        {/* WhatsApp Group Section */}
+<section className="py-20 bg-background">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      
+      {/* Form */}
+      <ScrollReveal animation="fade-left">
+        <Card className="card-luxury max-w-md mx-auto lg:mx-0 p-6">
+          <CardContent>
+            <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-4">
+              Entre para o grupo VIP
+            </h2>
+            <p className="text-body-elegant mb-8">
+              Receba novidades exclusivas, lançamentos e promoções direto no seu WhatsApp.
+            </p>
+
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                // você pode salvar os dados futuramente, se quiser
+                window.open(
+                  "https://chat.whatsapp.com/BtZVVpyhCJM7RLjS1zdfns",
+                  "_blank"
+                );
+              }}
+              className="space-y-5"
+            >
+              {/* Nome */}
+              <div>
+                <label className="block text-sm font-medium text-muted-foreground mb-2">
+                  Nome
+                </label>
+                <input
+                  type="text"
+                  name="nome"
+                  required
+                  className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                  placeholder="Seu nome completo"
+                />
+              </div>
+
+              {/* Email */}
+              <div>
+                <label className="block text-sm font-medium text-muted-foreground mb-2">
+                  E-mail
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                  placeholder="seuemail@exemplo.com"
+                />
+              </div>
+
+              {/* WhatsApp */}
+              <div>
+                <label className="block text-sm font-medium text-muted-foreground mb-2">
+                  Número de WhatsApp
+                </label>
+                <input
+                  type="tel"
+                  name="whatsapp"
+                  required
+                  className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                  placeholder="(44) 99999-9999"
+                />
+              </div>
+
+              <Button
+                type="submit"
+                className="btn-gold w-full text-lg py-3"
+              >
+                Entrar no grupo VIP
+              </Button>
+            </form>
+          </CardContent>
+        </Card>
+      </ScrollReveal>
+
+      {/* Image */}
+      <ScrollReveal animation="fade-right" delay={200}>
+        <div className="relative">
+          <div className="absolute -inset-4 bg-primary/10 blur-xl rounded-3xl z-0" />
+          <div className="aspect-[4/5] overflow-hidden rounded-2xl shadow-elegant relative z-10">
+            <img
+              src={bolsaGrupo} // 👈 mantenha o import lá no topo: import bolsaGrupo from '@/assets/bolsa-grupo.jpg'
+              alt="Grupo VIP de bolsas de luxo"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </ScrollReveal>
+    </div>
+  </div>
+</section>
+
+
+
         {/* CTA Section */}
         <section className="py-20 bg-secondary/20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up">
               <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
-                Encontre sua Bolsa dos Sonhos
+                Encontre sua bolsa dos sonhos
               </h2>
             </ScrollReveal>
 
@@ -270,12 +376,12 @@ const Index = () => {
             <ScrollReveal animation="fade-up" delay={400}>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button onClick={handleWhatsAppClick} className="btn-gold text-lg px-8 py-4">
-                  Falar pelo WhatsApp
+                  Falar pelo whatsApp
                 </Button>
                 
                 <Button asChild variant="outline" className="btn-outline-gold text-lg px-8 py-4">
                   <Link to="/catalogo">
-                    Ver Catálogo Completo
+                    Ver catálogo completo
                   </Link>
                 </Button>
               </div>

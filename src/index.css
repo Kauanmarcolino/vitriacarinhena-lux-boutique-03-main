@@ -243,3 +243,12 @@
   animation: crazyHero 1.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 }
+
+/* Remove scrollbar no mobile */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+}

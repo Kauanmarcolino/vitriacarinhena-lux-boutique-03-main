@@ -22,7 +22,7 @@ const Contact = () => {
         <section className="bg-gradient-hero py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-luxury-title mb-4">
-              Entre em Contato
+              Entre em contato
             </h1>
             <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto">
               Estamos aqui para ajudar você a encontrar a bolsa perfeita
@@ -38,7 +38,7 @@ const Contact = () => {
               <ScrollReveal animation="fade-left">
                 <div className="space-y-6 flex flex-col h-full">
                   <h2 className="font-tenor text-3xl font-semibold text-foreground mb-8">
-                    Fale Conosco
+                    Fale conosco
                   </h2>
 
                   {/* WhatsApp Card */}
@@ -144,7 +144,7 @@ const Contact = () => {
                     <CardContent className="p-6 flex-1">
                       <div className="space-y-4">
                         <h3 className="font-tenor text-xl font-semibold text-foreground">
-                          Horário de Atendimento
+                          Horário de atendimento
                         </h3>
                         <div className="space-y-2 text-body-elegant">
                           <div className="flex justify-between">
@@ -169,11 +169,102 @@ const Contact = () => {
           </div>
         </section>
 
+        {/* Contact Form Section */}
+<section className="py-16 bg-background">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <ScrollReveal animation="fade-up">
+      <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-6 text-center">
+        Envie uma mensagem
+      </h2>
+    </ScrollReveal>
+
+    <ScrollReveal animation="fade-up" delay={200}>
+      <Card className="card-luxury max-w-2xl mx-auto p-8">
+        <CardContent>
+          <form
+  onSubmit={(e) => {
+    e.preventDefault();
+
+    const nome = (e.target as any).nome.value.trim();
+    const email = (e.target as any).email.value.trim();
+    const whatsapp = (e.target as any).whatsapp.value.trim();
+    const mensagem = (e.target as any).mensagem.value.trim();
+
+    // Cria a mensagem formatada
+    const texto = `Olá! Meu nome é ${nome}.\nEmail: ${email}\nWhatsApp: ${whatsapp}\n\n${mensagem}`;
+
+    // Usa o domínio da API oficial (melhor compatibilidade com o app)
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=5544998762890&text=${encodeURIComponent(texto)}`;
+
+    // Abre no navegador (ou app, dependendo do dispositivo)
+    window.open(whatsappUrl, "_blank");
+  }}
+  className="space-y-6"
+>
+            {/* Nome */}
+            <div>
+              <label className="block text-sm font-medium text-muted-foreground mb-2">Nome</label>
+              <input
+                type="text"
+                name="nome"
+                required
+                className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                placeholder="Seu nome completo"
+              />
+            </div>
+
+            {/* Email */}
+            <div>
+              <label className="block text-sm font-medium text-muted-foreground mb-2">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                required
+                className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                placeholder="seuemail@exemplo.com"
+              />
+            </div>
+
+            {/* WhatsApp */}
+            <div>
+              <label className="block text-sm font-medium text-muted-foreground mb-2">Número de WhatsApp</label>
+              <input
+                type="tel"
+                name="whatsapp"
+                required
+                className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                placeholder="(44) 99999-9999"
+              />
+            </div>
+
+            {/* Mensagem */}
+            <div>
+              <label className="block text-sm font-medium text-muted-foreground mb-2">Mensagem</label>
+              <textarea
+                name="mensagem"
+                required
+                rows={5}
+                className="w-full border border-border rounded-lg px-4 py-3 bg-card resize-none focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                placeholder="Escreva sua mensagem..."
+              />
+            </div>
+
+            <Button type="submit" className="btn-gold w-full text-lg py-4">
+              Enviar via whatsApp
+            </Button>
+          </form>
+        </CardContent>
+      </Card>
+    </ScrollReveal>
+  </div>
+</section>
+
+
         {/* CTA Section */}
         <section className="py-16 bg-secondary/20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-4">
-              Pronta para Sua Nova Bolsa?
+              Pronta para sua nova bolsa?
             </h2>
             <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
               Entre em contato conosco agora e descubra nossa coleção exclusiva
@@ -181,7 +272,7 @@ const Contact = () => {
             
             <Button onClick={handleWhatsAppClick} className="btn-gold text-lg px-8 py-3">
               <MessageCircle className="mr-2 h-5 w-5" />
-              Falar no WhatsApp
+              Falar no whatsApp
             </Button>
           </div>
         </section>

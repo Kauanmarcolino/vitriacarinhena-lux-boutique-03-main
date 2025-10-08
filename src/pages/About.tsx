@@ -49,7 +49,7 @@ const About = () => {
       <ScrollReveal animation="fade-right" delay={200}>
         <div className="space-y-6">
           <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground">
-            A História por Trás da Curadoria
+            A história por trás da curadoria
           </h2>
           
           <div className="space-y-4 text-body-elegant">
@@ -69,13 +69,13 @@ const About = () => {
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button asChild className="btn-gold">
               <Link to="/catalogo">
-                Ver Catálogo
+                Ver catálogo
               </Link>
             </Button>
             
             <Button asChild variant="outline" className="btn-outline-gold">
               <Link to="/contato">
-                Entrar em Contato
+                Entrar em contato
               </Link>
             </Button>
           </div>
@@ -92,7 +92,7 @@ const About = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-4">
-                Nossos Valores
+                Nossos valores
               </h2>
               <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto">
                 Os pilares que guiam nossa curadoria

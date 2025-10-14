@@ -13,12 +13,12 @@ import insta6 from "@/assets/post6.png";
 
 // 📸 Lista de posts
 const posts = [
-  { src: insta1, link: "https://www.instagram.com/p/C9XaUqUOgG1/", alt: "Bolsa Louis Vuitton Monogram" },
-  { src: insta2, link: "https://www.instagram.com/p/C9RhR3pu3fH/", alt: "Bolsa Prada Rosa em destaque" },
-  { src: insta3, link: "https://www.instagram.com/p/C9D5tpEughl/", alt: "Detalhe em couro legítimo" },
-  { src: insta4, link: "https://www.instagram.com/p/C8upLtyOZgE/", alt: "Coleção exclusiva Vitória Carinhena" },
-  { src: insta5, link: "https://www.instagram.com/p/C8ktreYOmrQ/", alt: "Nova coleção de luxo 2025" },
-  { src: insta6, link: "https://www.instagram.com/p/C8ZtdnPuxwT/", alt: "Destaques da coleção outono" },
+  { src: insta1, link: "https://www.instagram.com/p/DOwffWOj8rr/?img_index=1", alt: "Bolsa Louis Vuitton Monogram" },
+  { src: insta2, link: "https://www.instagram.com/p/DOBhR6kjfVU/?img_index=1", alt: "Bolsa Prada Rosa em destaque" },
+  { src: insta3, link: "https://www.instagram.com/p/DPXgUGwDfiS/?img_index=2", alt: "Detalhe em couro legítimo" },
+  { src: insta4, link: "https://www.instagram.com/p/DOwffWOj8rr/?img_index=2", alt: "Coleção exclusiva Vitória Carinhena" },
+  { src: insta5, link: "https://www.instagram.com/p/DO6soM_Erk0/?img_index=1", alt: "Nova coleção de luxo 2025" },
+  { src: insta6, link: "https://www.instagram.com/p/DOJUbDdDeBN/?img_index=1", alt: "Destaques da coleção outono" },
 ];
 
 // Util: divide em pedaços

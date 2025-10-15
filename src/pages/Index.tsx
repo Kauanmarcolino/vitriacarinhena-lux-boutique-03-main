@@ -58,7 +58,7 @@ const Index = () => {
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up" delay={200}>
-              <h1 className="text-luxury-title mb-6 text-foreground">
+              <h1 className="text-luxury-title mb-6 text-7xl">
                 Bolsas de luxo autênticas,
                 <br />
                 <span className="text-primary">selecionadas para você</span>
@@ -66,7 +66,7 @@ const Index = () => {
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={400}>
-              <p className="text-luxury-subtitle text-muted-foreground max-w-3xl mx-auto mb-8">
+              <p className="text-luxury-subtitle text-muted-foreground max-w-3xl mx-auto mb-8 text-xl">
                 Descubra nossa curadoria exclusiva de bolsas de luxo autênticas.
                 Cada peça é cuidadosamente selecionada para refletir elegância e
                 sofisticação.
@@ -91,6 +91,53 @@ const Index = () => {
                 </Button>
               </div>
             </ScrollReveal>
+          </div>
+        </section>
+
+                {/* About Preview */}
+        <section className="py-20 bg-secondary/20">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <ScrollReveal animation="fade-left">
+                <div className="space-y-6">
+                  <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground">
+                    Curadoria exclusiva por
+                    <span className="text-primary block">
+                      Vitória Carinhena
+                    </span>
+                  </h2>
+
+                  <p className="text-body-elegant text-lg leading-relaxed">
+                    Com sensibilidade, bom gosto e uma verdadeira paixão pelo
+                    universo do luxo, Vitória Carinhena dedica-se a escolher
+                    pessoalmente cada peça da coleção. Seu olhar atento e
+                    apurado garante autenticidade, elegância e uma curadoria
+                    criteriosa que valoriza a exclusividade e o estilo atemporal
+                    de cada bolsa.
+                  </p>
+
+                  <Button asChild className="btn-gold">
+                    <Link to="/sobre">
+                      Conhecer a história
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </Button>
+                </div>
+              </ScrollReveal>
+
+              <ScrollReveal animation="fade-right" delay={200}>
+                <div className="relative">
+                  <div className="absolute -inset-4 bg-[#c69296]/50 blur-xl rounded-3xl z-0" />
+                  <div className="aspect-[4/6] overflow-hidden rounded-2xl shadow-elegant relative z-10">
+                    <img
+                      src={fotoVi}
+                      alt="Coleção de bolsas de luxo"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+              </ScrollReveal>
+            </div>
           </div>
         </section>
 
@@ -167,53 +214,6 @@ const Index = () => {
                 </Button>
               </div>
             </ScrollReveal>
-          </div>
-        </section>
-
-        {/* About Preview */}
-        <section className="py-20 bg-secondary/20">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <ScrollReveal animation="fade-left">
-                <div className="space-y-6">
-                  <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground">
-                    Curadoria exclusiva por
-                    <span className="text-primary block">
-                      Vitória Carinhena
-                    </span>
-                  </h2>
-
-                  <p className="text-body-elegant text-lg leading-relaxed">
-                    Com sensibilidade, bom gosto e uma verdadeira paixão pelo
-                    universo do luxo, Vitória Carinhena dedica-se a escolher
-                    pessoalmente cada peça da coleção. Seu olhar atento e
-                    apurado garante autenticidade, elegância e uma curadoria
-                    criteriosa que valoriza a exclusividade e o estilo atemporal
-                    de cada bolsa.
-                  </p>
-
-                  <Button asChild className="btn-gold">
-                    <Link to="/sobre">
-                      Conhecer a história
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </div>
-              </ScrollReveal>
-
-              <ScrollReveal animation="fade-right" delay={200}>
-                <div className="relative">
-                  <div className="absolute -inset-4 bg-[#c69296]/50 blur-xl rounded-3xl z-0" />
-                  <div className="aspect-[4/6] overflow-hidden rounded-2xl shadow-elegant relative z-10">
-                    <img
-                      src={fotoVi}
-                      alt="Coleção de bolsas de luxo"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </ScrollReveal>
-            </div>
           </div>
         </section>
 

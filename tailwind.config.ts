@@ -17,6 +17,10 @@ export default {
         'tenor': ['Tenor Sans', 'serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
       },
+      fontWeight: {
+    450: '450',
+    550: '550',
+  },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

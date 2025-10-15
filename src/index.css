@@ -31,7 +31,7 @@
 
     /* Muted elements - Soft neutrals */
     --muted: 60 25% 96%;
-    --muted-foreground: 240 4% 46%;
+    --muted-foreground: 240 4% 36%;
 
     /* Accent - Deep rose */
     --accent: 349 22% 49%;
@@ -144,12 +144,12 @@
 
   /* Typography styles */
   .text-luxury-title {
-    @apply text-4xl md:text-5xl lg:text-6xl font-tenor font-semibold 
+    @apply text-xl md:text-5xl lg:text-6xl font-tenor font-medium
            leading-tight tracking-tight;
   }
 
   .text-luxury-subtitle {
-    @apply text-xl md:text-2xl font-tenor font-medium 
+    @apply text-xl md:text-2xl font-tenor font-normal 
            leading-relaxed;
   }
 

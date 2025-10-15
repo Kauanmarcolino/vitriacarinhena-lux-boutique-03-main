@@ -37,7 +37,7 @@ const Contact = () => {
               {/* Contact Cards */}
               <ScrollReveal animation="fade-left">
                 <div className="space-y-6 flex flex-col h-full">
-                  <h2 className="font-tenor text-3xl font-semibold text-foreground mb-8">
+                  <h2 className="font-tenor text-4xl text-foreground mb-3">
                     Fale conosco
                   </h2>
 
@@ -109,7 +109,7 @@ const Contact = () => {
               {/* Social Media & Info */}
               <ScrollReveal animation="fade-right" delay={200}>
                 <div className="space-y-6 flex flex-col h-full">
-                  <h2 className="font-tenor text-3xl font-semibold text-foreground mb-8">
+                  <h2 className="font-tenor text-4xl text-foreground mb-3">
                     Redes Sociais
                   </h2>
 
@@ -173,7 +173,7 @@ const Contact = () => {
 <section className="py-16 bg-background">
   <div className="container mx-auto px-4 sm:px-6 lg:px-8">
     <ScrollReveal animation="fade-up">
-      <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-6 text-center">
+      <h2 className="font-tenor text-3xl md:text-5xl text-foreground mb-6 text-center pb-5">
         Envie uma mensagem
       </h2>
     </ScrollReveal>
@@ -263,10 +263,10 @@ const Contact = () => {
         {/* CTA Section */}
         <section className="py-16 bg-secondary/20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-4">
+            <h2 className="font-tenor text-3xl md:text-5xl  text-foreground mb-4">
               Pronta para sua nova bolsa?
             </h2>
-            <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
+            <p className="text-luxury-subtitle text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
               Entre em contato conosco agora e descubra nossa coleção exclusiva
             </p>
             

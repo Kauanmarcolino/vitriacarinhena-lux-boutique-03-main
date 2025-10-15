@@ -29,7 +29,6 @@ function chunk<T>(arr: T[], size: number): T[][] {
 }
 
 const InstagramFeed: React.FC = () => {
-  // Desktop: 3 por slide / Mobile: 1 por slide
   const desktopSlides = useMemo(() => chunk(posts, 3), []);
   const mobileSlides = useMemo(() => chunk(posts, 1), []);
 
@@ -42,8 +41,8 @@ const InstagramFeed: React.FC = () => {
   const prevDesk = () => setDeskIdx((i) => (i - 1 + deskTotal) % deskTotal);
   const nextDesk = () => setDeskIdx((i) => (i + 1) % deskTotal);
 
-  const prevMob  = () => setMobIdx((i) => (i - 1 + mobTotal) % mobTotal);
-  const nextMob  = () => setMobIdx((i) => (i + 1) % mobTotal);
+  const prevMob = () => setMobIdx((i) => (i - 1 + mobTotal) % mobTotal);
+  const nextMob = () => setMobIdx((i) => (i + 1) % mobTotal);
 
   return (
     <section className="py-20 bg-secondary/20">
@@ -57,13 +56,16 @@ const InstagramFeed: React.FC = () => {
         <ScrollReveal animation="fade-up" delay={150}>
           <p className="text-muted-foreground text-center mb-12 max-w-xl mx-auto">
             Acompanhe as novidades, lançamentos e bastidores do universo
-            <span className="font-semibold text-primary"> Vitória Carinhena</span>.
+            <span className="font-semibold text-primary">
+              {" "}
+              Vitória Carinhena
+            </span>
+            .
           </p>
         </ScrollReveal>
 
         {/* === DESKTOP CAROUSEL (md+) === */}
         <div className="relative hidden md:flex overflow-hidden justify-center">
-          {/* Track */}
           <div
             className="flex transition-transform duration-500 ease-out"
             style={{
@@ -72,39 +74,28 @@ const InstagramFeed: React.FC = () => {
             }}
           >
             {desktopSlides.map((slide, sIdx) => (
-              <div key={sIdx} className="flex-shrink-0 w-full flex justify-center">
+              <div
+                key={sIdx}
+                className="flex-shrink-0 w-full flex justify-center"
+              >
                 <div className="grid grid-cols-3 gap-6 max-w-5xl w-full justify-items-center">
                   {slide.map((post, idx) => (
-                    <a
+                    <div
                       key={idx}
-                      href={post.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group block overflow-hidden rounded-xl relative w-full"
+                      className="group block overflow-hidden rounded-xl relative w-full cursor-default"
                     >
                       <img
                         src={post.src}
                         alt={post.alt}
-                        className="w-full h-full object-cover aspect-square transition-transform duration-300 group-hover:scale-105"
+                        className="w-full h-full object-cover aspect-square transition-transform duration-300"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="white"
-                          viewBox="0 0 24 24"
-                          className="w-6 h-6 opacity-90"
-                        >
-                          <path d="M7.5 2.25h9A5.25 5.25 0 0 1 21.75 7.5v9A5.25 5.25 0 0 1 16.5 21.75h-9A5.25 5.25 0 0 1 2.25 16.5v-9A5.25 5.25 0 0 1 7.5 2.25Zm9 2.25h-9A3 3 0 0 0 4.5 7.5v9a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3Zm-4.5 3.75a4.125 4.125 0 1 1 0 8.25 4.125 4.125 0 0 1 0-8.25Zm0 1.5a2.625 2.625 0 1 0 0 5.25 2.625 2.625 0 0 0 0-5.25Zm4.875-.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" />
-                        </svg>
-                      </div>
-                    </a>
+                    </div>
                   ))}
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Setas (desktop) */}
           <button
             onClick={prevDesk}
             aria-label="Anterior"
@@ -121,117 +112,107 @@ const InstagramFeed: React.FC = () => {
           </button>
         </div>
 
-       {/* Dots desktop (pill compacto) */}
-<div className="hidden md:flex items-center justify-center gap-1 mt-6">
-  {desktopSlides.map((_, i) => {
-    const active = deskIdx === i;
-    return (
-      <button
-        key={`desk-dot-${i}`}
-        type="button"
-        onClick={() => setDeskIdx(i)}
-        aria-label={`Ir ao slide ${i + 1}`}
-        className="relative h-2.5 w-5"
-      >
-        <span
-          className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+        <div className="hidden md:flex items-center justify-center gap-1 mt-6">
+          {desktopSlides.map((_, i) => {
+            const active = deskIdx === i;
+            return (
+              <button
+                key={`desk-dot-${i}`}
+                type="button"
+                onClick={() => setDeskIdx(i)}
+                aria-label={`Ir ao slide ${i + 1}`}
+                className="relative h-2.5 w-5"
+              >
+                <span
+                  className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
                       h-2 rounded-full transition-all
                       ${active ? "w-5 bg-primary" : "w-2 bg-foreground/20"}`}
-        />
-      </button>
-    );
-  })}
-</div>
+                />
+              </button>
+            );
+          })}
+        </div>
 
         {/* === MOBILE CAROUSEL (<md) === */}
-<div className="relative md:hidden overflow-hidden mt-10">
-  <div
-    className="flex transition-transform duration-500 ease-out"
-    style={{
-      // move exatamente 1 slide por vez
-      transform: `translateX(-${(mobIdx * 100) / mobTotal}%)`,
-      // trilho = soma das larguras de todos os slides
-      width: `${mobTotal * 100}%`,
-    }}
-  >
-    {mobileSlides.map((slide, sIdx) => (
-      // cada slide ocupa 1/mobTotal do TRILHO
-      <div
-        key={sIdx}
-        className="flex-shrink-0 flex justify-center"
-        style={{ width: `${100 / mobTotal}%` }}
-      >
-        {slide.map((post, idx) => (
-          <a
-  key={idx}
-  href={post.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="group block w-full overflow-hidden rounded-xl border border-border relative"
->
-  <img
-    src={post.src}
-    alt={post.alt}
-    className="block w-full aspect-square object-cover"
-  />
-</a>
-        ))}
-      </div>
-    ))}
-  </div>
+        <div className="relative md:hidden overflow-hidden mt-10">
+          <div
+            className="flex transition-transform duration-500 ease-out"
+            style={{
+              transform: `translateX(-${(mobIdx * 100) / mobTotal}%)`,
+              width: `${mobTotal * 100}%`,
+            }}
+          >
+            {mobileSlides.map((slide, sIdx) => (
+              <div
+                key={sIdx}
+                className="flex-shrink-0 flex justify-center"
+                style={{ width: `${100 / mobTotal}%` }}
+              >
+                {slide.map((post, idx) => (
+                  <div
+                    key={idx}
+                    className="group block w-full overflow-hidden rounded-xl border border-border relative cursor-default"
+                  >
+                    <img
+                      src={post.src}
+                      alt={post.alt}
+                      className="block w-full aspect-square object-cover"
+                    />
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
 
-  {/* setas mobile sobre a imagem (sem mudar nada nelas) */}
-  <button
-    type="button"
-    onClick={prevMob}
-    aria-label="Anterior"
-    className="absolute left-4 top-1/2 -translate-y-1/2 z-20
+          <button
+            type="button"
+            onClick={prevMob}
+            aria-label="Anterior"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-20
                bg-background/80 backdrop-blur border border-border rounded-full p-2
                shadow hover:scale-105 transition"
-  >
-    <ChevronLeft className="w-5 h-5" />
-  </button>
-  <button
-    type="button"
-    onClick={nextMob}
-    aria-label="Próximo"
-    className="absolute right-4 top-1/2 -translate-y-1/2 z-20
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            type="button"
+            onClick={nextMob}
+            aria-label="Próximo"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-20
                bg-background/80 backdrop-blur border border-border rounded-full p-2
                shadow hover:scale-105 transition"
-  >
-    <ChevronRight className="w-5 h-5" />
-  </button>
-</div>
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+        </div>
 
-{/* Dots MOBILE (pill compacto, fora do overflow) */}
-<div className="md:hidden flex w-full items-center justify-center gap-1 mt-6">
-  {mobileSlides.map((_, i) => {
-    const active = mobIdx === i;
-    return (
-      <button
-        key={`mob-dot-${i}`}
-        type="button"
-        onClick={() => setMobIdx(i)}
-        aria-label={`Ir ao slide ${i + 1}`}
-        className="relative h-2.5 w-5"
-      >
-        <span
-          className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+        <div className="md:hidden flex w-full items-center justify-center gap-1 mt-6">
+          {mobileSlides.map((_, i) => {
+            const active = mobIdx === i;
+            return (
+              <button
+                key={`mob-dot-${i}`}
+                type="button"
+                onClick={() => setMobIdx(i)}
+                aria-label={`Ir ao slide ${i + 1}`}
+                className="relative h-2.5 w-5"
+              >
+                <span
+                  className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
                       h-2 rounded-full transition-all
                       ${active ? "w-5 bg-primary" : "w-2 bg-foreground/20"}`}
-        />
-      </button>
-    );
-  })}
-</div>
-
+                />
+              </button>
+            );
+          })}
+        </div>
 
         <div className="text-center mt-12">
           <Button asChild className="btn-gold px-8 py-3 text-lg">
             <a
               href="https://instagram.com/viccarinhena"
-              target="_blank"
               rel="noopener noreferrer"
+              target="_blank"
             >
               Ver nosso Instagram
             </a>

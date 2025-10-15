@@ -1,8 +1,14 @@
-import { useState, useEffect } from 'react';
-import { Menu, X, Heart } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import vcLogo from '@/assets/vc-logo.png';
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { useState, useEffect } from "react";
+import { Menu, X, Heart } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import vcLogo from "@/assets/vc-logo.png";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { useFavorites } from "@/context/FavoritesContext";
 import { products } from "@/data/products";
 import { Link, useLocation } from "react-router-dom";
@@ -16,25 +22,22 @@ const Header = () => {
   const isHome = location.pathname === "/";
 
   const navigation = [
-    { name: 'Início', href: '/' },
-    { name: 'Catálogo', href: '/catalogo' },
-    //{ name: 'Importados', href: '/imports' },
-    { name: 'Sobre', href: '/sobre' },
-    { name: 'Vídeo', href: '/video' },
-    { name: 'Contato', href: '/contato' },
-
+        { name: "Sobre", href: "/sobre" },
+    { name: "Catálogo", href: "/catalogo" },
+    { name: "Importados", href: "/imports" },
+    { name: "Contato", href: "/contato" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   // 🔄 Reutilizável nos dois lugares
-  const renderFavorites = () => (
+  const renderFavorites = () =>
     favorites.length === 0 ? (
       <p className="text-muted-foreground mt-4">
         Nenhum produto favoritado ainda.
@@ -45,8 +48,14 @@ const Header = () => {
           const product = products[id.toString()];
           if (!product) return null;
           return (
-            <div key={product.id} className="flex items-center justify-between border rounded-lg p-2 hover:shadow-md transition">
-              <Link to={`/produto/${product.id}`} className="flex items-center space-x-4 flex-1">
+            <div
+              key={product.id}
+              className="flex items-center justify-between border rounded-lg p-2 hover:shadow-md transition"
+            >
+              <Link
+                to={`/produto/${product.id}`}
+                className="flex items-center space-x-4 flex-1"
+              >
                 <img
                   src={product.images?.[0]}
                   alt={product.name}
@@ -74,14 +83,13 @@ const Header = () => {
           );
         })}
       </div>
-    )
-  );
+    );
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300
-        ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'}
-        ${isHome ? 'animate-crazy-header' : ''}`}
+        ${scrolled ? "bg-white shadow-md" : "bg-transparent"}
+        ${isHome ? "animate-crazy-header" : ""}`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -101,10 +109,10 @@ const Header = () => {
                 to={item.href}
                 className={`font-inter text-sm font-medium transition-colors duration-300 ${
                   isActive(item.href)
-                    ? 'text-primary'
+                    ? "text-primary"
                     : scrolled
-                      ? 'text-black hover:text-gray-700'
-                      : 'text-black hover:text-gray-200'
+                    ? "text-black hover:text-gray-700"
+                    : "text-black hover:text-gray-300"
                 }`}
               >
                 {item.name}
@@ -140,9 +148,13 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
-              <X className={`h-5 w-5 ${scrolled ? 'text-black' : 'text-white'}`} />
+              <X
+                className={`h-5 w-5 ${scrolled ? "text-black" : "text-white"}`}
+              />
             ) : (
-              <Menu className={`h-5 w-5 ${scrolled ? 'text-black' : 'text-black'}`} />
+              <Menu
+                className={`h-5 w-5 ${scrolled ? "text-black" : "text-black"}`}
+              />
             )}
 
             {/* 🔴 bolinha de notificação no botão de menu */}
@@ -164,8 +176,8 @@ const Header = () => {
                   to={item.href}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                     isActive(item.href)
-                      ? 'text-primary bg-secondary'
-                      : 'text-gray-700 hover:text-black hover:bg-secondary'
+                      ? "text-primary bg-secondary"
+                      : "text-gray-700 hover:text-black hover:bg-secondary"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >

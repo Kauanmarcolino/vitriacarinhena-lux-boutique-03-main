@@ -12,7 +12,7 @@ import bagProduct1 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).j
 import bagProduct2 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg";
 import bolsaGrupo from "@/assets/bolsa-grupo.jpg";
 import InstagramFeed from "@/components/InstagramFeed";
-import VipPopup from "@/components/vipPopup";
+import VipPopup from "@/components/VipPopup";
 
 const Index = () => {
   const featuredProducts = [
@@ -42,8 +42,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <VipPopup />
-
+      <VipPopup/>
+      
       <main>
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center bg-background animate-crazy-hero pb-40">

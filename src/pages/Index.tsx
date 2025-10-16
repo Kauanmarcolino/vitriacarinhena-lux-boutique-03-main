@@ -12,6 +12,7 @@ import bagProduct1 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).j
 import bagProduct2 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg";
 import bolsaGrupo from "@/assets/bolsa-grupo.jpg";
 import InstagramFeed from "@/components/InstagramFeed";
+import VipPopup from "@/components/vipPopup";
 
 const Index = () => {
   const featuredProducts = [
@@ -41,6 +42,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <VipPopup />
 
       <main>
         {/* Hero Section */}
@@ -281,101 +283,44 @@ const Index = () => {
         <InstagramFeed />
 
         {/* WhatsApp Group Section */}
-        <section className="py-20 bg-background">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              {/* Form */}
-              <ScrollReveal animation="fade-left">
-                <Card className="card-luxury max-w-md mx-auto lg:mx-0 p-6">
-                  <CardContent>
-                    <h2 className="font-tenor text-3xl md:text-4xl font-semibold text-foreground mb-4">
-                      Entre para o grupo VIP
-                    </h2>
-                    <p className="text-body-elegant mb-8">
-                      Entre no grupo VIP e ganhe 10% de desconto em sua primeira
-                      compra.
-                    </p>
+<section className="py-20 bg-background">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <ScrollReveal animation="fade-up">
+      <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
+        Entre para o nosso Grupo VIP
+      </h2>
+    </ScrollReveal>
 
-                    <form
-                      onSubmit={(e) => {
-                        e.preventDefault();
-                        // você pode salvar os dados futuramente, se quiser
-                        window.open(
-                          "https://chat.whatsapp.com/BtZVVpyhCJM7RLjS1zdfns",
-                          "_blank"
-                        );
-                      }}
-                      className="space-y-5"
-                    >
-                      {/* Nome */}
-                      <div>
-                        <label className="block text-sm font-medium text-muted-foreground mb-2">
-                          Nome
-                        </label>
-                        <input
-                          type="text"
-                          name="nome"
-                          required
-                          className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
-                          placeholder="Seu nome completo"
-                        />
-                      </div>
+    <ScrollReveal animation="fade-up" delay={200}>
+      <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
+        Receba novidades exclusivas, lançamentos e ofertas especiais diretamente no seu WhatsApp.
+      </p>
+    </ScrollReveal>
 
-                      {/* Email */}
-                      <div>
-                        <label className="block text-sm font-medium text-muted-foreground mb-2">
-                          E-mail
-                        </label>
-                        <input
-                          type="email"
-                          name="email"
-                          required
-                          className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
-                          placeholder="seuemail@exemplo.com"
-                        />
-                      </div>
+    <ScrollReveal animation="fade-up" delay={400}>
+      <div className="max-w-3xl mx-auto mb-10">
+        <img
+          src={bolsaGrupo}
+          alt="Grupo VIP no WhatsApp"
+          className="w-full rounded-2xl shadow-elegant object-cover"
+        />
+      </div>
+    </ScrollReveal>
 
-                      {/* WhatsApp */}
-                      <div>
-                        <label className="block text-sm font-medium text-muted-foreground mb-2">
-                          Número de WhatsApp
-                        </label>
-                        <input
-                          type="tel"
-                          name="whatsapp"
-                          required
-                          className="w-full border border-border rounded-lg px-4 py-3 bg-card focus:outline-none focus:ring-2 focus:ring-primary transition-all"
-                          placeholder="(44) 99999-9999"
-                        />
-                      </div>
+    <ScrollReveal animation="fade-up" delay={600}>
+      <a
+        href="https://chat.whatsapp.com/BtZVVpyhCJM7RLjS1zdfns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className="btn-gold text-lg px-8 py-4">
+          Entrar no Grupo VIP
+        </Button>
+      </a>
+    </ScrollReveal>
+  </div>
+</section>
 
-                      <Button
-                        type="submit"
-                        className="btn-gold w-full text-lg py-3"
-                      >
-                        Entrar no grupo VIP
-                      </Button>
-                    </form>
-                  </CardContent>
-                </Card>
-              </ScrollReveal>
-
-              {/* Image */}
-              <ScrollReveal animation="fade-right" delay={200}>
-                <div className="relative">
-                  <div className="absolute -inset-4 bg-primary/10 blur-xl rounded-3xl z-0" />
-                  <div className="aspect-[4/5] overflow-hidden rounded-2xl shadow-elegant relative z-10">
-                    <img
-                      src={bolsaGrupo} // 👈 mantenha o import lá no topo: import bolsaGrupo from '@/assets/bolsa-grupo.jpg'
-                      alt="Grupo VIP de bolsas de luxo"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </ScrollReveal>
-            </div>
-          </div>
-        </section>
 
         {/* CTA Section */}
         <section className="py-20 bg-secondary/20">

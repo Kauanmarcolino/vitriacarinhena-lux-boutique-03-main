@@ -49,37 +49,54 @@ const Header = () => {
           if (!product) return null;
           return (
             <div
-              key={product.id}
-              className="flex items-center justify-between border rounded-lg p-2 hover:shadow-md transition"
-            >
-              <Link
-                to={`/produto/${product.id}`}
-                className="flex items-center space-x-4 flex-1"
-              >
-                <img
-                  src={product.images?.[0]}
-                  alt={product.name}
-                  className="w-16 h-16 object-cover rounded-md"
-                />
-                <div>
-                  <p className="font-semibold">{product.name}</p>
-                  <span className="font-semibold text-primary text-sm block">
-                    {product.price.split("(")[0].trim()}
-                  </span>
-                  {product.price.includes("(") && (
-                    <span className="text-xs text-green-600">
-                      {product.price.match(/\((.*?)\)/)?.[1]}
-                    </span>
-                  )}
-                </div>
-              </Link>
-              <button
-                onClick={() => toggleFavorite(product.id)}
-                className="text-red-500 hover:text-red-700 ml-2"
-              >
-                Remover
-              </button>
-            </div>
+  key={product.id}
+  className="flex items-center justify-between border rounded-lg p-2 hover:shadow-md transition"
+>
+  <Link
+    to={`/produto/${product.id}`}
+    className="flex items-center space-x-4 flex-1"
+  >
+    <img
+      src={product.images?.[0]}
+      alt={product.name}
+      className="w-16 h-16 object-cover rounded-md"
+    />
+    <div>
+      <p className="font-semibold">{product.name}</p>
+      <span className="font-semibold text-primary text-sm block">
+        {product.price.split("(")[0].trim()}
+      </span>
+      {product.price.includes("(") && (
+        <span className="text-xs text-green-600">
+          {product.price.match(/\((.*?)\)/)?.[1]}
+        </span>
+      )}
+    </div>
+  </Link>
+
+  <div className="flex flex-col gap-2 ml-2">
+    {/* Compartilhar no WhatsApp */}
+    <button
+      onClick={() => {
+        const url = `${window.location.origin}/produto/${product.id}`;
+        const message = `✨ Olha essa peça que favoritei: ${product.name}\n${url}`;
+        window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+      }}
+      className="px-3 py-1 rounded-md text-white text-sm bg-[#25D366] hover:bg-[#20ba5a] transition"
+      title="Compartilhar no WhatsApp"
+    >
+      Compartilhar
+    </button>
+
+    {/* Remover */}
+    <button
+      onClick={() => toggleFavorite(product.id)}
+      className="px-3 py-1 rounded-md text-sm border border-destructive text-destructive hover:bg-destructive hover:text-white transition"
+    >
+      Remover
+    </button>
+  </div>
+</div>
           );
         })}
       </div>
@@ -95,10 +112,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={vcLogo} alt="VC Logo" className="h-10 w-10" />
-            <span className="font-tenor text-xl text-black">
-              Vitória Carinhena
-            </span>
+            <img src={vcLogo} alt="VC Logo" className="h-80 w-90" />
           </Link>
 
           {/* Desktop Navigation */}

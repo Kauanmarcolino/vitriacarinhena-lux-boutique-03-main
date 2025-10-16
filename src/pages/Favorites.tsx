@@ -3,35 +3,28 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useFavorites } from "@/context/FavoritesContext";
+import { X, Share2 } from "lucide-react";
 
 // importa os produtos do mesmo jeito que no Product.tsx
 import bagProduct1 from "@/assets/bag-product-1.jpg";
 import bagProduct2 from "@/assets/bag-product-2.jpg";
 import bagProduct3 from "@/assets/bag-product-3.jpg";
 import bagProduct4 from "@/assets/bag-product-4.jpg";
-
-const products = {
-  1: {
-    id: 1,
-    name: "Tote Elegante Premium",
-    price: "R$ 2.890",
-    images: [bagProduct1, bagProduct2, bagProduct3],
-  },
-  2: {
-    id: 2,
-    name: "Crossbody Luxo",
-    price: "R$ 1.690",
-    images: [bagProduct2, bagProduct4],
-  },
-  // adicione os outros produtos do mesmo jeito que você já tem no Product.tsx
-};
+import { products } from "@/data/products";
 
 const Favorites = () => {
-  const { favorites } = useFavorites();
+  const { favorites, toggleFavorite } = useFavorites();
 
-  const favoriteProducts = favorites
-    .map((id) => products[id as keyof typeof products])
-    .filter(Boolean);
+const favoriteProducts = favorites
+  .map((id) => products[id.toString()])
+  .filter(Boolean);
+
+  const handleShareWhatsApp = (productName: string, productId: number) => {
+    const url = `https://vitriacarinhena.com/produto/${productId}`;
+    const message = `✨ Olha essa bolsa incrível que encontrei na Vitória Carinhena Luxury Handbags!\n\n${productName}\n${url}`;
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -60,20 +53,43 @@ const Favorites = () => {
                       alt={product.name}
                       className="w-full h-64 object-cover"
                     />
-                    <div className="p-4">
-                      <h2 className="font-playfair text-xl mb-2">
-                        {product.name}
-                      </h2>
-                      <p className="text-primary font-semibold mb-4">
+                    <div className="p-4 flex flex-col gap-3">
+                      <h2 className="font-playfair text-xl">{product.name}</h2>
+                      <p className="text-primary font-semibold">
                         {product.price}
                       </p>
+
                       <Button asChild className="btn-gold w-full">
                         <Link to={`/produto/${product.id}`}>Ver Produto</Link>
                       </Button>
+
+                      <div className="flex gap-2">
+                        {/* Botão de compartilhar */}
+                        <Button
+                          onClick={() =>
+                            handleShareWhatsApp(product.name, product.id)
+                          }
+                          variant="outline"
+                          className="btn-outline-gold w-1/2 flex items-center justify-center gap-2"
+                        >
+                          <Share2 className="w-4 h-4" />
+                          Compartilhar
+                        </Button>
+
+                        {/* Botão de remover */}
+                        <Button
+                          onClick={() => toggleFavorite(product.id)}
+                          variant="outline"
+                          className="w-1/2 border-destructive text-destructive hover:bg-destructive hover:text-white transition"
+                        >
+                          <X className="w-4 h-4 mr-1" />
+                          Remover
+                        </Button>
+                      </div>
                     </div>
                   </div>
                 ))}
-              </div>
+              </div>  
             )}
           </div>
         </section>

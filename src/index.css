@@ -252,3 +252,8 @@
   -ms-overflow-style: none; /* IE e Edge */
   scrollbar-width: none; /* Firefox */
 }
+@media (max-width: 480px) {
+  .vip-popup img {
+    height: 200px !important;
+  }
+}

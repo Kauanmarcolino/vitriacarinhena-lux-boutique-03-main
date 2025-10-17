@@ -54,7 +54,7 @@ const Index = () => {
               className="w-full h-full object-cover"
             />
 
-            {/* 🔽 Degradê no final da imagem */}
+            {/* 🔽 Degradê no final da img */}
             <div className="absolute bottom-0 left-0 w-full  bg-gradient-to-b from-transparent to-background" />
           </div>
 

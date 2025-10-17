@@ -42,8 +42,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <VipPopup/>
-      
+      <VipPopup />
+
       <main>
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center bg-background animate-crazy-hero pb-40">
@@ -60,10 +60,11 @@ const Index = () => {
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up" delay={200}>
-              <h1 className="text-luxury-title mb-6 text-7xl">
-                Bolsas de luxo autênticas,
-                <br />
-                <span className="text-primary">selecionadas para você</span>
+              <h1 className="font-tenor text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-6">
+                <span className="block">Bolsas de luxo autênticas,</span>
+                <span className="block text-primary mt-1">
+                  selecionadas para você
+                </span>
               </h1>
             </ScrollReveal>
 
@@ -96,7 +97,7 @@ const Index = () => {
           </div>
         </section>
 
-                {/* About Preview */}
+        {/* About Preview */}
         <section className="py-20 bg-secondary/20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -283,44 +284,44 @@ const Index = () => {
         <InstagramFeed />
 
         {/* WhatsApp Group Section */}
-<section className="py-20 bg-background">
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <ScrollReveal animation="fade-up">
-      <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
-        Entre para o nosso Grupo VIP
-      </h2>
-    </ScrollReveal>
+        <section className="py-20 bg-background">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <ScrollReveal animation="fade-up">
+              <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
+                Entre para o nosso Grupo VIP
+              </h2>
+            </ScrollReveal>
 
-    <ScrollReveal animation="fade-up" delay={200}>
-      <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
-        Receba novidades exclusivas, lançamentos e ofertas especiais diretamente no seu WhatsApp.
-      </p>
-    </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={200}>
+              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
+                Receba novidades exclusivas, lançamentos e ofertas especiais
+                diretamente no seu WhatsApp.
+              </p>
+            </ScrollReveal>
 
-    <ScrollReveal animation="fade-up" delay={400}>
-      <div className="max-w-3xl mx-auto mb-10">
-        <img
-          src={bolsaGrupo}
-          alt="Grupo VIP no WhatsApp"
-          className="w-full rounded-2xl shadow-elegant object-cover"
-        />
-      </div>
-    </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={400}>
+              <div className="max-w-3xl mx-auto mb-10">
+                <img
+                  src={bolsaGrupo}
+                  alt="Grupo VIP no WhatsApp"
+                  className="w-full rounded-2xl shadow-elegant object-cover"
+                />
+              </div>
+            </ScrollReveal>
 
-    <ScrollReveal animation="fade-up" delay={600}>
-      <a
-        href="https://chat.whatsapp.com/BtZVVpyhCJM7RLjS1zdfns"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Button className="btn-gold text-lg px-8 py-4">
-          Entrar no Grupo VIP
-        </Button>
-      </a>
-    </ScrollReveal>
-  </div>
-</section>
-
+            <ScrollReveal animation="fade-up" delay={600}>
+              <a
+                href="https://chat.whatsapp.com/BtZVVpyhCJM7RLjS1zdfns"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="btn-gold text-lg px-8 py-4">
+                  Entrar no Grupo VIP
+                </Button>
+              </a>
+            </ScrollReveal>
+          </div>
+        </section>
 
         {/* CTA Section */}
         <section className="py-20 bg-secondary/20">

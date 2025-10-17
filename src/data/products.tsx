@@ -74,19 +74,20 @@ export const products = {
   '1': {
     id: 1,
     name: 'Mala Louis Vuitton Monogram',
+    tipoItem: 'Mala',
     price: 'R$7.490,00 (10x de R$817,00)',
     originalPrice: 'R$9.990',
+    condition: 'novo',
     description: 'Combinação perfeita de elegância e funcionalidade: confeccionada em canvas Monogram com detalhes e alças em couro natural, possui amplo espaço interno e fecho com zíper para viagens de fim de semana ou escapadas rápidas. Um clássico atemporal para quem viaja com estilo.',
     features: [
-  'Canvas Monogram icônico',
-  'Detalhes em couro natural',
-  'Amplo espaço interno',
-  'Fechamento seguro com zíper',
-  'Alças resistentes e confortáveis',
-  'Bolsos internos organizadores',
-  'Pés metálicos protetores na base'
-],
-
+      'Canvas Monogram icônico',
+      'Detalhes em couro natural',
+      'Amplo espaço interno',
+      'Fechamento seguro com zíper',
+      'Alças resistentes e confortáveis',
+      'Bolsos internos organizadores',
+      'Pés metálicos protetores na base'
+    ],
     dimensions: '55cm × 31cm × 24 cm',
     color: 'Marrom com detalhes caramelo',
     material: 'Canvas Monogram e couro natural',
@@ -95,8 +96,10 @@ export const products = {
   '2': {
     id: 2,
     name: 'Louis Vuitton NeoNoé Monogram',
+    tipoItem: 'Bolsa',
     price: 'R$12.990,00 (10x de R$1.415,00)',
     originalPrice: 'R$ 14.990',
+    condition: 'seminovo',
     description: 'Confeccionada em canvas Monogram icônico com interior em couro rosa, alça superior trançada e fecho em cordão de couro natural, esta bolsa bucket une tradição e modernidade. Espaçosa e versátil, transita do casual ao elegante com o charme atemporal da maison.',
     features: [
       'Design contemporâneo e versátil',
@@ -114,6 +117,7 @@ export const products = {
   '3': {
     id: 3,
     name: 'Chanel Top Handle Matelassê',
+    tipoItem: 'Bolsa',
     price: 'R$34.000,00 (10x de R$3.707,00)',
     originalPrice: 'R$ 39.990',
     description: 'Feita em couro caviar branco com o clássico quilting em losangos, apresenta alça superior estruturada e corrente dourada com entrelaçamento em couro. O fecho com o icônico CC torna esta peça atemporal e sofisticada, perfeita para elevar qualquer look.',
@@ -133,6 +137,7 @@ export const products = {
   '4': {
     id: 4,
     name: 'Bolsa Burberry Crossbody',
+    tipoItem: 'Bolsa',
     price: 'R$2.550 (10x de R$278,00)',
     originalPrice: 'R$ 3.500',
     description: 'Elegância e tradição se encontram nesta bolsa: combinação de couro preto e o clássico xadrez da marca, com fechamento em aba e alça ajustável. Compacta e versátil, é perfeita para adicionar um toque atemporal aos looks do dia a dia.',
@@ -152,6 +157,7 @@ export const products = {
   '5': {
     id: 5,
     name: 'Bolsa Prada Saffiano',
+    tipoItem: 'Bolsa',
     price: 'R$7.000 (10x de R$763,00)',
     originalPrice: 'R$ 3.500',
     description: 'Elegância em versão compacta: confeccionada em couro Saffiano preto com a emblemática placa triangular Prada em metal dourado, e alça em corrente que permite uso como clutch ou crossbody. Ideal para quem busca sofisticação discreta e atemporal em qualquer ocasião.',
@@ -171,6 +177,7 @@ export const products = {
   '6': {
     id: 6,
     name: 'Louis Vuitton Monogram Cardholder',
+    tipoItem: 'Carteira',
     price: 'R$12.990,00 (10x de R$1415,00)',
     originalPrice: 'R$ 15.000',
     description: 'Sofisticação em formato compacto: confeccionada em canvas Monogram Eclipse com acabamento em couro preto, reúne elegância e funcionalidade no dia a dia. Possui slots para cartões e bolso central, perfeito para quem busca praticidade sem abrir mão do estilo clássico da maison.',
@@ -188,6 +195,7 @@ export const products = {
   '7': {
     id: 7,
     name: 'Saint Laurent Lou Camera Bag',
+    tipoItem: 'Bolsa',
     price: 'R$7.990,00 (10x de R$870,00)',
     originalPrice: 'R$9.990',
     description: 'Clássica e versátil, feita em couro matelassê com o icônico monograma YSL em metal dourado e tassel lateral que dá movimento e charme extra. Uma bolsa compacta e funcional, perfeita para usar no dia a dia ou em produções mais sofisticadas.',
@@ -205,6 +213,7 @@ export const products = {
   '8': {
     id: 8,
     name: 'Hermès em couro preto',
+    tipoItem: 'Bolsa',
     price: 'R$3.490,00 (10x de R$380,00)',
     originalPrice: 'R$5.990',
     description: 'Sofisticação em cada detalhe: couro texturizado de altíssima qualidade, costura contrastante, fecho em botão de pressão e compartimento removível com zíper. Uma peça prática e atemporal, que carrega a essência da maison em sua forma mais minimalista.',
@@ -222,6 +231,7 @@ export const products = {
   '9': {
     id: 9,
     name: 'Gucci Dionysus Mini',
+    tipoItem: 'Bolsa',
     price: 'R$3.490,00 (10x de R$380,00)',
     originalPrice: 'R$5.990',
     description: 'Sofisticação em cada detalhe: couro texturizado de altíssima qualidade, costura contrastante, fecho em botão de pressão e compartimento removível com zíper. Uma peça prática e atemporal, que carrega a essência da maison em sua forma mais minimalista.',

@@ -36,8 +36,8 @@ const About = () => {
                   {/* Glow dourado com blur */}
                   <div className="absolute -inset-4 rounded-3xl bg-[#c9b17c]/40 filter blur-2xl"></div>
 
-                  {/* Player do vídeo */}
-                  <div className="relative h-[800px] w-[500px] overflow-hidden rounded-2xl shadow-elegant z-10 bg-black">
+                  {/* Player do vídeo responsivo */}
+                  <div className="relative w-full max-w-[500px] mx-auto overflow-hidden rounded-2xl shadow-elegant z-10 bg-black aspect-[9/16] sm:aspect-[3/4]">
                     {showVideo ? (
                       <video
                         controls
@@ -59,8 +59,8 @@ const About = () => {
                           onClick={() => setShowVideo(true)}
                           className="absolute inset-0 flex items-center justify-center"
                         >
-                          <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center hover-lift shadow-lg transition-transform duration-300">
-                            <Play className="h-12 w-12 text-white ml-1" />
+                          <div className="w-20 h-20 sm:w-24 sm:h-24 bg-primary rounded-full flex items-center justify-center hover-lift shadow-lg transition-transform duration-300">
+                            <Play className="h-10 w-10 sm:h-12 sm:w-12 text-white ml-1" />
                           </div>
                         </button>
                       </div>
@@ -210,8 +210,6 @@ const About = () => {
             </div>
           </div>
         </section>
-
-        
       </main>
 
       <Footer />

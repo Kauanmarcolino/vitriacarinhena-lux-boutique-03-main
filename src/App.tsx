@@ -8,6 +8,7 @@ import Catalog from "./pages/Catalog";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
+import Imports from "./pages/imports";
 import NotFound from "./pages/NotFound";
 import { FavoritesProvider } from "./context/FavoritesContext";
 import Favorites from "./pages/Favorites";
@@ -24,6 +25,7 @@ const App = () => (
           <Routes>
   <Route path="/" element={<Index />} />
   <Route path="/catalogo" element={<Catalog />} />
+  <Route path="/imports" element={<Imports />} />
   <Route path="/sobre" element={<About />} />
   <Route path="/contato" element={<Contact />} />
   <Route path="/produto/:id" element={<Product />} />

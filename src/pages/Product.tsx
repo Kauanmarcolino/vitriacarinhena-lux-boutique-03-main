@@ -1,12 +1,18 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { ArrowLeft, Heart, Share2 } from 'lucide-react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import React from "react";
+import { useParams, Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { ArrowLeft, Heart, Share2 } from "lucide-react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { products } from "@/data/products";
 import { useFavorites } from "@/context/FavoritesContext";
 
@@ -21,7 +27,9 @@ const Product = () => {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-playfair mb-4">Produto não encontrado</h1>
+          <h1 className="text-2xl font-playfair mb-4">
+            Produto não encontrado
+          </h1>
           <Button asChild>
             <Link to="/catalogo">Voltar ao Catálogo</Link>
           </Button>
@@ -32,8 +40,10 @@ const Product = () => {
 
   const handleWhatsAppClick = () => {
     const message = `Olá! Tenho interesse na ${product.name} - ${product.price}. Gostaria de mais informações e fotos adicionais.`;
-    const whatsappUrl = `https://wa.me/5544998762890?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
+    const whatsappUrl = `https://wa.me/5544998762890?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappUrl, "_blank");
   };
 
   const handleShare = async () => {
@@ -63,7 +73,7 @@ const Product = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       <main className="pt-20">
         {/* Breadcrumb */}
         <section className="py-8 border-b border-border">
@@ -73,7 +83,10 @@ const Product = () => {
                 Início
               </Link>
               <span>/</span>
-              <Link to="/catalogo" className="hover:text-primary transition-colors">
+              <Link
+                to="/catalogo"
+                className="hover:text-primary transition-colors"
+              >
                 Catálogo
               </Link>
               <span>/</span>
@@ -98,8 +111,8 @@ const Product = () => {
                 </div>
                 <div className="grid grid-cols-3 gap-3">
                   {product.images.slice(1, 3).map((image, index) => (
-                    <div 
-                      key={index} 
+                    <div
+                      key={index}
                       className="aspect-square overflow-hidden rounded-lg cursor-pointer"
                       onClick={() => setSelectedImageIndex(index + 1)}
                     >
@@ -156,24 +169,22 @@ const Product = () => {
                   <h1 className="font-playfair text-3xl md:text-4xl font-semibold text-foreground mb-4">
                     {product.name}
                   </h1>
-                  
+
                   <div className="flex flex-col mb-6">
-  <span className="font-playfair text-3xl font-bold text-primary">
-    {product.price.split("(")[0].trim()}
-  </span>
-  {product.price.includes("(") && (
-    <span className="text-sm text-green-600 mt-1">
-      {product.price.match(/\((.*?)\)/)?.[1]}
-    </span>
-  )}
-  {product.originalPrice && (
-  <span className="text-xl text-stone-600 line-through">
-    {product.originalPrice}
-  </span>
-)}
-
-</div>
-
+                    <span className="font-playfair text-3xl font-bold text-primary">
+                      {product.price.split("(")[0].trim()}
+                    </span>
+                    {product.price.includes("(") && (
+                      <span className="text-sm text-green-600 mt-1">
+                        {product.price.match(/\((.*?)\)/)?.[1]}
+                      </span>
+                    )}
+                    {product.originalPrice && (
+                      <span className="text-xl text-stone-600 line-through">
+                        {product.originalPrice}
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 <p className="text-body-elegant text-lg leading-relaxed">
@@ -187,16 +198,20 @@ const Product = () => {
                       <h4 className="font-playfair font-semibold text-foreground mb-2">
                         Dimensões
                       </h4>
-                      <p className="text-body-elegant text-sm">{product.dimensions}</p>
+                      <p className="text-body-elegant text-sm">
+                        {product.dimensions}
+                      </p>
                     </CardContent>
                   </Card>
-                  
+
                   <Card className="card-luxury">
                     <CardContent className="p-4">
                       <h4 className="font-playfair font-semibold text-foreground mb-2">
                         Material
                       </h4>
-                      <p className="text-body-elegant text-sm">{product.material}</p>
+                      <p className="text-body-elegant text-sm">
+                        {product.material}
+                      </p>
                     </CardContent>
                   </Card>
                 </div>
@@ -218,31 +233,31 @@ const Product = () => {
 
                 {/* Action Buttons */}
                 <div className="space-y-4 pt-6">
-                  <Button 
+                  <Button
                     onClick={handleWhatsAppClick}
                     className="w-full btn-gold text-lg py-4"
                   >
                     Comprar pelo WhatsApp
                   </Button>
-                  
+
                   <div className="flex space-x-4">
                     <Button
-  variant="outline"
-  className={`flex-1 btn-outline-gold ${
-    favorited ? "bg-primary/10 border-primary" : ""
-  }`}
-  onClick={() => toggleFavorite(product.id)}
->
-  <Heart
-    className={`mr-2 h-4 w-4 ${
-      favorited ? "fill-primary text-primary" : ""
-    }`}
-  />
-  {favorited ? "Favoritado" : "Favoritar"}
-</Button>
-    
-                    <Button 
-                      variant="outline" 
+                      variant="outline"
+                      className={`flex-1 btn-outline-gold ${
+                        favorited ? "bg-primary/10 border-primary" : ""
+                      }`}
+                      onClick={() => toggleFavorite(product.id)}
+                    >
+                      <Heart
+                        className={`mr-2 h-4 w-4 ${
+                          favorited ? "fill-primary text-primary" : ""
+                        }`}
+                      />
+                      {favorited ? "Favoritado" : "Favoritar"}
+                    </Button>
+
+                    <Button
+                      variant="outline"
                       className="flex-1 btn-outline-gold"
                       onClick={handleShare}
                     >

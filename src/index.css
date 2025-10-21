@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System - Vitória Carinhena Luxury Handbags
+   Sophisticated color palette with gold accents and neutral tones
+   All colors in HSL format for consistency */
+
+@layer base {
+  :root {
+    /* Base colors - Clean whites and off-whites */
+    --background: 0 0% 100%;
+    --foreground: 240 6% 10%;
+
+    /* Card system - Subtle elevation */
+    --card: 0 0% 99%;
+    --card-foreground: 240 6% 10%;
+
+    /* Interactive elements */
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 6% 10%;
+
+    /* Elegant rose primary - Sophisticated and feminine */
+    --primary: 349 33% 68%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 349 40% 75%;
+
+    /* Soft cream secondary - Warm neutral */
+    --secondary: 60 25% 93%;
+    --secondary-foreground: 240 6% 10%;
+
+    /* Muted elements - Soft neutrals */
+    --muted: 60 25% 96%;
+    --muted-foreground: 240 4% 36%;
+
+    /* Accent - Deep rose */
+    --accent: 349 22% 49%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive - Subtle error state */
+    --destructive: 0 50% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs - Delicate lines */
+    --border: 60 25% 88%;
+    --input: 60 25% 88%;
+    --ring: 349 33% 68%;
+
+    /* Border radius for elegant curves */
+    --radius: 0.75rem;
+
+    /* Custom luxury gradients */
+    --gradient-rose: linear-gradient(135deg, hsl(349 33% 68%), hsl(349 40% 75%));
+    --gradient-subtle: linear-gradient(180deg, hsl(60 25% 93%), hsl(0 0% 100%));
+    --gradient-hero: linear-gradient(135deg, hsl(60 25% 93%) 0%, hsl(0 0% 100%) 100%);
+
+    /* Elegant shadows */
+    --shadow-soft: 0 2px 8px -2px hsl(240 6% 10% / 0.04);
+    --shadow-elegant: 0 8px 24px -4px hsl(240 6% 10% / 0.08);
+    --shadow-rose: 0 4px 16px -2px hsl(349 33% 68% / 0.15);
+
+    /* Smooth transitions */
+    --transition-elegant: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 240 6% 10%;
+    --foreground: 0 0% 98%;
+    --card: 240 6% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 6% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 43 74% 66%;
+    --primary-foreground: 240 6% 10%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 4% 65%;
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 50% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 18%;
+    --input: 240 4% 18%;
+    --ring: 43 74% 66%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    @apply select-none;
+  }
+  input, textarea {
+    @apply select-text;
+  }
+
+  body {
+    @apply bg-background text-foreground font-montserrat;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
+  }
+
+  /* Typography hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-tenor;
+  } 
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Luxury button variants */
+  .btn-gold {
+    @apply bg-gradient-to-r from-primary to-primary-glow text-white 
+           shadow-lg hover:shadow-xl
+           transition-all duration-300 hover:scale-[1.02];
+    box-shadow: 0 4px 16px -2px hsl(var(--primary) / 0.15);
+  }
+
+  .btn-gold:hover {
+    box-shadow: 0 8px 24px -4px hsl(var(--primary) / 0.25);
+  }
+
+  .btn-outline-gold {
+    @apply border-2 border-primary text-primary bg-transparent
+           hover:bg-primary hover:text-white
+           transition-all duration-300;
+  }
+
+  /* Elegant hover effects */
+  .hover-lift {
+    @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-elegant;
+  }
+
+  /* Luxury card styling */
+  .card-luxury {
+    @apply bg-card border border-border rounded-xl shadow-soft
+           hover:shadow-elegant transition-all duration-300;
+  }
+
+  /* Typography styles */
+  .text-luxury-title {
+    @apply text-xl md:text-5xl lg:text-6xl font-tenor font-medium
+           leading-tight tracking-tight;
+  }
+
+  .text-luxury-subtitle {
+    @apply text-xl md:text-2xl font-tenor font-normal 
+           leading-relaxed;
+  }
+
+  .text-body-elegant {
+    @apply text-base font-montserrat font-normal leading-relaxed 
+           text-muted-foreground;
+  }
+
+/* ===== ScrollReveal Animations (integrado com Tailwind) ===== */
+.scroll-reveal,
+.scroll-reveal-left,
+.scroll-reveal-right,
+.scroll-reveal-scale {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Fade Up */
+.scroll-reveal {
+  transform: translateY(30px);
+}
+.revealed.scroll-reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade Left */
+.scroll-reveal-left {
+  transform: translateX(-40px);
+}
+.revealed.scroll-reveal-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Fade Right */
+.scroll-reveal-right {
+  transform: translateX(40px);
+}
+.revealed.scroll-reveal-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Scale (zoom in) */
+.scroll-reveal-scale {
+  transform: scale(0.95);
+}
+.revealed.scroll-reveal-scale {
+  opacity: 1;
+  transform: scale(1);
+}
+@keyframes crazyHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%) scale(0.9) rotateX(15deg);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(10px) scale(1.05) rotateX(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotateX(0deg);
+  }
+}
+
+.animate-crazy-header {
+  animation: crazyHeader 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes crazyHero {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) rotateX(25deg) translateY(80px);
+    filter: blur(12px);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05) rotateX(0deg) translateY(-10px);
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg) translateY(0);
+    filter: blur(0px);
+  }
+}
+
+.animate-crazy-hero {
+  animation: crazyHero 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+}
+
+/* Remove scrollbar no mobile */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media (max-width: 480px) {
+  .vip-popup img {
+    height: 200px !important;
+  }
+}

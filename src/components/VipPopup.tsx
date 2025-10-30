@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
-import bolsaGrupo from "@/assets/bolsa-grupo.jpg";
+import bolsapopup from "@/assets/bolsa-popup.jpg";
 
 const VipPopup = () => {
   const [show, setShow] = useState(false);
@@ -26,7 +26,7 @@ const VipPopup = () => {
 
         {/* Imagem */}
         <img
-          src={bolsaGrupo}
+          src={bolsapopup}
           alt="Grupo VIP"
           className="w-full h-56 object-cover rounded-t-2xl"
         />

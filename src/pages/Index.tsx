@@ -10,7 +10,7 @@ import heroBackground from "@/assets/hero-background.png";
 import fotoVi from "@/assets/fotoVi.jpeg";
 import bagProduct1 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg";
 import bagProduct2 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg";
-import bolsaGrupo from "@/assets/bolsa-grupo.jpg";
+import bolsaGrupo from "@/assets/bolsa-grupo.png";
 import InstagramFeed from "@/components/InstagramFeed";
 import VipPopup from "@/components/VipPopup";
 
@@ -60,7 +60,7 @@ const Index = () => {
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up" delay={200}>
-              <h1 className="font-tenor text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-6">
+              <h1 className="font-tenor text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-6 max-w-[20rem] sm:max-w-3xl mx-auto">
                 <span className="block">Bolsas de luxo autênticas,</span>
                 <span className="block text-primary mt-1">
                   selecionadas para você
@@ -103,7 +103,7 @@ const Index = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <ScrollReveal animation="fade-left">
                 <div className="space-y-6">
-                  <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground">
+                  <h2 className="font-tenor text-4xl md:text-5xl text-foreground">
                     Curadoria exclusiva por
                     <span className="text-primary block">
                       Vitória Carinhena
@@ -149,13 +149,13 @@ const Index = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <ScrollReveal animation="fade-up">
-                <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
+                <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
                   Peças em destaque
                 </h2>
               </ScrollReveal>
 
               <ScrollReveal animation="fade-up" delay={200}>
-                <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto">
+                <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto text-xl">
                   Conheça algumas de nossas peças mais procuradas
                 </p>
               </ScrollReveal>
@@ -225,7 +225,7 @@ const Index = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <ScrollReveal animation="fade-up">
-                <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
+                <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
                   Por que escolher comprar conosco?
                 </h2>
               </ScrollReveal>
@@ -287,13 +287,13 @@ const Index = () => {
         <section className="py-20 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up">
-              <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
+              <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
                 Entre para o nosso Grupo VIP
               </h2>
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={200}>
-              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
+              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-xl">
                 Receba novidades exclusivas, lançamentos e ofertas especiais
                 diretamente no seu WhatsApp.
               </p>
@@ -327,13 +327,13 @@ const Index = () => {
         <section className="py-20 bg-secondary/20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up">
-              <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground mb-4">
+              <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
                 Encontre sua bolsa dos sonhos
               </h2>
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={200}>
-              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8">
+              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-xl">
                 Entre em contato conosco e descubra a peça perfeita para
                 complementar seu estilo
               </p>

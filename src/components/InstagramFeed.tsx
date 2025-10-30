@@ -48,13 +48,13 @@ const InstagramFeed: React.FC = () => {
     <section className="py-20 bg-secondary/20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal animation="fade-up">
-          <h2 className="font-tenor text-4xl md:text-5xl font-semibold text-foreground text-center mb-4">
+          <h2 className="font-tenor text-4xl md:text-5xl text-foreground text-center mb-4">
             Do nosso Instagram
           </h2>
         </ScrollReveal>
 
         <ScrollReveal animation="fade-up" delay={150}>
-          <p className="text-muted-foreground text-center mb-12 max-w-xl mx-auto">
+          <p className="text-muted-foreground text-center mb-12 max-w-xl mx-auto text-xl">
             Acompanhe as novidades, lançamentos e bastidores do universo
             <span className="font-semibold text-primary">
               {" "}

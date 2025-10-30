@@ -28,9 +28,19 @@ const Catalog = () => {
     "Chanel",
     "Burberry",
     "Prada",
-    "Hermès",
+    "Hermés",
     "Saint Laurent",
     "Gucci",
+    "Valentino",
+    "Jacquemus",
+    "YSL",
+    "Bottega",
+    "Balenciaga",
+    "Roman",
+    "Valentino",
+    "Dior",
+    "Picotin",
+    "Loewe",
   ];
   const tiposDisponiveis = ["Todos", "Bolsa", "Carteira", "Mala"];
 
@@ -205,7 +215,7 @@ const Catalog = () => {
         <section id="produtos-seminovos" className="py-16 border-t border-border">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-10">
-              Produtos semi-novos
+              Second Hand
             </h2>
 
             {filteredSemiNovos.length === 0 ? (
@@ -215,7 +225,7 @@ const Catalog = () => {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 {filteredSemiNovos.map((product, index) => (
-                  <ScrollReveal key={product.id} delay={index * 100}>
+                  <ScrollReveal key={product.id} delay={index * 20}>
                     <Card className="card-luxury hover-lift group h-full">
                       <CardContent className="p-0 flex flex-col h-full">
                         <Link to={`/produto/${product.id}`}>

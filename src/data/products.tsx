@@ -142,6 +142,24 @@ import bagProduct408 from "@/assets/b40/c2c6bd86-7d7a-47a0-9ff6-e5b3335076b7.jpe
 import bagProduct411 from "@/assets/b41/bbf3a7c5-b0b1-44f9-808c-c22fd546ac0a.jpeg";
 
 import bagProduct421 from "@/assets/b42/720820be-293d-4deb-a940-c761fc8a2d97.jpeg";
+import bagProduct422 from "@/assets/b43/WhatsApp Image 2025-10-29 at 14.41.04_760e73d8.jpg";
+import bagProduct423 from "@/assets/b44/WhatsApp Image 2025-10-29 at 14.41.05_df24a0a0.jpg";
+import bagProduct424 from "@/assets/b45/WhatsApp Image 2025-10-29 at 14.41.05_6ccc5811.jpg";
+import bagProduct425 from "@/assets/b46/WhatsApp Image 2025-10-29 at 14.41.05_cf3f6eec.jpg";
+import bagProduct47_1 from "@/assets/b47/WhatsApp Image 2025-10-29 at 14.41.05_1c1915fa.jpg";
+import bagProduct47_2 from "@/assets/b47/WhatsApp Image 2025-10-29 at 14.41.06_b7ae76ee.jpg";
+import bagProduct48_1 from "@/assets/b48/WhatsApp Image 2025-10-29 at 14.41.06_cddcac30.jpg";
+import bagProduct49_1 from "@/assets/b49/WhatsApp Image 2025-10-29 at 14.41.06_23083e6c.jpg";
+import bagProduct50_1 from "@/assets/b50/WhatsApp Image 2025-10-29 at 14.41.06_57874a8e.jpg";
+import bagProduct51_1 from "@/assets/b51/WhatsApp Image 2025-10-29 at 14.41.06_be856941.jpg";
+import bagProduct51_2 from "@/assets/b51/WhatsApp Image 2025-10-29 at 14.41.07_209cad19.jpg";
+import bagProduct52_1 from "@/assets/b52/WhatsApp Image 2025-10-29 at 14.41.07_9d88dfb7.jpg";
+import bagProduct53_1 from "@/assets/b53/WhatsApp Image 2025-10-29 at 14.41.07_ab60be68.jpg";
+import bagProduct54_1 from "@/assets/b54/WhatsApp Image 2025-10-29 at 14.41.07_7cd632e9.jpg";
+import bagProduct55_1 from "@/assets/b55/WhatsApp Image 2025-10-29 at 14.41.07_b5ecf62f.jpg";
+import bagProduct56_1 from "@/assets/b56/WhatsApp Image 2025-10-29 at 14.41.08_1132b00a.jpg";
+import bagProduct57_1 from "@/assets/b57/WhatsApp Image 2025-10-29 at 14.41.08_0752f0d1.jpg";
+import bagProduct58_1 from "@/assets/b58/WhatsApp Image 2025-10-29 at 14.41.08_f8be8d3b.jpg";
 
 export const products = {
   "1": {
@@ -1126,4 +1144,397 @@ color: "Preta com ferragens douradas",
 material: "Couro matelassê com ferragens metálicas douradas",
 images: [bagProduct421],
   },
+
+  "43": {
+    id: 43,
+    name: "Jacquemus Le Chiquito Mini Palha",
+    tipoItem: "Bolsa",
+    price: "R$3.590,00",
+    originalPrice: "R$3.590,00",
+    condition: "seminovo",
+    description:
+      "A icônica Jacquemus Le Chiquito Mini Palha é uma combinação de charme artesanal e design moderno. Seu corpo em rattan natural contrasta lindamente com o couro rosa vibrante, criando um visual delicado e sofisticado. Ideal para quem busca um toque fashion e descontraído em qualquer look.",
+    features: [
+      "Design compacto e estruturado",
+      "Detalhes em couro de bezerro rosa",
+      "Corpo em rattan trançado à mão",
+      "Alça de ombro removível e ajustável",
+      "Etiqueta em couro com logo Jacquemus dourado",
+    ],
+    dimensions:
+      "Comprimento: 9 cm | Largura: 10 cm | Profundidade: 7 cm | Mão cair: 9 cm | Queda do ombro: 65 cm",
+    color: "Marrom, Bege e Rosa",
+    material: "Material Natural, Rattan e Couro de Bezerro",
+    images: [bagProduct422],
+  },
+
+  "44": {
+    id: 44,
+    name: "Louis Vuitton Speedy 30 Damier Ébène",
+    tipoItem: "Bolsa",
+    price: "R$10.990,00",
+    originalPrice: "R$10.990,00",
+    condition: "seminovo",
+    description:
+      "A icônica Louis Vuitton Speedy 30 em Canvas Damier Ébène é um clássico atemporal da maison francesa. Com design elegante e estrutura leve, é perfeita para o dia a dia e viagens curtas. Seu formato espaçoso e detalhes em couro marrom trazem praticidade e sofisticação em uma só peça.",
+    features: [
+      "Canvas Damier Ébène com acabamento em couro calfskin marrom",
+      "Ferragens metálicas douradas",
+      "Alça dupla de mão e alça de ombro ajustável e removível",
+      "Bolso interno com fechamento por zíper",
+      "Fechamento principal com cursor duplo",
+      "Acompanha caixa e dust bag originais",
+    ],
+    dimensions:
+      "Altura: 23 cm | Largura: 35 cm | Profundidade: 19 cm | Alças de mão: 8 cm | Alça de ombro: 28–32 cm | Peso total: 0,580 kg",
+    color: "Marrom (Damier Ébène)",
+    material: "Canvas Damier Ébène e Couro Calfskin",
+    images: [bagProduct423],
+  },
+
+  "45": {
+    id: 45,
+    name: "Louis Vuitton Neverfull MM Damier Ébène",
+    tipoItem: "Bolsa",
+    price: "R$9.990,00",
+    originalPrice: "R$9.990,00",
+    condition: "seminovo",
+    description:
+      "A clássica Louis Vuitton Neverfull MM em Canvas Damier Ébène combina elegância e funcionalidade. Com interior espaçoso e versátil, é perfeita para o dia a dia. Possui tiras laterais ajustáveis, alças confortáveis e acompanha necessaire destacável, tornando-a uma das bolsas mais desejadas da maison francesa.",
+    features: [
+      "Canvas Damier Ébène com acabamento em couro marrom",
+      "Ferragens metálicas douradas",
+      "Alças fixas de ombro com caimento confortável",
+      "Tiras laterais para ajuste de abertura",
+      "Fechamento por mosquetão dourado",
+      "Acompanha necessaire original com mosquetão interno",
+    ],
+    dimensions:
+      "Largura: 32 cm | Altura: 28 cm | Profundidade: 16 cm | Altura da alça: 21 cm",
+    color: "Monograma Damier Ébène",
+    material: "Couro e Canvas",
+    images: [bagProduct424],
+  },
+
+  "46": {
+    id: 46,
+    name: "Louis Vuitton Neverfull MM Monogram",
+    tipoItem: "Bolsa",
+    price: "R$7.990,00",
+    originalPrice: "R$7.990,00",
+    condition: "seminovo",
+    description:
+      "A Louis Vuitton Neverfull MM Monogram é uma das bolsas mais icônicas da maison. O modelo combina leveza e espaço, ideal para o dia a dia, viagens e compromissos urbanos. O revestimento em canvas monograma e os detalhes em couro natural trazem elegância e durabilidade incomparáveis.",
+    features: [
+      "Canvas Monogram clássico da Louis Vuitton",
+      "Acabamentos em couro natural vachetta",
+      "Ferragens douradas brilhantes",
+      "Tiras laterais para ajuste de abertura",
+      "Interior espaçoso com compartimento único",
+      "Fechamento por mosquetão dourado",
+      "Contém iniciais (personalização removível)",
+    ],
+    dimensions:
+      "Largura: 32 cm | Altura: 28 cm | Profundidade: 16 cm | Altura da alça: 21 cm",
+    color: "Monograma marrom e caramelo",
+    material: "Canvas Monogram e Couro Natural",
+    images: [bagProduct425],
+  },
+
+  "47": {
+    id: 47,
+    name: "Hermès Birkin 30 Turquoise Togo Leather",
+    tipoItem: "Bolsa",
+    price: "R$99.000,00",
+    originalPrice: "R$99.000,00",
+    condition: "seminovo",
+    description:
+      "A Hermès Birkin 30 em couro Togo Turquoise é uma verdadeira joia da alta marroquinaria francesa. Reconhecida por seu design icônico e acabamento impecável, essa peça combina elegância atemporal com um toque vibrante e sofisticado. O couro texturizado Togo garante resistência e um toque suave, enquanto as ferragens douradas complementam a tonalidade azul-turquesa com perfeição.",
+    features: [
+      "Confeccionada em couro Togo Turquoise premium",
+      "Ferragens douradas Hermès com brilho intenso",
+      "Fechamento com trava, chave e cadeado",
+      "Alças estruturadas para uso de mão",
+      "Interior amplo e forrado em couro",
+      "Acompanha twilly decorativo e bag charm em formato de cavalo",
+    ],
+    dimensions:
+      "Largura: 30 cm | Altura: 24 cm | Profundidade: 16 cm",
+    color: "Azul Turquesa",
+    material: "Couro Togo",
+    images: [bagProduct47_1, bagProduct47_2],
+  },
+
+  "48": {
+    id: 48,
+    name: "Espadrille Chanel Couro Preto",
+    tipoItem: "Calçado",
+    price: "R$3.590,00",
+    originalPrice: "R$3.590,00",
+    condition: "seminovo",
+    description:
+      "O clássico Espadrille Chanel em couro preto combina conforto e sofisticação em uma peça atemporal. O modelo apresenta o icônico logo ‘CC’ bordado na parte superior e acabamento em corda natural na sola, proporcionando um visual elegante e casual, perfeito para o dia a dia.",
+    features: [
+      "Confeccionado em couro macio preto",
+      "Logo Chanel em relevo na parte frontal",
+      "Sola em corda trançada com acabamento artesanal",
+      "Palmilha em couro com logo Chanel gravado",
+      "Acompanha dust bags originais",
+      "Tamanho da sola: 39/37 BR (veste 37,5)",
+    ],
+    dimensions: "Tamanho BR 37,5 | Sola 39/37 BR",
+    color: "Preto",
+    material: "Couro legítimo e corda natural",
+    images: [bagProduct48_1],
+  },
+
+  "49": {
+    id: 49,
+    name: "Gucci Dionysus Mini Metallic",
+    tipoItem: "Bolsa",
+    price: "R$7.700,00",
+    originalPrice: "R$7.700,00",
+    condition: "seminovo",
+    description:
+      "A Gucci Dionysus Mini Metallic é uma peça elegante e moderna, ideal para quem busca um toque de luxo discreto. Com acabamento prateado metalizado e o icônico fecho em forma de cabeça de tigre, essa bolsa é um símbolo de sofisticação e versatilidade. Seu tamanho compacto e corrente de ombro a tornam perfeita para eventos e ocasiões especiais.",
+    features: [
+      "Confeccionada em couro prateado metalizado",
+      "Fecho com cabeça de tigre, símbolo da linha Dionysus",
+      "Alça de corrente metálica ajustável para ombro ou transversal",
+      "Interior em camurça macia com compartimento principal",
+      "Acompanha dust bag e caixa originais",
+      "Produto autenticado",
+    ],
+    dimensions:
+      "Altura: 13 cm | Largura: 20 cm | Profundidade: 6 cm (aproximadamente)",
+    color: "Prateado metálico",
+    material: "Couro metalizado",
+    images: [bagProduct49_1],
+  },
+
+  "50": {
+    id: 50,
+    name: "Bottega Veneta Mini Jodie",
+    tipoItem: "Bolsa",
+    price: "R$10.990,00",
+    originalPrice: "R$10.990,00",
+    condition: "seminovo",
+    description:
+      "A icônica Bottega Veneta Mini Jodie é símbolo do design contemporâneo e da elegância artesanal italiana. Confeccionada em couro macio trançado na cor amarelo manteiga, o modelo se destaca pelo nó característico na alça e pelo formato curvo minimalista. Ideal para produções sofisticadas e modernas.",
+    features: [
+      "Couro trançado Intrecciato característico da marca",
+      "Design curvo e estrutura flexível",
+      "Fechamento superior com zíper",
+      "Alça com nó lateral estilizado",
+      "Interior forrado em tecido suave",
+      "Acompanha dust bag e caixa originais",
+    ],
+    dimensions:
+      "Altura: 23 cm | Largura: 28 cm | Profundidade: 8 cm (aproximadamente)",
+    color: "Amarelo Manteiga",
+    material: "Couro Nappa trançado",
+    images: [bagProduct50_1],
+  },
+
+
+  "51": {
+    id: 51,
+    name: "Pulseira Cartier Love Ouro Rosé",
+    tipoItem: "Acessório",
+    price: "R$27.800,00",
+    originalPrice: "R$38.300,00",
+    condition: "seminovo",
+    description:
+      "A icônica Pulseira Love da Cartier, em ouro rosé, é um símbolo atemporal de elegância e compromisso. Criada nos anos 1970, a peça representa o amor duradouro e é reconhecida por seu design minimalista e parafusos característicos. Um clássico que combina sofisticação e história em cada detalhe.",
+    features: [
+      "Confeccionada em ouro rosé 18K",
+      "Design icônico com parafusos gravados",
+      "Fechamento por sistema de parafuso (chave inclusa)",
+      "Acompanha caixa, sacola e nota fiscal originais",
+      "Peça clássica da joalheria Cartier",
+    ],
+    dimensions: "Tamanho padrão unissex (consulte disponibilidade)",
+    color: "Ouro Rosé",
+    material: "Ouro 18K",
+    images: [bagProduct51_1, bagProduct51_2],
+  },
+
+  "52": {
+    id: 52,
+    name: "Balenciaga Le Cagole Jeans Rosa",
+    tipoItem: "Bolsa",
+    price: "R$7.990,00",
+    originalPrice: "R$7.990,00",
+    condition: "seminovo",
+    description:
+      "A Balenciaga Le Cagole Jeans Rosa é uma releitura moderna e ousada de um dos modelos mais icônicos da marca. Confeccionada em jeans rosa com acabamento detalhado e ferragens prateadas, a peça reflete a estética contemporânea e irreverente da maison. Ideal para quem busca estilo, personalidade e exclusividade em um só acessório.",
+    features: [
+      "Confeccionada em jeans rosa com textura macia",
+      "Detalhes metálicos prateados e rebites decorativos",
+      "Acompanha espelho e mini porta-cartão destacável",
+      "Alça ajustável para uso no ombro",
+      "Interior com forro em tecido e fechamento por zíper",
+      "Acompanha etiqueta e todos os itens originais Balenciaga",
+    ],
+    dimensions:
+      "Altura: 16 cm | Largura: 28 cm | Profundidade: 7 cm (aproximadamente)",
+    color: "Rosa Jeans",
+    material: "Denim com acabamento metálico e couro",
+    images: [bagProduct52_1],
+  },
+
+  "53": {
+    id: 53,
+    name: "Celine Grand Sac à Main Triomphe",
+    tipoItem: "Bolsa",
+    price: "R$6.900,00",
+    originalPrice: "R$6.900,00",
+    condition: "seminovo",
+    description:
+      "A bolsa Celine Grand Sac à Main Triomphe combina o estilo clássico parisiense com a elegância natural da palha trançada. O icônico emblema Triomphe em couro marrom adiciona sofisticação à estética artesanal da peça, tornando-a ideal para o verão e ocasiões casuais sofisticadas.",
+    features: [
+      "Corpo confeccionado em palha trançada natural",
+      "Detalhes e alças em couro marrom de alta qualidade",
+      "Logo Triomphe Celine em relevo frontal",
+      "Interior amplo e sem forro para maior leveza",
+      "Acompanha dust bag e certificado de autenticidade Entrupy",
+    ],
+    dimensions:
+      "Altura: 32 cm | Largura: 50 cm | Profundidade: 20 cm (aproximadamente)",
+    color: "Palha natural e marrom",
+    material: "Palha trançada e couro legítimo",
+    images: [bagProduct53_1],
+  },
+
+  "54": {
+    id: 54,
+    name: "Chanel Trendy Caramelo",
+    tipoItem: "Bolsa",
+    price: "R$27.990,00",
+    originalPrice: "R$27.990,00",
+    condition: "seminovo",
+    description:
+      "A Chanel Trendy Caramelo é uma peça sofisticada e atemporal, confeccionada em couro macio com acabamento matelassê. O modelo apresenta o icônico logo CC e a barra metálica superior gravada com o nome Chanel, símbolo de elegância e exclusividade. Ideal para quem busca uma bolsa clássica com toque contemporâneo.",
+    features: [
+      "Confeccionada em couro caramelo de alta qualidade",
+      "Acabamento matelassê clássico Chanel",
+      "Logo CC frontal e barra metálica superior gravada com 'Chanel'",
+      "Alça de corrente com couro entrelaçado",
+      "Interior com divisórias e forro refinado",
+      "Acompanha caixa e dust bag originais",
+    ],
+    dimensions:
+      "Altura: 17 cm | Largura: 25 cm | Profundidade: 10 cm (aproximadamente)",
+    color: "Caramelo",
+    material: "Couro legítimo",
+    images: [bagProduct54_1],
+  },
+
+  "55": {
+    id: 55,
+    name: "Chanel 19 Preta",
+    tipoItem: "Bolsa",
+    price: "R$26.990,00",
+    originalPrice: "R$26.990,00",
+    condition: "seminovo",
+    description:
+      "A Chanel 19 é um dos modelos mais desejados da maison, desenhada por Karl Lagerfeld e Virginie Viard. O modelo apresenta o icônico matelassê em couro macio, alça de corrente tricolor e o logo CC oversized com toque contemporâneo. Uma peça que une o clássico ao moderno em perfeita harmonia.",
+    features: [
+      "Confeccionada em couro macio preto",
+      "Alça de corrente tricolor (dourado, prateado e grafite)",
+      "Logo CC grande com acabamento metálico",
+      "Fechamento por aba frontal com botão magnético",
+      "Interior forrado com compartimentos organizadores",
+      "Acompanha chip de autenticidade e dust bag original",
+    ],
+    dimensions:
+      "Altura: 17 cm | Largura: 26 cm | Profundidade: 9 cm (aproximadamente)",
+    color: "Preto",
+    material: "Couro macio",
+    images: [bagProduct55_1],
+  },
+
+  "56": {
+    id: 56,
+    name: "Chanel Clássica Double Flap",
+    tipoItem: "Bolsa",
+    price: "R$43.200,00",
+    originalPrice: "R$80.000,00",
+    condition: "seminovo",
+    description:
+      "A Chanel Clássica Double Flap é o maior ícone da maison francesa, criada por Coco Chanel em 1955 e eternizada por Karl Lagerfeld. Confeccionada em couro macio com acabamento matelassê, o modelo apresenta o inconfundível fecho CC dourado e a alça de corrente entrelaçada, representando o equilíbrio perfeito entre tradição e elegância atemporal.",
+    features: [
+      "Confeccionada em couro preto com acabamento matelassê",
+      "Fecho frontal com logo CC dourado",
+      "Alça de corrente com entrelaçamento em couro e metal dourado",
+      "Design Double Flap com compartimento interno duplo",
+      "Interior forrado em couro e divisões funcionais",
+      "Acompanha caixa e dust bag originais",
+    ],
+    dimensions:
+      "Altura: 16 cm | Largura: 25,5 cm | Profundidade: 7 cm (aproximadamente)",
+    color: "Preto com ferragens douradas",
+    material: "Couro legítimo",
+    images: [bagProduct56_1],
+  },
+
+  "57": {
+    id: 57,
+    name: "Chanel WOC Rosa",
+    tipoItem: "Bolsa",
+    price: "R$20.900,00",
+    originalPrice: "R$20.900,00",
+    condition: "seminovo",
+    description:
+      "A Chanel Wallet on Chain (WOC) é um dos modelos mais versáteis e elegantes da maison. Confeccionada em couro caviar rosa com acabamento matelassê, combina o design icônico Chanel com praticidade e leveza. Ideal para o dia ou a noite, une sofisticação, funcionalidade e um toque jovial.",
+    features: [
+      "Confeccionada em couro caviar rosa com textura granulada",
+      "Logo CC metálico frontal em dourado",
+      "Alça de corrente entrelaçada com couro no mesmo tom",
+      "Interior com divisões para cartões e compartimento central com zíper",
+      "Design compacto e funcional",
+      "Acompanha caixa e dust bag originais",
+    ],
+    dimensions:
+      "Altura: 12 cm | Largura: 19 cm | Profundidade: 3,5 cm (aproximadamente)",
+    color: "Rosa",
+    material: "Couro caviar",
+    images: [bagProduct57_1],
+  },
+
+  "58": {
+    id: 58,
+    name: "Bottega Veneta Mini Pouch Pink",
+    tipoItem: "Bolsa",
+    price: "R$7.990,00",
+    originalPrice: "R$9.190,00",
+    condition: "seminovo",
+    description:
+      "A Mini Pouch da Bottega Veneta é um ícone moderno do minimalismo sofisticado. Confeccionada em couro intrecciato pink, o modelo combina estrutura macia, formato orgânico e o clássico trançado da marca italiana. É uma peça vibrante e elegante, perfeita para quem busca estilo e leveza em um só acessório.",
+    features: [
+      "Confeccionada em couro intrecciato na cor pink",
+      "Design macio com estrutura tipo pouch",
+      "Fechamento magnético superior",
+      "Alça fina ajustável para uso no ombro ou transversal",
+      "Interior forrado em couro liso",
+      "Acompanha caixa e dust bag originais",
+    ],
+    dimensions:
+      "Altura: 13 cm | Largura: 22 cm | Profundidade: 5 cm (aproximadamente)",
+    color: "Pink",
+    material: "Couro intrecciato (trançado artesanal)",
+    images: [bagProduct58_1],
+  },
 };
+
+
+
+
+
+
+
+
+
+
+
+

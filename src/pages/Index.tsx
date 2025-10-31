@@ -61,9 +61,9 @@ const Index = () => {
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up" delay={200}>
               <h1 className="font-tenor text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-6 max-w-[20rem] sm:max-w-3xl mx-auto">
-                <span className="block">Bolsas de luxo autênticas,</span>
+                <span className="block">Bolsas de luxo </span>
                 <span className="block text-primary mt-1">
-                  selecionadas para você
+                  autênticas
                 </span>
               </h1>
             </ScrollReveal>

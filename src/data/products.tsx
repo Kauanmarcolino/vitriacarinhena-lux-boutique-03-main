@@ -17,7 +17,7 @@ import bagProduct23 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.03 (1).
 import bagProduct24 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.03.jpeg";
 import bagProduct25 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.04.jpeg";
 
-import bagProduct31 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.17.jpeg";
+import bagProduct31 from "@/assets/b3/2858457a-cf26-43e6-b4bd-e9130ad34c00.jpeg";
 import bagProduct32 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.19 (1).jpeg";
 import bagProduct33 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.19.jpeg";
 import bagProduct34 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.20.jpeg";
@@ -47,16 +47,6 @@ import bagProduct74 from "@/assets/b7/WhatsApp Image 2025-09-25 at 16.38.10.jpeg
 import bagProduct75 from "@/assets/b7/WhatsApp Image 2025-09-25 at 16.38.11 (1).jpeg";
 import bagProduct76 from "@/assets/b7/WhatsApp Image 2025-09-25 at 16.38.11.jpeg";
 
-import bagProduct81 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.30.jpeg";
-import bagProduct82 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.51 (1).jpeg";
-import bagProduct83 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.51 (2).jpeg";
-import bagProduct84 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.51 (3).jpeg";
-import bagProduct85 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.51.jpeg";
-import bagProduct86 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.52 (1).jpeg";
-import bagProduct87 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.52 (2).jpeg";
-import bagProduct88 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.52.jpeg";
-import bagProduct89 from "@/assets/b8/WhatsApp Image 2025-09-25 at 16.39.53.jpeg";
-
 import bagProduct91 from "@/assets/b9/WhatsApp Image 2025-09-25 at 16.39.57.jpeg";
 import bagProduct92 from "@/assets/b9/WhatsApp Image 2025-09-25 at 16.39.58 (1).jpeg";
 import bagProduct93 from "@/assets/b9/WhatsApp Image 2025-09-25 at 16.39.58.jpeg";
@@ -78,7 +68,9 @@ import bagProduct131 from "@/assets/b13/d98558a0-b85e-4bfe-8105-74dc1012e46b.jpe
 
 import bagProduct141 from "@/assets/b14/803e351f-7f54-43ea-9115-dcaefb4b2bba.jpeg";
 
-import bagProduct151 from "@/assets/b15/69148a2b-07ef-4dd2-9684-d83eafe85747.jpeg";
+import bagProduct151 from "@/assets/b15/56003f20-4e45-40d2-a781-2563fceefc9b.jpeg";
+import bagProduct152 from "@/assets/b15/69148a2b-07ef-4dd2-9684-d83eafe85747.jpeg";
+import bagProduct153 from "@/assets/b15/cc642856-e9f9-49b8-9899-4d6fc75ff43e.jpeg";
 
 import bagProduct161 from "@/assets/b16/ef40d182-6830-4d97-b896-3793f2c599ba.jpeg";
 
@@ -91,12 +83,11 @@ import bagProduct191 from "@/assets/b19/31970022-ef5c-4a33-a0c3-a4f4ddf7fa4d.jpe
 import bagProduct201 from "@/assets/b20/faf91c05-93c3-4929-94a5-3b4c9b406d3d.jpeg";
 
 import bagProduct211 from "@/assets/b21/575c8698-7e17-4480-8d90-2ace1c901fc0.jpeg";
+import bagProduct212 from "@/assets/b21/9ee219e6-1c34-4c5f-b1d8-072913965f62.jpeg";
 
 import bagProduct221 from "@/assets/b22/51bfd83d-22fd-4acf-906e-e2bf3d42010c.jpeg";
 
 import bagProduct231 from "@/assets/b23/89f6b50e-88b0-4aab-b0fe-f87ada26b2b1.jpeg";
-
-import bagProduct241 from "@/assets/b24/c482b0c3-9fe0-4fd9-96b2-c5e98a4bd9cf.jpeg";
 
 import bagProduct251 from "@/assets/b25/edb1f5cf-4863-4aad-8ab2-103f0139b4d0.jpeg";
 
@@ -105,14 +96,20 @@ import bagProduct261 from "@/assets/b26/7f889f44-0d5b-4712-b7f8-3641e8f69054.jpe
 import bagProduct271 from "@/assets/b27/fa55db27-1539-4a79-a112-82105294eab5.jpeg";
 
 import bagProduct281 from "@/assets/b28/5e682206-e17d-42c9-86b8-22e8a96d921e.jpeg";
+import bagProduct282 from "@/assets/b28/c8f1d0d8-d016-4182-a18a-3690bc66063d.jpeg";
 
 import bagProduct291 from "@/assets/b29/2b1eb8d6-882b-49c1-ac44-9d5c1311d849.jpeg";
+import bagProduct292 from "@/assets/b29/4bc84cc9-3f36-4237-9eb6-cf1720c13df6.jpeg";
 
 import bagProduct301 from "@/assets/b30/26574af5-21bb-4225-86f1-82f0da59737b.jpeg"
 
 import bagProduct311 from "@/assets/b31/e20cecae-4a71-441c-9771-86c2eb2056f3.jpeg";
 
 import bagProduct321 from "@/assets/b32/ba1522fa-03eb-4b93-aada-a88c8fce83e8.jpeg";
+import bagProduct322 from "@/assets/b32/db0b52e9-5830-4c96-818e-8fd6092547d1.jpeg";
+import bagProduct323 from "@/assets/b32/de767af8-cfa9-496f-a5c6-165a1e548f59.jpeg";
+import bagProduct324 from "@/assets/b32/e04ef09a-a424-4441-af82-4eca88490da5.jpeg";
+import bagProduct325 from "@/assets/b32/21d641c9-ebf6-4b84-a638-e423156f9bf3.jpeg";
 
 import bagProduct331 from "@/assets/b33/9c5274fa-c6ec-46c2-8cba-63f3222142de.jpeg";
 
@@ -161,6 +158,116 @@ import bagProduct56_1 from "@/assets/b56/WhatsApp Image 2025-10-29 at 14.41.08_1
 import bagProduct57_1 from "@/assets/b57/WhatsApp Image 2025-10-29 at 14.41.08_0752f0d1.jpg";
 import bagProduct58_1 from "@/assets/b58/WhatsApp Image 2025-10-29 at 14.41.08_f8be8d3b.jpg";
 
+import b591 from "@/assets/b59/1ffc76fb-ed7f-436b-9069-d024c840de44.jpeg";
+import b592 from "@/assets/b59/37106f06-f51c-496c-a8f4-a438e058e4d6.jpeg";
+import b593 from "@/assets/b59/d5f7dff7-a385-400f-b7de-58eff99880cf.jpeg";
+import b594 from "@/assets/b59/ec76be21-1965-4856-a2e6-c3f737a56fc4.jpeg";
+import b595 from "@/assets/b59/faeb80f4-2968-4aab-91c2-fa050cfdda22.jpeg";
+
+import b601 from "@/assets/b60/22859360-d9d5-4cb3-afec-bc39698a6e6c.jpeg";
+import b602 from "@/assets/b60/3236c94e-f4dd-4e67-90a6-992b222f6186.jpeg";
+import b603 from "@/assets/b60/48fec349-8e8c-4757-8f17-117d10352ead.jpeg";
+import b604 from "@/assets/b60/4966160a-a098-4af1-9b5b-b8e39e6f5f25.jpeg";
+import b605 from "@/assets/b60/4d777689-0937-4638-805c-8634e2fd52f3.jpeg";
+import b606 from "@/assets/b60/62cd7605-d7ad-4621-a875-52de5500fb0d.jpeg";
+import b607 from "@/assets/b60/b96ddfb2-1e53-4b0f-8edf-1ba80af4c6ba.jpeg";
+import b608 from "@/assets/b60/dfef704b-f88d-4af1-973b-652c43ca7b91.jpeg";
+import b609 from "@/assets/b60/e663ca86-1fe0-44c3-a3bd-4bf6aacf84de.jpeg";
+
+import b611 from "@/assets/b61/b96d83a9-49fc-4e20-b4c8-a85e3c69b718.jpeg";
+
+import b621 from "@/assets/b62/louis-vuitton-bolsa-speedy-nano--M81085_PM2_Front view.avif";
+
+import b631 from "@/assets/b63/877a4c54-2a42-4d7a-96c8-eeeedee63dc2.jpeg";
+
+import b641 from "@/assets/b64/03c749d3-1673-4d8a-aa75-9f60d3fe5109.jpeg";
+
+import b651 from "@/assets/b65/9e4beaea-8389-47f8-b900-dc4a70e4fd13.jpeg";
+
+import b661 from "@/assets/b66/f64a2d54-5d8d-41e1-b9ec-492882c2d1f8.jpeg";
+
+import b671 from "@/assets/b67/482fa571-6d04-4712-88f4-14e85624d6f7.jpeg";
+import b672 from "@/assets/b67/a694b8c6-55bf-4204-a5ee-9645f1945342.jpeg";
+
+import b681 from "@/assets/b68/aadd47fa-832b-468c-bd52-1924c23b4c15.jpeg";
+
+import b691 from "@/assets/b69/cb260b82-315b-44fc-a334-43391956215b.jpeg";
+
+import b701 from "@/assets/b70/448ace18-da2b-4d4d-afcf-23dfb03a6ddc.jpeg";
+
+import b711 from "@/assets/b71/c5b2aa85-7c44-4bd5-b2b8-bb2da7e9a242.jpeg";
+
+import b721 from "@/assets/b72/1587d2ad-6421-44be-8f3a-2668a2af49bd.jpeg";
+
+import b731 from "@/assets/b73/29e05a1c-f959-4d84-919b-bd8c4b5d3302.jpeg";
+
+import b741 from "@/assets/b74/02598173-11c2-4be7-a973-2c9a6d199d25.jpeg";
+import b742 from "@/assets/b74/19cec8d8-4d9e-460a-b7c5-2332000a680b.jpeg";
+import b743 from "@/assets/b74/70e95b35-2bba-493f-9062-b9d969ff4468.jpeg";
+import b744 from "@/assets/b74/7da72d55-7d2c-49fb-9aeb-615ce246cc35.jpeg";
+import b745 from "@/assets/b74/86a9a795-8fea-42ea-baf0-f13645c97f36.jpeg";
+import b746 from "@/assets/b74/ae396a2a-9653-4979-be0c-94013caa7d27.jpeg";
+
+import b751 from "@/assets/b75/fa908708-647a-444f-be69-4648c67d605b.jpeg";
+
+import b761 from "@/assets/b76/3e0be2db-95bf-4195-a3d9-68762f459f55.jpeg";
+
+import b771 from "@/assets/b77/7bfcb374-d3c8-42f7-937f-c3db467ac18a.jpeg";
+
+import b781 from  "@/assets/b78/798cd557-6eb4-4491-ba33-b813ba9834a3.jpeg";
+
+import b791 from "@/assets/b79/703cf029-8653-4c40-90bd-1122f822ba6e.jpeg";
+
+import b801 from "@/assets/b80/8d620f3f-9ebb-46f5-97b9-b61ddd5d9fdf.jpeg";
+
+import b811 from "@/assets/b81/67ee25af-5b09-467c-abdc-a626c0e85ea9.jpeg";
+
+import b821 from "@/assets/b82/dd97bf61-4a26-436a-ae36-c12774e8998c.jpeg";
+
+import b831 from "@/assets/b83/8f19652d-571c-4b2f-9c8e-b7f11ffa8310.jpeg";
+
+import b841 from "@/assets/b84/116f20d2-f3bc-4995-96b5-75cc8d28e948.jpeg";
+import b842 from "@/assets/b84/f9a4475e-2a55-4710-a0e4-735d7e493afd.jpeg";
+
+import b851 from "@/assets/b85/5b761b30-59cb-40f6-ad88-03dc36a2a9c1.jpeg";
+
+import b861 from "@/assets/b86/6b582cc9-f5c0-4afd-8f60-8d41a7ec1b1e.jpeg";
+
+import b871 from "@/assets/b87/8ae0cd6c-57b2-452b-8a8c-496003db8623.jpeg";
+
+import b881 from "@/assets/b88/4d27855c-252a-486b-8cdf-40492b7e6ffb.jpeg";
+
+import b891 from "@/assets/b89/3d2e4302-59f1-4813-a3aa-c897db9fb6ee.jpeg";
+
+import b901 from "@/assets/b90/f38f6482-25bc-42ae-9e36-cd414db338e1.jpeg";
+
+import b911 from "@/assets/b91/da184c35-b321-44f8-be38-1edcce7f5995.jpeg";
+
+import b921 from "@/assets/b92/14a73a21-31e1-4e5a-b145-a40a69704c57.jpeg";
+
+import b931 from "@/assets/b93/5880b26b-9ce7-47c7-ba5f-67fe9418bd7b.jpeg";
+
+import b941 from "@/assets/b94/9b25e24c-0945-4ec1-a734-c8da73400a64.jpeg";
+
+import b951 from "@/assets/b95/a4d785bf-8c7d-406f-b2ff-7d4e79d3b4eb.jpeg";
+
+import b961 from "@/assets/b96/4a77caa7-aed1-4beb-917a-132e7db2ff26.jpeg";
+
+import b971 from "@/assets/b97/5afde9dd-fb94-4d55-b230-6853a16cdb02.jpeg";
+
+import b981 from "@/assets/b98/98deb6db-8682-4bd4-8fd4-fb1963c4b49d.jpeg";
+
+import b991 from "@/assets/b99/20ad7bb0-7826-418d-86d8-8bff3389aec8.jpeg";
+
+import b1001 from "@/assets/b100/fdff077c-18f6-4180-ba8f-04e51ce23c24.jpeg";
+
+import b1011 from "@/assets/b101/6acefb4b-cdef-4fc7-b08c-0d219838dcbc.jpeg";
+
+import b1021 from "@/assets/b102/2eeb946a-4178-4ca9-adc0-66d39b88cc7b.jpeg";
+import b1022 from "@/assets/b102/87cb1e98-c24a-4978-b470-5080fecbc90a.jpeg";
+
+import b1031 from "@/assets/b103//8d021564-b452-4db4-ba7d-88b65ceec096.jpeg";
+
 export const products = {
   "1": {
     id: 1,
@@ -168,7 +275,7 @@ export const products = {
     tipoItem: "Mala",
     price: "R$7.490,00 (10x de R$817,00)",
     originalPrice: "R$9.990",
-    condition: "novo",
+    condition: "seminovo",
     description:
       "Combinação perfeita de elegância e funcionalidade: confeccionada em canvas Monogram com detalhes e alças em couro natural, possui amplo espaço interno e fecho com zíper para viagens de fim de semana ou escapadas rápidas. Um clássico atemporal para quem viaja com estilo.",
     features: [
@@ -230,8 +337,9 @@ export const products = {
     id: 3,
     name: "Chanel Top Handle Matelassê",
     tipoItem: "Bolsa",
-    price: "R$34.000,00 (10x de R$3.707,00)",
+    price: "R$33.990,00 (10x de R$3.707,00)",
     originalPrice: "R$ 39.990",
+    condition: "seminovo",
     description:
       "Feita em couro caviar branco com o clássico quilting em losangos, apresenta alça superior estruturada e corrente dourada com entrelaçamento em couro. O fecho com o icônico CC torna esta peça atemporal e sofisticada, perfeita para elevar qualquer look.",
     features: [
@@ -262,6 +370,7 @@ export const products = {
     tipoItem: "Bolsa",
     price: "R$2.550 (10x de R$278,00)",
     originalPrice: "R$ 3.500",
+    condition: "seminovo",
     description:
       "Elegância e tradição se encontram nesta bolsa: combinação de couro preto e o clássico xadrez da marca, com fechamento em aba e alça ajustável. Compacta e versátil, é perfeita para adicionar um toque atemporal aos looks do dia a dia.",
     features: [
@@ -283,6 +392,7 @@ export const products = {
     tipoItem: "Bolsa",
     price: "R$7.000 (10x de R$763,00)",
     originalPrice: "R$ 3.500",
+    condition: "seminovo",
     description:
       "Elegância em versão compacta: confeccionada em couro Saffiano preto com a emblemática placa triangular Prada em metal dourado, e alça em corrente que permite uso como clutch ou crossbody. Ideal para quem busca sofisticação discreta e atemporal em qualquer ocasião.",
     features: [
@@ -304,6 +414,7 @@ export const products = {
     tipoItem: "Carteira",
     price: "R$12.990,00 (10x de R$1415,00)",
     originalPrice: "R$ 15.000",
+    condition: "seminovo",
     description:
       "Sofisticação em formato compacto: confeccionada em canvas Monogram Eclipse com acabamento em couro preto, reúne elegância e funcionalidade no dia a dia. Possui slots para cartões e bolso central, perfeito para quem busca praticidade sem abrir mão do estilo clássico da maison.",
     features: [
@@ -319,10 +430,11 @@ export const products = {
   },
   "7": {
     id: 7,
-    name: "Saint Laurent Lou Camera Bag",
+    name: "YSL Lou Camera Bag",
     tipoItem: "Bolsa",
     price: "R$7.990,00 (10x de R$870,00)",
     originalPrice: "R$9.990",
+    condition: "seminovo",
     description:
       "Clássica e versátil, feita em couro matelassê com o icônico monograma YSL em metal dourado e tassel lateral que dá movimento e charme extra. Uma bolsa compacta e funcional, perfeita para usar no dia a dia ou em produções mais sofisticadas.",
     features: [
@@ -343,41 +455,13 @@ export const products = {
       bagProduct76,
     ],
   },
-  "8": {
-    id: 8,
-    name: "Hermés em couro preto",
-    tipoItem: "Bolsa",
-    price: "R$3.490,00 (10x de R$380,00)",
-    originalPrice: "R$5.990",
-    description:
-      "Sofisticação em cada detalhe: couro texturizado de altíssima qualidade, costura contrastante, fecho em botão de pressão e compartimento removível com zíper. Uma peça prática e atemporal, que carrega a essência da maison em sua forma mais minimalista.",
-    features: [
-      "Couro texturizado premium",
-      "Costura contrastante",
-      "Fecho em botão de pressão",
-      "Design minimalista",
-    ],
-    dimensions: "27cm × 20cm × 8cm",
-    color: "Preto",
-    material: "Couro texturizado",
-    images: [
-      bagProduct81,
-      bagProduct82,
-      bagProduct83,
-      bagProduct84,
-      bagProduct85,
-      bagProduct86,
-      bagProduct87,
-      bagProduct88,
-      bagProduct89,
-    ],
-  },
   "9": {
     id: 9,
     name: "Gucci Dionysus Mini",
     tipoItem: "Bolsa",
     price: "R$3.490,00 (10x de R$380,00)",
     originalPrice: "R$5.990",
+    condition: "seminovo",
     description:
       "Sofisticação em cada detalhe: couro texturizado de altíssima qualidade, costura contrastante, fecho em botão de pressão e compartimento removível com zíper. Uma peça prática e atemporal, que carrega a essência da maison em sua forma mais minimalista.",
     features: [
@@ -531,7 +615,7 @@ export const products = {
     color: "Preto (ou variações em cores neutras/clássicas)",
     material: "Couro premium (Saffiano ou couro liso)",
 
-    images: [bagProduct151],
+    images: [bagProduct152, bagProduct151, bagProduct153],
   },
 
   "16": {
@@ -668,7 +752,7 @@ export const products = {
     color: "Bege com detalhes em marrom e ferragens douradas",
     material: "Lona GG Supreme e couro natural com ferragens metálicas",
 
-    images: [bagProduct211],
+    images: [bagProduct211, bagProduct212],
   },
 
   "22": {
@@ -715,29 +799,6 @@ export const products = {
     material: "Couro legítimo granulado com acabamento artesanal",
 
     images: [bagProduct231],
-  },
-
-  "24": {
-    id: 24,
-    name: "Chanel Top Handle",
-    tipoItem: "Bolsa",
-    price: "R$33.990,00 (-)",
-    originalPrice: "-",
-    condition: "seminovo",
-    description:
-      "A Chanel Top Handle branca é a perfeita tradução da elegância clássica da maison. Confeccionada em couro caviar com costura matelassê, exibe o icônico logo CC em metal dourado e a alça superior estruturada que adiciona um toque sofisticado ao design. Acompanha alça de corrente entrelaçada em couro, permitindo diferentes formas de uso. Um modelo atemporal que combina luxo, leveza e versatilidade — ideal para composições refinadas e modernas. Acompanha dust bag, caixa e chip da Chanel e certificado Entrupy",
-    features: [
-      "Couro caviar branco com costura matelassê clássica",
-      "Logo CC em metal dourado na parte frontal",
-      "Alça superior estruturada e alça de corrente entrelaçada em couro",
-      "Bolso externo traseiro e interior com divisórias",
-      "Acabamento interno em tecido de alta qualidade com assinatura Chanel",
-    ],
-    dimensions: "Aproximadamente 25cm × 16cm × 9cm",
-    color: "Branca com ferragens douradas",
-    material: "Couro caviar legítimo com ferragens metálicas",
-
-    images: [bagProduct241],
   },
 
   "25": {
@@ -794,7 +855,7 @@ export const products = {
     originalPrice: "-",
     condition: "seminovo",
     description:
-      "A Gucci GG Marmont Camera Bag é um ícone contemporâneo da maison italiana, unindo elegância e praticidade em um design atemporal. Confeccionada em couro matelassê com padrão chevron e acabamento suave, exibe o icônico logo GG duplo em metal dourado na parte frontal. Compacta e versátil, conta com alça longa em corrente entrelaçada e detalhes em couro, ideal para uso no ombro ou transversal. Uma peça que traduz o luxo moderno com o toque refinado característico da Gucci.",
+      "A Gucci GG Marmont Camera Bag é um ícone contemporâneo da maison italiana, unindo elegância e praticidade em um design atemporal. Confeccionada em couro matelassê com padrão chevron e acabamento suave, exibe o icônico logo GG duplo em metal dourado na parte frontal. Compacta e versátil, conta com alça longa em corrente entrelaçada e detalhes em couro, ideal para uso no ombro ou transversal. Uma peça que traduz o luxo moderno com o toque refinado característico da Gucci. Possui marcas de uso. Autenticada.",
     features: [
       "Couro matelassê com costura em padrão chevron",
       "Logo GG duplo em metal dourado na parte frontal",
@@ -830,7 +891,7 @@ export const products = {
     material:
       "Couro liso italiano com detalhes em tecido e ferragens metálicas douradas",
 
-    images: [bagProduct281],
+    images: [bagProduct281, bagProduct282],
   },
 
   "29": {
@@ -854,7 +915,7 @@ export const products = {
     material:
       "Canvas GG Supreme e couro com ferragens metálicas prateadas envelhecidas",
 
-    images: [bagProduct291],
+    images: [bagProduct291, bagProduct292],
   },
 
   "30": {
@@ -919,7 +980,7 @@ features: [
 dimensions: "Aproximadamente 11cm × 18cm × 3cm",
 color: "Nude rosado com ferragens douradas",
 material: "Couro liso com ferragens metálicas douradas",
-images: [bagProduct321],
+images: [bagProduct321, bagProduct322, bagProduct323, bagProduct324, bagProduct325],
   },
 
   "33": {
@@ -1080,9 +1141,9 @@ images: [bagProduct391, bagProduct392, bagProduct393],
 
   "40": {
     id: 40,
-    name: "Saint Laurent Puffer Medium",
+    name: "YSL Puffer Medium",
     tipoItem: "Bolsa",
-    price: "R$13.990,00(-)",
+    price: "R$11.000,00(-)",
     originalPrice: "-",
     condition: "seminovo",
    description:
@@ -1097,7 +1158,7 @@ features: [
 dimensions: "Aproximadamente 32cm × 22cm × 10cm",
 color: "Marrom escuro com ferragens douradas",
 material: "Camurça premium com ferragens metálicas douradas",
-images: [bagProduct401, bagProduct402, bagProduct403, bagProduct404, bagProduct405, bagProduct406, bagProduct407, bagProduct408],
+images: [bagProduct408, bagProduct402, bagProduct403, bagProduct404, bagProduct405, bagProduct406, bagProduct407, bagProduct401],
   },
 
   "41": {
@@ -1220,8 +1281,8 @@ images: [bagProduct421],
     id: 46,
     name: "Louis Vuitton Neverfull MM Monogram",
     tipoItem: "Bolsa",
-    price: "R$7.990,00",
-    originalPrice: "R$7.990,00",
+    price: "R$8.990,00",
+    originalPrice: "R$12.100,00",
     condition: "seminovo",
     description:
       "A Louis Vuitton Neverfull MM Monogram é uma das bolsas mais icônicas da maison. O modelo combina leveza e espaço, ideal para o dia a dia, viagens e compromissos urbanos. O revestimento em canvas monograma e os detalhes em couro natural trazem elegância e durabilidade incomparáveis.",
@@ -1525,7 +1586,1107 @@ images: [bagProduct421],
     material: "Couro intrecciato (trançado artesanal)",
     images: [bagProduct58_1],
   },
-};
+
+  "59": {
+    id: 59,
+    name: "Louis Vuitton Speedy 40",
+    tipoItem: "Bolsa",
+    price: "R$6.500,00 (10 x de 708,00)",
+    originalPrice: "R$9.190,00",
+    condition: "seminovo",
+    description:
+  "A Speedy 40 da Louis Vuitton é um dos modelos mais icônicos da maison francesa. Confeccionada em canvas Monogram, representa o equilíbrio perfeito entre tradição e praticidade. Seu design estruturado e atemporal, aliado às alças em couro natural, faz dela uma companheira ideal para o dia a dia ou viagens curtas. Um verdadeiro símbolo de elegância e prestígio.",
+features: [
+  "Confeccionada em canvas Monogram clássico da Louis Vuitton",
+  "Alças em couro natural com acabamento bege",
+  "Fechamento superior em zíper dourado com puxador LV",
+  "Interior amplo com forro têxtil e bolso interno",
+  "Ferragens douradas com gravação Louis Vuitton",
+  "Acompanha dust bag e etiqueta de autenticidade",
+],
+dimensions:
+  "Aproximadamente 25cm × 40cm × 19cm",
+color: "Monogram (marrom e bege)",
+material: "Canvas Monogram com detalhes em couro natural",
+    images: [b591, b592, b593, b594, b595],
+  },
+
+  "60": {
+    id: 60,
+    name: "Louis Vuitton Alma BB Damier Ebene",
+    tipoItem: "Bolsa",
+    price: "R$6.500,00  (10 x de 708,00)",
+    originalPrice: "",
+    condition: "seminovo",
+    description:
+  "A Alma BB Damier Ebene da Louis Vuitton é uma das bolsas mais elegantes e reconhecidas da maison. Inspirada no design Art Déco original de 1934, combina sofisticação clássica com praticidade contemporânea. O canvas Damier Ebene e os acabamentos em couro liso criam uma harmonia refinada, enquanto a alça removível permite uso versátil, tanto na mão quanto a tiracolo.",
+features: [
+  "Confeccionada em canvas Damier Ebene com acabamento em couro liso marrom",
+  "Detalhes e ferragens douradas com gravação Louis Vuitton",
+  "Fechamento duplo em zíper com cadeado LV dourado",
+  "Interior em tecido vermelho com bolso plano interno",
+  "Alças de mão estruturadas e alça longa removível para uso crossbody",
+  "Acompanha dust bag, cadeado e chave",
+],
+dimensions:
+  "Aproximadamente 23cm × 17cm × 11cm",
+color: "Damier Ebene (marrom escuro com quadriculado marrom-claro)",
+material: "Canvas Damier Ebene com detalhes em couro liso marrom",
+    images: [b601, b602, b603, b604, b605, b606, b607, b608, b609],
+  },
+
+  "61": {
+    id: 61,
+    name: "YSL Le 5 a 7 small em couro granulado",
+    tipoItem: "Bolsa",
+    price: "R$19.000,00 (10 x de 2.070,00)",
+    originalPrice: "",
+    condition: "novo",
+    description:
+  "A Le 5 à 7 Small da Saint Laurent é a expressão máxima da elegância parisiense. Confeccionada em couro granulado de alta qualidade, apresenta design minimalista e contemporâneo, complementado pelo icônico monograma YSL em metal dourado na parte frontal. Sofisticada e versátil, é ideal tanto para o dia quanto para a noite.",
+features: [
+  "Confeccionada em couro granulado premium",
+  "Fechamento com fivela e logo YSL em metal dourado",
+  "Alça única ajustável para uso no ombro",
+  "Interior em camurça com bolso plano",
+  "Ferragens metálicas douradas",
+  "Acompanha dust bag e certificado de autenticidade",
+],
+dimensions:
+  "Aproximadamente 23cm × 16cm × 6cm",
+color: "Taupe (marrom acinzentado)",
+material: "Couro granulado de alta qualidade",
+    images: [b611],
+  },
+
+  "62": {
+    id: 62,
+    name: "Speedy Nano Louis Vuitton",
+    tipoItem: "Bolsa",
+    price: "R$10.990,00",
+    originalPrice: "",
+    condition: "novo",
+    description:
+  "A Speedy Nano da Louis Vuitton é uma versão encantadoramente compacta do modelo icônico da maison. Confeccionada em canvas Monogram, combina o charme clássico com praticidade moderna. Seu formato estruturado e a alça removível permitem o uso tanto transversal quanto de mão, tornando-a perfeita para acompanhar o dia a dia com elegância e leveza. Com sacola, caixa e dust bag e nota fiscal.",
+features: [
+  "Confeccionada em canvas Monogram clássico da Louis Vuitton",
+  "Alças superiores em couro natural bege",
+  "Alça longa removível e ajustável para uso crossbody",
+  "Fechamento com zíper dourado e puxador LV",
+  "Ferragens douradas com acabamento polido",
+  "Acompanha dust bag e etiqueta de autenticidade",
+],
+dimensions:
+  "Aproximadamente 16cm × 10cm × 7,5cm",
+color: "Monogram (marrom e bege)",
+material: "Canvas Monogram com detalhes em couro natural",
+    images: [b621],
+  },
+
+  "63": {
+    id: 63,
+    name: "Louis Vuitton Speedy 25",
+    tipoItem: "Bolsa",
+    price: "R$10.990,00",
+    originalPrice: "",
+    condition: "seminovo",
+    description:
+  "A Speedy 25 Damier Azur da Louis Vuitton é uma das versões mais sofisticadas do clássico modelo da maison. Confeccionada em canvas Damier Azur, seu visual claro e elegante combina perfeitamente com looks leves e contemporâneos. Ideal para o uso diário, apresenta um design icônico, prático e atemporal que simboliza o luxo discreto da marca francesa.",
+features: [
+  "Confeccionada em canvas Damier Azur com acabamento em couro natural",
+  "Alças superiores em couro bege com costura contrastante",
+  "Fechamento em zíper dourado com puxador LV",
+  "Interior amplo em tecido bege com bolso interno",
+  "Ferragens douradas com acabamento polido",
+  "Acompanha dust bag e etiqueta de autenticidade",
+],
+dimensions:
+  "Aproximadamente 25cm × 19cm × 15cm",
+color: "Damier Azur (branco e bege claro com detalhes em marrom)",
+material: "Canvas Damier Azur com detalhes em couro natural",
+    images: [b631],
+  },
+
+  "64": {
+    id: 64,
+    name: "Neverfull GM Louis Vuitton",
+    tipoItem: "Bolsa",
+    price: "R$5.500,00",
+    originalPrice: "",
+    condition: "seminovo",
+    description:
+  "Trocou o couro, então ela tá maravilhosa para usar! O interior possui desgastes por isso o valor mais em conta.",
+features: [
+  "Confeccionada em canvas Damier Azur com novas alças em couro caramelo",
+  "Borda superior e detalhes em couro substituídos e revitalizados",
+  "Interior espaçoso com forro em tecido bege e bolso com zíper",
+  "Laterais ajustáveis por tiras em couro",
+  "Acompanha nécessaire interna removível no mesmo padrão Damier Azur",
+  "Ferragens douradas com acabamento polido",
+  "Acompanha dust bag e etiqueta de autenticidade",
+],
+dimensions:
+  "Aproximadamente 39cm × 32cm × 19cm",
+color: "Damier Azur (branco e bege claro) com couro caramelo novo",
+material: "Canvas Damier Azur com detalhes em couro natural substituído",
+    images: [b641],
+  },
+
+  "65": {
+    id: 65,
+    name: "Bolsa Hermés Birkin 30 Epsom Gold",
+    tipoItem: "Bolsa",
+    price: "R$98.000,00",
+    originalPrice: "",
+    condition: "novo",
+    description:
+  "A icônica Birkin 30 da Hermès, confeccionada em couro Epsom na clássica cor Gold, representa o ápice do luxo e da elegância artesanal. Seu acabamento em ferragens douradas reforça a sofisticação atemporal da peça. Feita à mão na França, é um verdadeiro símbolo de exclusividade e status, perfeita para quem aprecia design refinado e qualidade incomparável. Peça nova, estado de loja. Acompanha Caixa, Dust Bag e NF.",
+features: [
+  "Confeccionada em couro Epsom, conhecido por sua textura firme e resistência",
+  "Cor Gold, um tom caramelo icônico da Hermès",
+  "Ferragens douradas polidas com acabamento brilhante",
+  "Fechamento com fivela giratória e tiras de couro frontais",
+  "Chave e cadeado com cobertura em couro (clochette)",
+  "Interior em couro com bolso com zíper e bolso aberto",
+  "Acompanha dust bag, cadeado, chave e clochette originais",
+],
+dimensions:
+  "Aproximadamente 30cm × 22cm × 16cm",
+color: "Gold (caramelo)",
+material: "Couro Epsom com ferragens douradas",
+    images: [b651],
+  },
+
+  "66": {
+    id: 66,
+    name: "Dior Book Tote",
+    tipoItem: "Bolsa",
+    price: "R$11.990,00",
+    originalPrice: "",
+    condition: "seminovo",
+    description:
+  "A Dior Book Tote Leopard é uma expressão ousada e sofisticada do savoir-faire da maison francesa. Confeccionada em bordado de padrão animal print, o modelo combina elegância contemporânea com atitude fashion. Sua estrutura retangular e o logo 'Christian Dior Paris' bordado na frente tornam a peça um verdadeiro ícone moderno, perfeita para elevar qualquer look com estilo marcante.",
+features: [
+  "Confeccionada em canvas bordado com estampa de leopardo",
+  "Logo 'CHRISTIAN DIOR PARIS' bordado na parte frontal",
+  "Design estruturado com costura artesanal e acabamento impecável",
+  "Alças superiores reforçadas para uso na mão ou antebraço",
+  "Interior amplo sem divisórias, ideal para o dia a dia",
+  "Acompanha dust bag e certificado de autenticidade",
+],
+dimensions:
+  "Aproximadamente 36cm × 28cm × 17cm",
+color: "Leopardo (tons de bege, marrom e preto)",
+material: "Canvas bordado de alta densidade",
+    images: [b661],
+  },
+
+  "67": {
+    id: 67,
+    name: "Mochila Chanel",
+    tipoItem: "Bolsa",
+    price: "R$23.990,00",
+    originalPrice: "",
+    condition: "seminovo",
+    description:
+  "A mochila Chanel Drawstring é uma peça que combina luxo e praticidade em um design moderno e descontraído. Confeccionada em couro macio matelassê, o modelo apresenta a sofisticação característica da maison francesa com um toque contemporâneo. O logotipo CHANEL em metal dourado confere um charme atemporal, tornando-a perfeita para o dia a dia ou viagens com muito estilo.",
+features: [
+  "Confeccionada em couro macio com padrão matelassê diagonal",
+  "Logo CHANEL em metal dourado na parte frontal",
+  "Fechamento superior com cordão ajustável",
+  "Alças de corrente entrelaçadas em couro para uso como mochila",
+  "Alça de mão superior em couro liso",
+  "Interior amplo e forrado, ideal para uso casual ou viagens",
+  "Acompanha dust bag e caixa originais",
+],
+dimensions:
+  "Aproximadamente 33cm × 38cm × 10cm",
+color: "Preto com ferragens douradas",
+material: "Couro macio matelassê com detalhes em metal dourado",
+    images: [b671, b672],
+  },
+
+  "68": {
+    id: 68,
+    name: "Bottega Loop",
+    tipoItem: "Bolsa",
+    price: "R$8.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Loop Bag da Bottega Veneta é um exemplo perfeito da fusão entre design contemporâneo e artesanato tradicional italiano. Confeccionada em couro intrecciato de alto brilho, o modelo exibe o trançado icônico da maison com um toque moderno e vibrante. Compacta e elegante, é ideal para quem busca um acessório versátil e marcante.",
+features: [
+  "Confeccionada em couro intrecciato de alto brilho na cor pink",
+  "Design compacto com estrutura levemente arredondada",
+  "Fechamento superior em zíper dourado",
+  "Alça fina ajustável com detalhe em nós laterais",
+  "Interior forrado em couro liso com espaço para itens essenciais",
+  "Acompanha dust bag original Bottega Veneta",
+],
+dimensions:
+  "Aproximadamente 15cm × 22cm × 7cm",
+color: "Pink metálico",
+material: "Couro intrecciato (trançado artesanal italiano)",
+    images: [b681],
+  },
+
+  "69": {
+    id: 69,
+    name: "Loewe Drawstring bucket in palm leaf and calfskin Beige",
+    tipoItem: "Bolsa",
+    price: "R$5.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Loewe Drawstring Bucket é uma peça artesanal que combina a tradição mediterrânea com o design contemporâneo da maison espanhola. Confeccionada em palha natural tecida à mão, o modelo ganha charme extra com o acabamento em couro caramelo e o forro de algodão com fecho de cordão. Uma bolsa leve, elegante e perfeita para o verão.",
+features: [
+  "Corpo confeccionado em palha natural trançada à mão",
+  "Detalhes, alça e base em couro caramelo de alta qualidade",
+  "Forro interno em tecido de algodão com fecho tipo saco (drawstring)",
+  "Placa frontal em couro com logotipo Loewe em relevo",
+  "Alça longa ajustável para uso no ombro ou transversal",
+  "Acompanha dust bag original Loewe",
+],
+dimensions:
+  "Aproximadamente 20cm × 23cm × 15cm",
+color: "Palha natural com detalhes em couro caramelo",
+material: "Palha natural trançada e couro legítimo",
+    images: [b691],
+  },
+
+  "70": {
+    id: 70,
+    name: "Gucci Marmont",
+    tipoItem: "Bolsa",
+    price: "R$6.500,00",
+    originalPrice: "",
+    condition: "seminovo",
+   description:
+  "A Gucci GG Marmont Mini é uma das bolsas mais desejadas da maison italiana, conhecida pelo design elegante e versátil. Confeccionada em couro matelassê preto com padrão chevron, apresenta o icônico logo duplo GG em metal dourado. Compacta e atemporal, é perfeita para compor looks sofisticados tanto de dia quanto à noite.",
+features: [
+  "Confeccionada em couro matelassê com padrão chevron",
+  "Logo duplo GG em metal dourado na parte frontal",
+  "Fechamento por aba com botão de pressão oculto",
+  "Alça de corrente dourada com detalhe em couro para conforto",
+  "Interior forrado em microfibra com compartimento único",
+  "Acompanha dust bag original Gucci",
+],
+dimensions:
+  "Aproximadamente 16cm × 10cm × 5cm",
+color: "Preto com ferragens douradas",
+material: "Couro matelassê com acabamento metálico",
+    images: [b701],
+  },
+
+  "71": {
+    id: 71,
+    name: "Bottega Pouch",
+    tipoItem: "Bolsa",
+    price: "R$7.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A The Pouch da Bottega Veneta é um ícone contemporâneo do design minimalista. Confeccionada em couro macio verde vibrante, apresenta a característica forma arredondada com franzido superior, que remete ao conceito de luxo discreto e moderno da marca. Uma peça leve, elegante e irresistivelmente sofisticada. Acompanha dust bag e sacola da Bottega.",
+features: [
+  "Confeccionada em couro macio de alta qualidade na cor verde vibrante",
+  "Design arredondado com fechamento tipo pouch por estrutura interna magnética",
+  "Acabamento liso e maleável que cria o efeito de drapeado característico",
+  "Interior forrado em couro liso, sem divisórias",
+  "Alça fina ajustável para uso transversal ou no ombro",
+  "Acompanha dust bag original Bottega Veneta",
+],
+dimensions:
+  "Aproximadamente 18cm × 30cm × 10cm",
+color: "Verde vibrante (signature Bottega Green)",
+material: "Couro macio de alta qualidade",
+    images: [b711],
+  },
+
+  "72": {
+    id: 72,
+    name: "Speedy 30 Louis Vuitton",
+    tipoItem: "Bolsa",
+    price: "R$7.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Speedy 30 da Louis Vuitton é um verdadeiro clássico atemporal. Criada originalmente para viagens, tornou-se um dos modelos mais icônicos da maison francesa. Confeccionada em canvas Monogram, combina praticidade, elegância e tradição artesanal. Seu tamanho versátil e design estruturado fazem dela uma companheira ideal para o uso diário.",
+features: [
+  "Confeccionada em canvas Monogram clássico da Louis Vuitton",
+  "Alças de mão em couro natural com acabamento caramelo",
+  "Fechamento superior em zíper dourado com puxador LV",
+  "Interior espaçoso com forro têxtil e bolso interno",
+  "Ferragens douradas com acabamento polido",
+  "Acompanha dust bag e etiqueta de autenticidade",
+],
+dimensions:
+  "Aproximadamente 30cm × 21cm × 17cm",
+color: "Monogram (marrom e bege)",
+material: "Canvas Monogram com detalhes em couro natural",
+    images: [b721],
+  },
+
+  "73": {
+    id: 73,
+    name: "Gucci Dionysus GG Supreme Mini",
+    tipoItem: "Bolsa",
+    price: "R$4.500,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Dionysus GG Supreme Mini da Gucci é um ícone de elegância moderna e refinamento italiano. Confeccionada em canvas GG Supreme com acabamento em suede, o modelo traz o fecho metálico em formato de cabeça de tigre — símbolo marcante da linha Dionysus. Compacta e sofisticada, é ideal para ocasiões que pedem estilo e praticidade.",
+features: [
+  "Confeccionada em canvas GG Supreme com detalhes em suede",
+  "Fecho metálico em formato de cabeça de tigre, característico da linha Dionysus",
+  "Alça de corrente prateada ajustável para uso no ombro ou transversal",
+  "Interior com compartimento único e bolso frontal sob a aba",
+  "Forro interno em camurça bege",
+  "Acompanha caixa e dust bag originais Gucci",
+],
+dimensions:
+  "Aproximadamente 16cm × 10cm × 4cm",
+color: "Bege e ébano com ferragens prateadas",
+material: "Canvas GG Supreme e suede com ferragens metálicas",
+    images: [b731],
+  },
+
+   "74": {
+    id: 74,
+    name: "Celine Triomphe teen",
+    tipoItem: "Bolsa",
+    price: "R$16.990,00",
+    originalPrice: "R$31.000,00",
+    condition: "novo",
+   description:
+  "A Celine Triomphe Teen é uma das peças mais emblemáticas da maison francesa, unindo elegância atemporal e design minimalista. Confeccionada em couro de bezerro liso, apresenta o icônico fecho Triomphe em metal dourado — símbolo da herança da marca. Compacta e estruturada, é perfeita para quem busca sofisticação e praticidade no dia a dia.",
+features: [
+  "Confeccionada em couro de bezerro liso preto",
+  "Fecho frontal com o icônico emblema Triomphe em metal dourado",
+  "Alça longa ajustável para uso no ombro ou transversal",
+  "Interior dividido em três compartimentos com bolso com zíper",
+  "Forro em couro liso de alta qualidade",
+  "Acompanha caixa e dust bag originais Celine",
+],
+dimensions:
+  "Aproximadamente 18cm × 14cm × 7cm",
+color: "Preto com ferragens douradas",
+material: "Couro de bezerro liso com ferragens metálicas douradas",
+    images: [b741, b742, b743, b744, b745, b746],
+  },
+
+  "75": {
+    id: 75,
+    name: "Louis Vuitton Tote",
+    tipoItem: "Bolsa",
+    price: "R$6.990,00",
+    originalPrice: "R$7.990,00",
+    condition: "novo",
+   description:
+  "A Louis Vuitton Totally PM em canvas Damier Azur é a combinação perfeita de elegância e funcionalidade. Seu design leve e estruturado oferece praticidade para o uso diário, enquanto o padrão xadrez icônico da maison traz um toque sofisticado e veranil. Ideal para quem busca uma bolsa espaçosa, charmosa e versátil.",
+features: [
+  "Confeccionada em canvas Damier Azur com acabamento em couro natural",
+  "Alças duplas em couro bege com costura contrastante",
+  "Fechamento superior em zíper dourado com puxador LV",
+  "Dois bolsos externos laterais e interior com compartimentos organizadores",
+  "Forro em tecido bege resistente",
+  "Ferragens douradas com acabamento polido",
+  "Acompanha dust bag e etiqueta de autenticidade",
+],
+dimensions:
+  "Aproximadamente 34cm × 25cm × 16cm",
+color: "Damier Azur (branco e bege claro)",
+material: "Canvas Damier Azur com detalhes em couro natural",
+    images: [b751],
+  },
+
+   "76": {
+    id: 76,
+    name: "Picotin 18",
+    tipoItem: "Bolsa",
+    price: "R$25.990,00",
+    originalPrice: "",
+    condition: "seminovo",
+   description:
+  "A Hermès Picotin 18 é um dos modelos mais icônicos e minimalistas da maison francesa. Inspirada nos baldes usados para transportar ração de cavalo, combina praticidade e sofisticação em um design descontraído e elegante. Confeccionada em couro Clemence na clássica cor Gold, traz o equilíbrio perfeito entre textura suave e estrutura firme.",
+features: [
+  "Confeccionada em couro Clemence com textura levemente granulada",
+  "Cor Gold, tom caramelo clássico da Hermès",
+  "Fecho central em couro com trava de metal prateado e cadeado com chave",
+  "Interior em couro natural sem forro, com excelente maleabilidade",
+  "Alças curtas duplas para uso de mão ou antebraço",
+  "Costura contrastante branca artesanal",
+  "Acompanha cadeado, chave, dust bag e caixa originais Hermès",
+],
+dimensions:
+  "Aproximadamente 18cm × 19cm × 13cm",
+color: "Gold (caramelo)",
+material: "Couro Clemence com ferragens prateadas",
+    images: [b761],
+  },
+
+  "77": {
+    id: 77,
+    name: "Louis Vuitton Bolsa Pochette Félicie",
+    tipoItem: "Bolsa",
+    price: "R$5.500,00",
+    originalPrice: "10.800,00",
+    condition: "novo",
+   description:
+  "A Pochette Félicie Empreinte da Louis Vuitton é uma peça elegante e funcional que combina design contemporâneo com o savoir-faire artesanal da maison. Confeccionada em couro Monogram Empreinte vermelho, apresenta o monograma em relevo e ferragens douradas que adicionam um toque de sofisticação. Ideal para eventos ou uso diário, é uma bolsa versátil e compacta.",
+features: [
+  "Confeccionada em couro Monogram Empreinte vermelho",
+  "Logo LV e flores de monograma em relevo por toda a superfície",
+  "Fechamento por aba frontal com botão de pressão dourado",
+  "Alça de corrente dourada removível para uso no ombro ou transversal",
+  "Interior forrado com compartimentos organizados para cartões e itens essenciais",
+  "Acompanha dust bag",
+],
+dimensions:
+  "Aproximadamente 21cm × 12cm × 3cm",
+color: "Vermelho com ferragens douradas",
+material: "Couro Monogram Empreinte com acabamento texturizado",
+    images: [b771],
+  },
+
+  "78": {
+    id: 78,
+    name: "Bolsa Gucci Jackie 1961 Mini Bag Off-White",
+    tipoItem: "Bolsa",
+    price: "R$10.600,00",
+    originalPrice: "-",
+    condition: "seminovo",
+   description:
+  "A Gucci Jackie 1961 Mini é uma reinterpretação contemporânea de um dos modelos mais icônicos da maison. Confeccionada em couro off-white de acabamento liso, apresenta o fecho por pistão dourado — assinatura marcante da linha Jackie. Compacta e elegante, é ideal para ocasiões sofisticadas ou para elevar o visual do dia a dia com um toque clássico.",
+features: [
+  "Confeccionada em couro liso na cor off-white",
+  "Fecho metálico por pistão dourado característico da linha Jackie",
+  "Alça de ombro ajustável e alça longa removível para uso crossbody",
+  "Interior forrado em microfibra com compartimento único",
+  "Ferragens douradas com acabamento polido",
+  "Acompanha dust bag e caixa originais Gucci",
+],
+dimensions:
+  "Aproximadamente 19cm × 13cm × 3cm",
+color: "Off-white com ferragens douradas",
+material: "Couro liso de alta qualidade",
+    images: [b781],
+  },
+
+  "79": {
+    id: 79,
+    name: "YSL Envelope Micro Bag",
+    tipoItem: "Bolsa",
+    price: "R$3.590,00",
+    originalPrice: "-",
+    condition: "novo",
+   description:
+  "A Envelope Micro Bag da Saint Laurent é uma peça delicada e icônica, que traduz a essência do luxo parisiense em uma versão compacta e sofisticada. Confeccionada em couro matelassê off-white, apresenta o monograma YSL em metal dourado e corrente fina que adiciona um toque refinado. Ideal para eventos ou ocasiões em que o estilo minimalista é o destaque.",
+features: [
+  "Confeccionada em couro matelassê de alta qualidade na cor off-white",
+  "Logo YSL em metal dourado na aba frontal",
+  "Fechamento por botão de pressão oculto",
+  "Alça de corrente fina em metal envelhecido para uso no ombro ou transversal",
+  "Interior forrado em tecido com compartimento para cartões",
+  "Acompanha dust bag, cartão de autenticidade e caixa originais Saint Laurent",
+],
+dimensions:
+  "Aproximadamente 11cm × 8cm × 3cm",
+color: "Off-white com ferragens douradas",
+material: "Couro matelassê com ferragens metálicas",
+    images: [b791],
+  },
+
+  "80": {
+    id: 80,
+    name: "Bottega Veneta hop large",
+    tipoItem: "Bolsa",
+    price: "R$25.990,00",
+    originalPrice: "R$31.500,00",
+    condition: "novo",
+   description:
+  "A Hop Large da Bottega Veneta é a definição de elegância descontraída e artesanato impecável. Confeccionada em couro intrecciato na sofisticada cor Fondant — um marrom café profundo —, combina o design orgânico e fluido da marca com uma estrutura generosa e macia. Ideal para quem busca uma bolsa espaçosa sem abrir mão do luxo e da atemporalidade.",
+features: [
+  "Confeccionada em couro intrecciato artesanal na cor Fondant (marrom café)",
+  "Design de formato fluido e maleável com estrutura sem rigidez",
+  "Alça única larga para uso no ombro com conforto",
+  "Interior amplo com bolso interno com zíper",
+  "Fechamento superior com zíper metálico discreto",
+  "Acompanha dust bag original Bottega Veneta",
+],
+dimensions:
+  "Aproximadamente 50cm × 38cm × 12cm",
+color: "Fondant (marrom café)",
+material: "Couro intrecciato artesanal de alta qualidade",
+    images: [b801],
+  },
+
+  "81": {
+    id: 81,
+    name: "Bottega Veneta Half Moon",
+    tipoItem: "Bolsa",
+    price: "R$6.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Half Moon Bag da Bottega Veneta é uma expressão moderna do minimalismo elegante da marca italiana. Confeccionada em couro intrecciato vermelho, o modelo apresenta formato semicircular e estrutura maleável que se adapta ao corpo. Compacta e cheia de personalidade, é ideal para quem busca um acessório contemporâneo e sofisticado.",
+features: [
+  "Confeccionada em couro intrecciato artesanal na cor vermelha",
+  "Formato semicircular com estrutura macia e leve",
+  "Fechamento superior com zíper metálico discreto",
+  "Alça fina ajustável para uso no ombro ou transversal",
+  "Interior forrado em couro liso com compartimento único",
+  "Acompanha dust bag e embalagem originais Bottega Veneta",
+],
+dimensions:
+  "Aproximadamente 22cm × 14cm × 5cm",
+color: "Vermelho",
+material: "Couro intrecciato artesanal italiano",
+    images: [b811],
+  },
+
+   "82": {
+    id: 82,
+    name: "Lenço Hermés",
+    tipoItem: "Bolsa",
+    price: "R$2.000,00",
+    originalPrice: "",
+    condition: "seminovo",
+   description:
+  "Este lenço Hermès 'Musique des Sphères' é uma verdadeira obra de arte têxtil. Criado pelo artista Pierre Marie, apresenta um design vibrante e geométrico que celebra o equilíbrio entre cor, movimento e harmonia. Confeccionado em seda pura, traz uma combinação exuberante de tons rosa, laranja, verde e dourado, refletindo o estilo icônico e atemporal da Hermès.",
+features: [
+  "Confeccionado em 100% seda de alta qualidade",
+  "Design assinado por Pierre Marie: 'Musique des Sphères'",
+  "Estampa geométrica com tons intensos e contrastantes",
+  "Acabamento feito à mão com bordas enroladas",
+  "Pode ser usado como acessório de pescoço, cabelo, bolsa ou moldura decorativa",
+  "Acompanha caixa original Hermès (sob consulta)",
+],
+dimensions:
+  "Aproximadamente 90cm × 90cm",
+color: "Multicolorido (rosa, laranja, dourado, verde e marrom)",
+material: "Seda pura com acabamento artesanal",
+    images: [b821],
+  },
+
+  "83": {
+    id: 83,
+    name: "Bolsa Gucci Jackie 1961 Small Bag Monograma",
+    tipoItem: "Bolsa",
+    price: "R$11.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Gucci Jackie 1961 Small Monograma é uma reinterpretação moderna do clássico modelo da maison italiana, mantendo o icônico fecho por pistão dourado. Confeccionada em lona GG Supreme bege e marrom com detalhes em couro caramelo, combina sofisticação atemporal e funcionalidade, sendo ideal tanto para o dia a dia quanto para ocasiões especiais.",
+features: [
+  "Lona GG Supreme bege e marrom com acabamento em couro caramelo",
+  "Fecho metálico por pistão dourado — assinatura da linha Jackie",
+  "Faixa central verde e vermelha característica da Gucci",
+  "Alça única ajustável para ombro",
+  "Interior em microfibra com compartimento interno e bolso",
+  "Acompanha dust bag e caixa originais Gucci",
+],
+dimensions:
+  "Aproximadamente 27cm × 19cm × 4cm",
+color: "Monograma GG Supreme com couro caramelo e faixa verde/vermelha",
+material: "Lona GG Supreme e couro natural italiano",
+    images: [b831],
+  },
+
+  "84": {
+    id: 84,
+    name: "Jacquemus",
+    tipoItem: "Bolsa",
+    price: "R$3.500,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A icônica bolsa Jacquemus Le Chiquito, aqui em um tom vibrante de azul, é um símbolo de estilo e modernidade. Compacta e estruturada, combina o design escultural característico da marca com detalhes minimalistas e elegantes. Um acessório que transforma qualquer look em uma declaração de moda contemporânea.",
+features: [
+  "Confeccionada em couro liso azul vibrante",
+  "Logo metálico dourado ‘Jacquemus’ na parte frontal",
+  "Alça superior estruturada e rígida",
+  "Fecho magnético discreto sob a aba frontal",
+  "Acompanha alça longa removível para uso transversal",
+  "Inclui dust bag original Jacquemus",
+],
+dimensions:
+  "Aproximadamente 12cm × 9cm × 5cm",
+color: "Azul vibrante com ferragens douradas",
+material: "Couro liso de alta qualidade com acabamento acetinado",
+    images: [b841, b842],
+  },
+
+  "85": {
+    id: 85,
+    name: "Tote YSL",
+    tipoItem: "Bolsa",
+    price: "R$8.590,00",
+    originalPrice: "",
+    condition: "seminovo",
+   description:
+  "A Saint Laurent Shopping Tote é um clássico moderno da maison francesa, reconhecida por sua elegância minimalista e funcionalidade. Com design estruturado e linhas limpas, é confeccionada em couro liso preto com o icônico pendente YSL dourado. Ideal para o dia a dia, combina sofisticação e praticidade com amplo espaço interno.",
+features: [
+  "Couro granulado preto de alta qualidade",
+  "Interior espaçoso com bolso removível com zíper",
+  "Logo Saint Laurent Paris discreto em dourado na parte frontal",
+  "Pendente YSL metálico dourado",
+  "Fecho magnético superior",
+  "Acompanha dust bag original Saint Laurent",
+],
+dimensions:
+  "Aproximadamente 38cm × 28cm × 14cm",
+color: "Preto com ferragens douradas",
+material: "Couro granulado italiano com acabamento acetinado",
+    images: [b851],
+  },
+
+  "86": {
+    id: 86,
+    name: "Chanel Shoulder Bag",
+    tipoItem: "Bolsa",
+    price: "R$33.900,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Chanel Classic Shoulder Bag é um ícone atemporal da moda, símbolo máximo de elegância e sofisticação. Confeccionada em couro caviar preto com o icônico matelassê e ferragens douradas, representa o equilíbrio perfeito entre luxo e funcionalidade. Uma peça indispensável na coleção de qualquer amante da Chanel.",
+features: [
+  "Couro caviar preto com textura resistente e sofisticada",
+  "Padrão matelassê clássico da Chanel",
+  "Fecho ‘CC Turn Lock’ dourado — assinatura icônica da maison",
+  "Alça de corrente entrelaçada em couro preto",
+  "Interior em couro com compartimentos funcionais",
+  "Acompanha dust bag original Chanel",
+],
+dimensions:
+  "Aproximadamente 25cm × 15cm × 7cm",
+color: "Preto com ferragens douradas",
+material: "Couro caviar texturizado de alta durabilidade",
+    images: [b861],
+  },
+
+  "87": {
+    id: 87,
+    name: "Bolsa Dior Lady Dior Small Cannage Azul-Denim",
+    tipoItem: "Bolsa",
+    price: "R$37.900,00",
+    originalPrice: "",
+    condition: "seminovo",
+   description:
+  "A Lady Dior Small é uma das criações mais emblemáticas da maison, símbolo de elegância e sofisticação atemporal. Nesta versão em couro azul-denim, o icônico padrão Cannage é realçado pelo brilho das ferragens douradas, criando um equilíbrio perfeito entre delicadeza e modernidade. Um verdadeiro ícone de estilo e feminilidade.",
+features: [
+  "Couro de bezerro macio azul-denim",
+  "Padrão Cannage costurado à mão, assinatura da Dior",
+  "Ferragens douradas polidas",
+  "Pingente ‘D.I.O.R.’ removível em metal dourado",
+  "Alças superiores estruturadas e alça de ombro removível",
+  "Acompanha dust bag e certificado de autenticidade Dior",
+],
+dimensions:
+  "Aproximadamente 20cm × 16cm × 8cm",
+color: "Azul-Denim com ferragens douradas",
+material: "Couro de bezerro macio com costura Cannage artesanal",
+    images: [b871],
+  },
+
+  "88": {
+    id: 88,
+    name: "Dior Mini Saddle Vintage Bag",
+    tipoItem: "Bolsa",
+    price: "R$6.990,00",
+    originalPrice: "R$7.990,00",
+    condition: "seminovo",
+   description:
+  "A Dior Mini Saddle Vintage Bag é uma peça icônica e atemporal que marcou a história da maison francesa. Seu design em formato de sela foi inspirado no mundo equestre e se tornou um dos símbolos mais reconhecíveis da Dior. Este modelo vintage, com monograma Dior Oblique em canvas, é um verdadeiro tesouro para colecionadores e amantes da moda clássica.",
+features: [
+  "Canvas Dior Oblique com acabamento em couro marrom",
+  "Design em formato de sela — símbolo da marca desde os anos 2000",
+  "Fechamento superior com zíper metálico",
+  "Alça de ombro curta em couro ajustável",
+  "Ferragens prateadas em acabamento envelhecido",
+  "Acompanha dust bag original Dior",
+],
+dimensions:
+  "Aproximadamente 21cm × 17cm × 6cm",
+color: "Monograma Dior Oblique marrom e bege",
+material: "Canvas com detalhes em couro e ferragens metálicas prateadas",
+    images: [b881],
+  },
+
+  "89": {
+    id: 89,
+    name: "Dior Bobby Média",
+    tipoItem: "Bolsa",
+    price: "R$16.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Dior Bobby Média combina o design clássico e refinado da maison com um toque contemporâneo e versátil. Feita em couro granulado bege com ferragens douradas, a peça é um ícone de elegância discreta. Seu formato estruturado e alça ajustável tornam-na perfeita tanto para o dia a dia quanto para ocasiões especiais.",
+features: [
+  "Couro granulado bege de alta qualidade",
+  "Ferragens metálicas douradas polidas",
+  "Fecho magnético oculto sob a aba com fivela decorativa ‘CD’",
+  "Alça ajustável e removível para uso no ombro ou crossbody",
+  "Forro interno em camurça tonal com bolso",
+  "Acompanha dust bag e cartão Dior",
+],
+dimensions:
+  "Aproximadamente 22cm × 17cm × 6cm",
+color: "Bege com ferragens douradas",
+material: "Couro granulado com acabamento luxuoso e toque macio",
+    images: [b891],
+  },
+
+  "90": {
+    id: 90,
+    name: "Bolsa Balenciaga Papier A6",
+    tipoItem: "Bolsa",
+    price: "R$6.590,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Balenciaga Papier A6 é uma peça icônica da maison, com design estruturado e toque urbano-chique. Feita em couro azul profundo com textura suave, combina funcionalidade e sofisticação, refletindo o estilo contemporâneo característico da marca. Compacta e espaçosa ao mesmo tempo, é ideal para o uso diário com um toque de elegância moderna.",
+features: [
+  "Couro de bezerro azul texturizado",
+  "Detalhes metálicos prateados polidos",
+  "Zíper frontal funcional com puxador alongado",
+  "Espelho removível pendurado na alça",
+  "Alças duplas e alça longa removível para uso crossbody",
+  "Fecho superior com zíper e interior forrado em algodão",
+  "Acompanha dust bag e cartão Balenciaga",
+],
+dimensions:
+  "Aproximadamente 26cm × 17cm × 9cm",
+color: "Azul profundo com ferragens prateadas",
+material: "Couro de bezerro macio com acabamento texturizado",
+    images: [b901],
+  },
+
+  "91": {
+    id: 91,
+    name: "Gucci Tote Bag",
+    tipoItem: "Bolsa",
+    price: "R$3.590,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Gucci Tote Bag é um modelo elegante e atemporal, confeccionado em couro marrom de textura natural e alças trançadas que trazem um toque artesanal sofisticado. O design espaçoso e funcional torna-a ideal para o dia a dia, unindo praticidade e estilo em uma peça de luxo versátil.",
+features: [
+  "Couro marrom de textura natural com acabamento fosco",
+  "Alças trançadas reforçadas com ferragens metálicas prateadas",
+  "Pingente de tassel duplo decorativo com detalhes metálicos",
+  "Interior amplo com forro em tecido e compartimentos internos",
+  "Fechamento superior com zíper metálico",
+  "Acompanha dust bag original Gucci",
+],
+dimensions:
+  "Aproximadamente 34cm × 26cm × 12cm",
+color: "Marrom café com ferragens prateadas",
+material: "Couro natural texturizado com alças trançadas em couro",
+    images: [b911],
+  },
+
+  "92": {
+    id: 92,
+    name: "Chanel Jumbo Double Flap",
+    tipoItem: "Bolsa",
+    price: "R$33.990,00",
+    originalPrice: "34.990,00",
+    condition: "novo",
+   description:
+  "A icônica Chanel Jumbo Double Flap é um símbolo atemporal de elegância e sofisticação. Confeccionada em couro preto com acabamento matelassê e ferragens prateadas, essa peça traduz o legado de luxo da maison francesa. Seu design estruturado com duas abas proporciona segurança e praticidade, enquanto a alça de corrente entrelaçada com couro permite uso no ombro ou transversal.",
+features: [
+  "Couro de caviar preto com costura matelassê clássica",
+  "Ferragens metálicas prateadas com logo CC giratório",
+  "Design Double Flap (dupla aba interna e externa)",
+  "Bolso traseiro curvo característico da Chanel",
+  "Interior em couro com compartimentos e divisórias",
+  "Alça dupla de corrente entrelaçada com couro para uso no ombro ou crossbody",
+  "Acompanha dust bag original Chanel",
+],
+dimensions:
+  "Aproximadamente 30cm × 20cm × 10cm",
+color: "Preto com ferragens prateadas",
+material: "Couro caviar com acabamento matelassê clássico",
+    images: [b921],
+  },
+
+  "93": {
+    id: 93,
+    name: "Phone Holder Chanel",
+    tipoItem: "Bolsa",
+    price: "R$12.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "O Chanel Phone Holder é uma peça contemporânea que une o luxo icônico da maison com a praticidade do dia a dia. Feito em couro matelassê rosa fúcsia com ferragens douradas, o acessório é ideal para carregar o celular e pequenos itens com elegância. Compacto e funcional, é perfeito para quem busca sofisticação em movimento.",
+features: [
+  "Couro de bezerro rosa fúcsia com costura matelassê clássica",
+  "Logo CC dourado em destaque na aba frontal",
+  "Fechamento por aba com botão magnético",
+  "Interior compacto com compartimento principal e bolso interno",
+  "Alça longa de corrente entrelaçada com couro para uso crossbody",
+  "Com caixa e dust",
+],
+dimensions:
+  "Aproximadamente 11cm × 18cm × 4cm",
+color: "Rosa fúcsia com ferragens douradas",
+material: "Couro de bezerro com acabamento matelassê",
+    images: [b931],
+  },
+
+  "94": {
+    id: 94,
+    name: "Chanel Classic Flap",
+    tipoItem: "Bolsa",
+    price: "R$22.990,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Chanel Classic Flap é um dos modelos mais icônicos e desejados da maison francesa. Este exemplar em couro vermelho com acabamento matelassê e ferragens douradas combina elegância atemporal com um toque vibrante de modernidade. Seu design estruturado e a alça de corrente entrelaçada com couro permitem diferentes formas de uso, tornando-a perfeita para ocasiões especiais e uso cotidiano com estilo. Com certificado Entrupy.",
+features: [
+  "Couro vermelho macio com costura matelassê clássica",
+  "Logo CC giratório em metal dourado",
+  "Design de aba única com fechamento por torniquete",
+  "Bolso traseiro curvo característico da Chanel",
+  "Alça dupla de corrente entrelaçada com couro para uso no ombro ou transversal",
+  "Interior em couro com compartimentos funcionais",
+],
+dimensions:
+  "Aproximadamente 25cm × 16cm × 7cm",
+color: "Vermelho com ferragens douradas",
+material: "Couro de bezerro com acabamento matelassê",
+    images: [b941],
+  }, 
+
+  "95": {
+    id: 95,
+    name: "Louis Vuitton Alma BB Monogram",
+    tipoItem: "Bolsa",
+    price: "R$11.490,00",
+    originalPrice: "",
+    condition: "novo",
+   description:
+  "A Louis Vuitton Alma BB é um ícone da maison francesa, reconhecida por seu formato estruturado e elegante. Este modelo no clássico canvas Monogram combina tradição e modernidade, com detalhes em couro natural e ferragens douradas. Compacta e versátil, pode ser usada na mão, no ombro ou a tiracolo, sendo perfeita para compor looks sofisticados em qualquer ocasião.",
+features: [
+  "Canvas Monogram clássico com acabamento em couro natural",
+  "Ferragens douradas polidas",
+  "Duas alças superiores arredondadas",
+  "Alça longa removível e ajustável para uso crossbody",
+  "Fechamento com zíper duplo com puxadores em couro",
+  "Base reforçada com tiras de couro e pés metálicos protetores",
+  "Interior em tecido com bolso plano",
+  "Acompanha tag de identificação em couro",
+],
+dimensions:
+  "Aproximadamente 23.5cm × 17.5cm × 11.5cm",
+color: "Monogram com couro bege claro e ferragens douradas",
+material: "Canvas Monogram e couro natural",
+    images: [b951],
+  },
+
+  "96": {
+    id: 96,
+    name: "Baby Sardine Bottega",
+    tipoItem: "Bolsa",
+    price: "R$16.990,00",
+    originalPrice: "R$20.960,00",
+    condition: "novo",
+  description:
+  "A Baby Sardine da Bottega Veneta é uma versão compacta e elegante de um dos modelos mais desejados da maison italiana. Confeccionada em couro intrecciato na cor vinho, traz como destaque a icônica alça metálica dourada em formato de sardinha, que adiciona um toque de escultura e sofisticação contemporânea. Ideal para eventos e jantares, é uma peça que combina luxo artesanal e design moderno.",
+features: [
+  "Couro napa macio com trançado intrecciato artesanal",
+  "Alça superior em metal dourado escovado em formato de sardinha",
+  "Fechamento magnético discreto",
+  "Forro interno em couro tonal",
+  "Estrutura maleável e formato compacto",
+  "Feita na Itália com acabamento de alta qualidade",
+],
+dimensions:
+  "Aproximadamente 20cm × 12cm × 5cm",
+color: "Vinho (burgundy) com alça metálica dourada",
+material: "Couro napa intrecciato e metal escovado",
+    images: [b961],
+  },
+
+  "97": {
+    id: 97,
+    name: "Bang Bang Bottega",
+    tipoItem: "Bolsa",
+    price: "R$15.990,00",
+    originalPrice: "",
+    condition: "novo",
+  description:
+  "A Bottega Veneta Bang Bang é uma bolsa contemporânea e minimalista que destaca o trabalho artesanal característico da marca italiana. Produzida em couro intrecciato na cor chocolate, apresenta formato retangular estruturado com fechamento em zíper dourado e alça longa removível, combinando praticidade e sofisticação. Ideal para o dia a dia ou ocasiões casuais com toque de elegância discreta.",
+features: [
+  "Couro intrecciato feito à mão",
+  "Fechamento superior com zíper metálico dourado",
+  "Alça longa ajustável e removível para uso crossbody",
+  "Alça de mão estruturada para opção de uso elegante",
+  "Forro interno em couro liso tonal",
+  "Ferragens em metal polido",
+  "Design atemporal e funcional",
+],
+dimensions:
+  "Aproximadamente 24cm × 14cm × 7cm",
+color: "Marrom chocolate com ferragens douradas",
+material: "Couro de bezerro intrecciato artesanal",
+    images: [b971],
+  },
+
+  "98": {
+    id: 98,
+    name: "Chanel Classic Wallet On Chain",
+    tipoItem: "Bolsa",
+    price: "R$22.990,00",
+    originalPrice: "",
+    condition: "novo",
+  description:
+  "A Chanel Classic Wallet On Chain é um dos modelos mais icônicos e versáteis da maison francesa. Compacta e elegante, combina o design acolchoado matelassê em couro caviar com a corrente entrelaçada em couro e metal dourado. Pode ser usada como bolsa tiracolo, clutch ou carteira sofisticada, sendo uma peça essencial para quem busca praticidade sem abrir mão do luxo atemporal.",
+features: [
+  "Couro caviar com costura matelassê em padrão diamante",
+  "Logo CC dourado na aba frontal",
+  "Corrente entrelaçada em couro e metal dourado",
+  "Fechamento com botão de pressão magnético",
+  "Interior em couro com múltiplos compartimentos e bolsos",
+  "Bolso interno com zíper e divisórias para cartões",
+  "Design clássico e versátil, ideal para uso diurno ou noturno",
+],
+dimensions:
+  "Aproximadamente 19.2cm × 12.3cm × 3.5cm",
+color: "Preto com ferragens douradas",
+material: "Couro caviar e ferragens metálicas",
+    images: [b981],
+  },
+
+  "99": {
+    id: 99,
+    name: "Chypres - Hermés",
+    tipoItem: "Bolsa",
+    price: "Consultar privado",
+    originalPrice: "",
+    condition: "novo",
+  description:
+  "As sandálias Hermès Chypre combinam conforto e elegância em um design moderno e versátil. Feitas com a tradicional qualidade artesanal da maison francesa, apresentam o icônico formato 'H' nas tiras e solado anatômico. Disponíveis em diversas combinações de materiais e cores — incluindo camurça, couro granulado, shearling e estampas — são perfeitas para looks casuais sofisticados e dias de verão com estilo.",
+features: [
+  "Design com tiras em formato de 'H' — assinatura Hermès",
+  "Fechamento ajustável com velcro para máximo conforto",
+  "Solado anatômico ergonômico e antiderrapante",
+  "Modelos em camurça, couro, shearling e versões estampadas",
+  "Logo Hermès gravado na palmilha",
+  "Produzidas na Itália com materiais premium",
+],
+variations: [
+  "Camurça rosé nude com solado preto",
+  "Camurça azul gelo com base cinza",
+  "Couro laranja com detalhe texturizado",
+  "Camurça caramelo e verde oliva",
+  "Estampa animal print em couro com base preta",
+  "Versão com shearling off-white e tiras em couro preto",
+],
+dimensions:
+  "Sola 38 / 36 brasil",
+color_options:
+  "Disponível em tons neutros, vibrantes e versões com textura",
+material: "Couro, camurça, shearling e borracha anatômica",
+    images: [b991],
+  },
+
+  "100": {
+    id: 100,
+    name: "Mocassim Dior",
+    tipoItem: "Bolsa",
+    price: "R$4.560,00",
+    originalPrice: "",
+    condition: "novo",
+  description:
+  "O mocassim Dior é um modelo clássico reinterpretado pela maison francesa com um toque de sofisticação moderna. Feito em couro preto polido de alta qualidade, apresenta tassels frontais com detalhes metálicos dourados 'CD', reforçando a identidade da marca. O design combina conforto e elegância, ideal tanto para composições formais quanto casuais refinadas.",
+features: [
+  "Couro de bezerro preto com acabamento envernizado",
+  "Detalhes de tassels em couro com anéis dourados 'CD'",
+  "Costura artesanal ao redor da base do sapato",
+  "Palmilha interna com logo 'Christian Dior Paris' dourado",
+  "Solado em couro com acabamento antiderrapante",
+  "Modelo elegante e atemporal, com construção de alta durabilidade",
+],
+dimensions:
+  "39 BR / sola 40",
+color: "Preto com ferragens douradas",
+material: "Couro de bezerro polido",
+    images: [b1001],
+  },
+
+  "101": {
+    id: 101,
+    name: "Celine Triomphe teen",
+    tipoItem: "Bolsa",
+    price: "R$17.900,00",
+    originalPrice: "31.000,00",
+    condition: "novo",
+ description:
+  "A Celine Triomphe Teen é uma das bolsas mais icônicas da maison, símbolo de elegância e minimalismo francês. Feita em couro de bezerro liso, apresenta o fecho Triomphe dourado — inspirado no portão da famosa Place de l'Étoile, em Paris. O design estruturado e o tamanho compacto tornam o modelo ideal para o dia a dia sofisticado ou eventos noturnos discretos.",
+features: [
+  "Couro de bezerro liso com acabamento acetinado",
+  "Fecho icônico Celine Triomphe em metal dourado",
+  "Alça longa ajustável para uso crossbody ou no ombro",
+  "Interior em couro com divisória e bolso interno",
+  "Fechamento magnético sob a aba frontal",
+  "Logo 'CELINE Paris' gravado discretamente",
+],
+dimensions:
+  "Aproximadamente 18,5cm × 14cm × 7cm",
+color: "Bege rosé (Nude claro) com ferragens douradas",
+material: "Couro de bezerro e ferragens metálicas",
+    images: [b1011],
+  },
+
+  "102": {
+    id: 102,
+    name: "Picotin Lock 18 - Blue Tie",
+    tipoItem: "Bolsa",
+    price: "R$31.990,00",
+    originalPrice: "32.990,00",
+    condition: "novo",
+ description:
+  "A bolsa Hermès Picotin Lock 18 é um ícone do design minimalista e artesanal da maison francesa. Inspirada nos baldes de alimentação equestres, a Picotin apresenta linhas simples, formato estruturado e o característico cadeado de metal que simboliza a elegância Hermès. Confeccionada em couro Clemence com textura natural, o modelo Blue Tie combina modernidade e sofisticação discreta.",
+features: [
+  "Couro Clemence com textura natural e toque macio",
+  "Fechamento com alça de couro e cadeado prateado Hermès",
+  "Base com quatro pés metálicos protetores",
+  "Interior em couro não forrado, revelando a pureza do material",
+  "Feita à mão na França com artesanato tradicional Hermès",
+  "Design minimalista e funcional, ideal para uso diário",
+],
+dimensions:
+  "Aproximadamente 18cm × 19cm × 13cm",
+color: "Blue Tie (Azul médio intenso)",
+material: "Couro Clemence e ferragens prateadas",
+    images: [b1021, b1022],
+  },
+
+   "103": {
+    id: 103,
+    name: "Gucci Marmont",
+    tipoItem: "Bolsa",
+    price: "R$13.990,00",
+    originalPrice: "",
+    condition: "novo",
+ description:
+  "A bolsa Gucci GG Marmont Small é um dos modelos mais desejados da maison italiana, símbolo de elegância contemporânea e sofisticação atemporal. Confeccionada em couro matelassé com o icônico padrão chevron, o modelo apresenta o emblemático fecho duplo 'GG' em metal dourado envelhecido. Esta versão em tom vinho profundo é extremamente rara e encontra-se esgotada nas boutiques oficiais.",
+features: [
+  "Couro matelassé com padrão chevron e costura em V nas costas",
+  "Fecho frontal com logotipo duplo GG em metal dourado envelhecido",
+  "Alça de corrente longa com faixa de couro ajustável para ombro ou crossbody",
+  "Interior em camurça clara com bolso interno",
+  "Estrutura macia e acabamento artesanal italiano",
+  "Modelo icônico da linha Marmont, atualmente esgotado em boutiques",
+],
+dimensions:
+  "Aproximadamente 26cm × 15cm × 7cm",
+color: "Borgonha (vinho intenso)",
+material: "Couro matelassé com ferragens douradas envelhecidas",
+    images: [b1031],
+  },
+};  
 
 
 

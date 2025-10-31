@@ -22,26 +22,27 @@ const Catalog = () => {
   };
 
   // Marcas e tipos disponíveis
-  const brands = [
-    "Todos",
-    "Louis Vuitton",
-    "Chanel",
-    "Burberry",
-    "Prada",
-    "Hermés",
-    "Saint Laurent",
-    "Gucci",
-    "Valentino",
-    "Jacquemus",
-    "YSL",
-    "Bottega",
-    "Balenciaga",
-    "Roman",
-    "Valentino",
-    "Dior",
-    "Picotin",
-    "Loewe",
-  ];
+ const brands = [
+  "Balenciaga",
+  "Bottega",
+  "Burberry",
+  "Celine",
+  "Chanel",
+  "Dior",
+  "Gucci",
+  "Hermés",
+  "Jacquemus",
+  "Loewe",
+  "Louis Vuitton",
+  "Picotin",
+  "Prada",
+  "Roman",
+  "Saint Laurent",
+  "Valentino",
+  "YSL",
+  "Todos",
+];
+
   const tiposDisponiveis = ["Todos", "Bolsa", "Carteira", "Mala"];
 
   // 🔍 Filtro principal (busca + marca + tipo)
@@ -161,7 +162,7 @@ const Catalog = () => {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 {filteredNovos.map((product, index) => (
-                  <ScrollReveal key={product.id} delay={index * 100}>
+                  <ScrollReveal key={product.id} delay={index * 2}>
                     <Card className="card-luxury hover-lift group h-full">
                       <CardContent className="p-0 flex flex-col h-full">
                         <Link to={`/produto/${product.id}`}>

@@ -46,7 +46,7 @@ const Index = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center bg-background animate-crazy-hero pb-40">
+        <section className="relative min-h-screen flex items-center justify-center bg-background animate-crazy-hero pb-64">
           <div className="absolute inset-0 overflow-hidden">
             <img
               src={heroBackground}

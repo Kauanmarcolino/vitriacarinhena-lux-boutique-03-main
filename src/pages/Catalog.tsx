@@ -43,7 +43,7 @@ const Catalog = () => {
   "Todos",
 ];
 
-  const tiposDisponiveis = ["Todos", "Bolsa", "Carteira", "Mala"];
+  const tiposDisponiveis = ["Todos", "Bolsa", "Carteira", "Mala", "Sapatos"];
 
   // 🔍 Filtro principal (busca + marca + tipo)
   let filteredProducts = Object.values(products).filter((product) => {

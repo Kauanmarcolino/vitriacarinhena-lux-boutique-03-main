@@ -24,7 +24,7 @@ const Header = () => {
   const navigation = [
     { name: "Sobre", href: "/sobre" },
     { name: "Catálogo", href: "/catalogo" },
-    { name: "Importados", href: "/imports" },
+    /* { name: "Importados", href: "/imports" }, */
     { name: "Contato", href: "/contato" },
   ];
 
@@ -106,17 +106,33 @@ const Header = () => {
     );
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300
-        ${scrolled ? "bg-white shadow-md" : "bg-transparent"}
-        ${isHome ? "animate-crazy-header" : ""}`}
-    >
+   <header
+  className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300
+    ${scrolled ? "bg-white shadow-md" : "bg-transparent"}
+    ${isHome ? "animate-crazy-header" : ""} overflow-hidden`}
+>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <img src={vcLogo} alt="VC Logo" className="h-80 w-90" />
-          </Link>
+        <div className="flex items-center justify-between h-20 sm:h-20">
+
+   {/* Logo */}
+<div className="flex items-center justify-center relative z-50 h-40 sm:h-44 overflow-visible pointer-events-none">
+  <Link
+    to="/"
+    className="inline-block pointer-events-auto"
+    style={{ lineHeight: 0 }}
+  >
+    <img
+      src={vcLogo}
+      alt="Vitória Carinhena Logo"
+      className="h-[300px] sm:h-[320px] w-auto object-contain"
+      style={{ pointerEvents: "auto", display: "block" }}
+    />
+  </Link>
+</div>
+
+
+
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

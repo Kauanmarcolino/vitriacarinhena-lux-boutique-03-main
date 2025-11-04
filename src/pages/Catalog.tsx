@@ -189,37 +189,33 @@ const Catalog = () => {
                           </p>
 
                           <div className="mt-auto space-y-4">
-                            <span
-                              className={`font-tenor text-2xl font-semibold block ${
-                                product.vendido
-                                  ? "text-gray-500"
-                                  : "text-primary"
-                              }`}
-                            >
-                              {product.price.split("(")[0].trim()}
-                            </span>
+  <span
+    className={`font-tenor text-2xl font-semibold block ${
+      product.vendido ? "text-gray-400" : "text-primary"
+    }`}
+  >
+    {product.price.split("(")[0].trim()}
+  </span>
 
-                            {product.vendido ? (
-                              <Button
-                                disabled
-                                className="w-full bg-gray-600 text-white cursor-not-allowed"
-                              >
-                                Vendido
-                              </Button>
-                            ) : (
-                              <Button
-                                onClick={() =>
-                                  handleWhatsAppClick(
-                                    product.name,
-                                    product.price
-                                  )
-                                }
-                                className="w-full btn-gold"
-                              >
-                                Comprar pelo WhatsApp
-                              </Button>
-                            )}
-                          </div>
+  {product.vendido ? (
+    <Button
+      disabled
+      className="w-full bg-gray-400 text-white cursor-not-allowed"
+    >
+      Vendido
+    </Button>
+  ) : (
+    <Button
+      onClick={() =>
+        handleWhatsAppClick(product.name, product.price)
+      }
+      className="w-full btn-gold"
+    >
+      Comprar pelo WhatsApp
+    </Button>
+  )}
+</div>
+
                         </div>
                       </CardContent>
                     </Card>
@@ -274,19 +270,33 @@ const Catalog = () => {
                           </p>
 
                           <div className="mt-auto space-y-4">
-                            <span className="font-tenor text-2xl font-semibold text-primary block">
-                              {product.price.split("(")[0].trim()}
-                            </span>
+  <span
+    className={`font-tenor text-2xl font-semibold block ${
+      product.vendido ? "text-gray-400" : "text-primary"
+    }`}
+  >
+    {product.price.split("(")[0].trim()}
+  </span>
 
-                            <Button
-                              onClick={() =>
-                                handleWhatsAppClick(product.name, product.price)
-                              }
-                              className="w-full btn-gold"
-                            >
-                              Comprar pelo WhatsApp
-                            </Button>
-                          </div>
+  {product.vendido ? (
+    <Button
+      disabled
+      className="w-full bg-gray-400 text-white cursor-not-allowed"
+    >
+      Vendido
+    </Button>
+  ) : (
+    <Button
+      onClick={() =>
+        handleWhatsAppClick(product.name, product.price)
+      }
+      className="w-full btn-gold"
+    >
+      Comprar pelo WhatsApp
+    </Button>
+  )}
+</div>
+
                         </div>
                       </CardContent>
                     </Card>

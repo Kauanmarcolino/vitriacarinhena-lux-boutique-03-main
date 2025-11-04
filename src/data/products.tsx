@@ -279,6 +279,8 @@ import b1071 from "@/assets/b107/be92dede-7a73-42b6-9241-fdc168c87051.jpeg";
 
 import b1081 from "@/assets/b108/ea391c75-b325-4863-9336-44096816ec28.jpeg";
 
+import b1091 from "@/assets/b109/5fcab93a-08e4-4be9-bfd1-8197a75f2d4d.jpeg";
+
 export const products = {
   "1": {
     id: 1,
@@ -324,7 +326,7 @@ export const products = {
     price: "R$12.990,00 (10x de R$1.415,00)",
     originalPrice: "R$14.990",
     condition: "seminovo",
-     vendido: false,
+     vendido: true,
     description:
       "Confeccionada em canvas Monogram icônico com interior em couro rosa, alça superior trançada e fecho em cordão de couro natural, esta bolsa bucket une tradição e modernidade. Espaçosa e versátil, transita do casual ao elegante com o charme atemporal da maison.",
     features: [
@@ -384,7 +386,7 @@ export const products = {
     tipoItem: "Bolsa",
     price: "R$2.550 (10x de R$278,00)",
     originalPrice: "R$3.500",
-     vendido: false,
+     vendido: true,
     condition: "seminovo",
     description:
       "Elegância e tradição se encontram nesta bolsa: combinação de couro preto e o clássico xadrez da marca, com fechamento em aba e alça ajustável. Compacta e versátil, é perfeita para adicionar um toque atemporal aos looks do dia a dia.",
@@ -408,7 +410,7 @@ export const products = {
     price: "R$7.000 (10x de R$763,00)",
     originalPrice: "R$ 3.500",
     condition: "seminovo",
-     vendido: false,
+     vendido: true,
     description:
       "Elegância em versão compacta: confeccionada em couro Saffiano preto com a emblemática placa triangular Prada em metal dourado, e alça em corrente que permite uso como clutch ou crossbody. Ideal para quem busca sofisticação discreta e atemporal em qualquer ocasião.",
     features: [
@@ -1648,7 +1650,7 @@ images: [bagProduct421],
     price: "R$6.500,00 (10x de 708,00)",
     originalPrice: "R$9.190,00",
     condition: "seminovo",
-     vendido: false,
+    vendido: true,
     description:
   "A Speedy 40 da Louis Vuitton é um dos modelos mais icônicos da maison francesa. Confeccionada em canvas Monogram, representa o equilíbrio perfeito entre tradição e praticidade. Seu design estruturado e atemporal, aliado às alças em couro natural, faz dela uma companheira ideal para o dia a dia ou viagens curtas. Um verdadeiro símbolo de elegância e prestígio.",
 features: [
@@ -2882,6 +2884,32 @@ material: "Couro legítimo com acabamento matelassê e ferragens em metal dourad
   color: "Cinza grafite",
   material: "Policarbonato de alta resistência com estrutura em alumínio anodizado",
     images: [b1081],
+  }, 
+
+  "109": {
+    id: 109,
+    name: "Jacquemus Le Chiquito Moyen",
+    tipoItem: "Bolsa",
+    price: "R$9.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+ description:
+  "O Jacquemus Le Chiquito Moyen é um dos modelos mais icônicos da marca francesa, conhecido por seu design escultural e minimalista. Apesar do tamanho compacto, ele carrega uma forte presença fashion, combinando linhas estruturadas, couro liso de alta qualidade e o inconfundível logotipo dourado Jacquemus. É uma peça moderna e elegante, perfeita para compor looks sofisticados e criativos.",
+features: [
+  "Couro liso marrom com acabamento premium",
+  "Logo Jacquemus metálico dourado na parte frontal",
+  "Alça de mão curvada e estruturada",
+  "Fechamento magnético discreto sob a aba frontal",
+  "Alça longa removível e ajustável para uso transversal",
+  "Interior compacto com forro em tecido",
+  "Design moderno e arquitetônico, símbolo da identidade Jacquemus",
+],
+dimensions:
+  "Aproximadamente 18cm × 13cm × 8cm",
+color: "Marrom caramelo com ferragens douradas",
+material: "Couro liso com acabamento rígido e ferragens metálicas douradas",
+    images: [b1091],
   }, 
 };
 

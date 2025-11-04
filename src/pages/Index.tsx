@@ -268,7 +268,7 @@ const Index = () => {
                     <Truck className="h-10 w-10 text-primary" />
                   </div>
                   <h3 className="font-tenor text-2xl font-semibold text-foreground">
-                    Entrega Segura
+                    Entrega segura
                   </h3>
                   <p className="text-body-elegant">
                     Atendimento personalizado via WhatsApp. Envio com embalagem

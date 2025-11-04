@@ -24,7 +24,6 @@ const Header = () => {
   const navigation = [
     { name: "Sobre", href: "/sobre" },
     { name: "Catálogo", href: "/catalogo" },
-    /* { name: "Importados", href: "/imports" }, */
     { name: "Contato", href: "/contato" },
   ];
 
@@ -36,7 +35,6 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // 🔄 Reutilizável nos dois lugares
   const renderFavorites = () =>
     favorites.length === 0 ? (
       <p className="text-muted-foreground mt-4">
@@ -106,33 +104,35 @@ const Header = () => {
     );
 
   return (
-   <header
-  className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300
-    ${scrolled ? "bg-white shadow-md" : "bg-transparent"}
-    ${isHome ? "animate-crazy-header" : ""} overflow-hidden`}
->
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300
+      ${scrolled ? "bg-white shadow-md" : "bg-transparent"}
+      ${isHome ? "animate-crazy-header" : ""} overflow-hidden`}
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-20">
 
-   {/* Logo */}
-<div className="flex items-center justify-center relative z-50 h-40 sm:h-44 overflow-visible pointer-events-none">
-  <Link
-    to="/"
-    className="inline-block pointer-events-auto"
-    style={{ lineHeight: 0 }}
-  >
-    <img
-      src={vcLogo}
-      alt="Vitória Carinhena Logo"
-      className="h-[300px] sm:h-[320px] w-auto object-contain"
-      style={{ pointerEvents: "auto", display: "block" }}
-    />
-  </Link>
-</div>
-
-
-
-
+          {/* Logo corrigida */}
+          <div
+            className={`flex items-center justify-center relative h-40 sm:h-44 overflow-visible ${
+              isMenuOpen ? "pointer-events-none" : "pointer-events-auto z-50"
+            }`}
+          >
+            <Link
+              to="/"
+              className={`inline-block ${
+                isMenuOpen ? "pointer-events-none" : "pointer-events-auto"
+              }`}
+              style={{ lineHeight: 0 }}
+            >
+              <img
+                src={vcLogo}
+                alt="Vitória Carinhena Logo"
+                className="h-[300px] sm:h-[320px] w-auto object-contain"
+                style={{ display: "block" }}
+              />
+            </Link>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
@@ -190,7 +190,7 @@ const Header = () => {
               />
             )}
 
-            {/* 🔴 bolinha de notificação no botão de menu */}
+            {/* Bolinha de notificação */}
             {favorites.length > 0 && (
               <span className="absolute -top-1 -right-1 bg-primary text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
                 {favorites.length}

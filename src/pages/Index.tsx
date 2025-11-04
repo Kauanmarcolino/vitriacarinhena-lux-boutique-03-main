@@ -5,12 +5,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Star, Shield, Truck } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ScrollReveal from "@/components/ScrollReveal"; // 👈 Importado
+import ScrollReveal from "@/components/ScrollReveal";
 import heroBackground from "@/assets/hero-background.png";
 import fotoVi from "@/assets/fotoVi.jpeg";
 import bagProduct1 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg";
 import bagProduct2 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg";
-import bolsaGrupo from "@/assets/bolsa-grupo.png";
 import InstagramFeed from "@/components/InstagramFeed";
 import VipPopup from "@/components/VipPopup";
 
@@ -46,30 +45,27 @@ const Index = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center bg-background animate-crazy-hero pb-64">
+        <section className="relative flex items-center justify-center bg-background animate-crazy-hero min-h-[90vh] sm:min-h-screen pt-8 sm:pt-12 lg:pt-16 pb-0">
+
           <div className="absolute inset-0 overflow-hidden">
             <img
               src={heroBackground}
               alt="Bolsas de luxo elegante com padrão VC"
               className="w-full h-full object-cover"
             />
-
-            {/* 🔽 Degradê no final da img */}
-            <div className="absolute bottom-0 left-0 w-full  bg-gradient-to-b from-transparent to-background" />
+            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-b from-transparent to-background" />
           </div>
 
-          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center transform -translate-y-[24%] sm:-translate-y-[26%] lg:-translate-y-[28%] transition-transform duration-500">
             <ScrollReveal animation="fade-up" delay={200}>
-              <h1 className="font-tenor text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-6 max-w-[20rem] sm:max-w-3xl mx-auto">
-                <span className="block">Bolsas de luxo </span>
-                <span className="block text-primary mt-1">
-                  autênticas
-                </span>
+              <h1 className="font-tenor text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-6 max-w-[22rem] sm:max-w-3xl mx-auto">
+                <span className="block">Bolsas de luxo</span>
+                <span className="block text-primary mt-1">autênticas</span>
               </h1>
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={400}>
-              <p className="text-luxury-subtitle text-muted-foreground max-w-3xl mx-auto mb-8 text-xl">
+              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-base sm:text-lg md:text-xl">
                 Descubra nossa curadoria exclusiva de bolsas de luxo autênticas.
                 Cada peça é cuidadosamente selecionada para refletir elegância e
                 sofisticação.
@@ -77,8 +73,8 @@ const Index = () => {
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={600}>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button asChild className="btn-gold text-lg px-8 py-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button asChild className="btn-gold text-base sm:text-lg px-8 py-3 sm:py-4">
                   <Link to="/catalogo">
                     Ver catálogo
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -88,7 +84,7 @@ const Index = () => {
                 <Button
                   onClick={handleWhatsAppClick}
                   variant="outline"
-                  className="btn-outline-gold text-lg px-8 py-4"
+                  className="btn-outline-gold text-base sm:text-lg px-8 py-3 sm:py-4"
                 >
                   Desapegue conosco
                 </Button>
@@ -98,28 +94,24 @@ const Index = () => {
         </section>
 
         {/* About Preview */}
-        <section className="py-20 bg-secondary/20">
+        <section className="py-12 sm:py-16 md:py-20 bg-secondary/20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
               <ScrollReveal animation="fade-left">
-                <div className="space-y-6">
-                  <h2 className="font-tenor text-4xl md:text-5xl text-foreground">
+                <div className="space-y-6 text-center md:text-left">
+                  <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground">
                     Curadoria exclusiva por
-                    <span className="text-primary block">
-                      Vitória Carinhena
-                    </span>
+                    <span className="text-primary block">Vitória Carinhena</span>
                   </h2>
 
-                  <p className="text-body-elegant text-lg leading-relaxed">
+                  <p className="text-body-elegant text-base sm:text-lg leading-relaxed">
                     Com sensibilidade, bom gosto e uma verdadeira paixão pelo
                     universo do luxo, Vitória Carinhena dedica-se a escolher
-                    pessoalmente cada peça da coleção. Seu olhar atento e
-                    apurado garante autenticidade, elegância e uma curadoria
-                    criteriosa que valoriza a exclusividade e o estilo atemporal
-                    de cada bolsa.
+                    pessoalmente cada peça da coleção. Seu olhar atento garante
+                    autenticidade e elegância atemporal.
                   </p>
 
-                  <Button asChild className="btn-gold">
+                  <Button asChild className="btn-gold text-base sm:text-lg">
                     <Link to="/sobre">
                       Conhecer a história
                       <ArrowRight className="ml-2 h-4 w-4" />
@@ -129,13 +121,13 @@ const Index = () => {
               </ScrollReveal>
 
               <ScrollReveal animation="fade-right" delay={200}>
-                <div className="relative">
+                <div className="relative mx-auto max-w-sm sm:max-w-md md:max-w-none">
                   <div className="absolute -inset-4 bg-[#c69296]/50 blur-xl rounded-3xl z-0" />
                   <div className="aspect-[4/6] overflow-hidden rounded-2xl shadow-elegant relative z-10">
                     <img
                       src={fotoVi}
-                      alt="Coleção de bolsas de luxo"
-                      className="w-full h-full object-cover"
+                      alt="Vitória Carinhena"
+                      className="w-full h-full object-cover max-w-full"
                     />
                   </div>
                 </div>
@@ -145,23 +137,23 @@ const Index = () => {
         </section>
 
         {/* Featured Products */}
-        <section className="py-20 bg-background">
+        <section className="py-12 sm:py-16 md:py-20 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
+            <div className="text-center mb-12 sm:mb-16">
               <ScrollReveal animation="fade-up">
-                <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
+                <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
                   Peças em destaque
                 </h2>
               </ScrollReveal>
 
               <ScrollReveal animation="fade-up" delay={200}>
-                <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto text-xl">
+                <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto text-base sm:text-lg md:text-xl">
                   Conheça algumas de nossas peças mais procuradas
                 </p>
               </ScrollReveal>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
               {featuredProducts.map((product, index) => (
                 <ScrollReveal
                   key={product.id}
@@ -180,21 +172,19 @@ const Index = () => {
                         </div>
                       </Link>
 
-                      <div className="p-8 text-center min-h-[260px] flex flex-col justify-between">
+                      <div className="p-6 sm:p-8 text-center flex flex-col justify-between min-h-[200px] sm:min-h-[240px]">
                         <Link to={`/produto/${product.id}`}>
-                          <h3 className="font-tenor text-2xl font-medium text-foreground group-hover:text-primary transition-colors duration-200 mb-2">
+                          <h3 className="font-tenor text-xl sm:text-2xl text-foreground group-hover:text-primary transition-colors mb-2">
                             {product.name}
                           </h3>
                         </Link>
 
-                        <span className="font-tenor text-3xl font-semibold text-primary mb-6 block text-black-400">
+                        <span className="font-tenor text-2xl sm:text-3xl text-primary mb-6 block">
                           {product.price}
                         </span>
 
-                        <Button asChild className="w-full">
-                          <Link to={`/produto/${product.id}`}>
-                            Ver detalhes
-                          </Link>
+                        <Button asChild className="w-full text-base sm:text-lg">
+                          <Link to={`/produto/${product.id}`}>Ver detalhes</Link>
                         </Button>
                       </div>
                     </CardContent>
@@ -208,7 +198,7 @@ const Index = () => {
                 <Button
                   asChild
                   variant="outline"
-                  className="btn-outline-gold text-lg px-8 py-3"
+                  className="btn-outline-gold text-base sm:text-lg px-8 py-3"
                 >
                   <Link to="/catalogo">
                     Ver todo o catálogo
@@ -221,26 +211,26 @@ const Index = () => {
         </section>
 
         {/* Trust Indicators */}
-        <section className="py-20 bg-background">
+        <section className="py-12 sm:py-16 md:py-20 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
+            <div className="text-center mb-12 sm:mb-16">
               <ScrollReveal animation="fade-up">
-                <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
+                <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
                   Por que escolher comprar conosco?
                 </h2>
               </ScrollReveal>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
               <ScrollReveal animation="fade-left">
                 <div className="text-center space-y-4">
-                  <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                    <Shield className="h-10 w-10 text-primary" />
+                  <div className="w-16 sm:w-20 h-16 sm:h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
+                    <Shield className="h-8 sm:h-10 w-8 sm:w-10 text-primary" />
                   </div>
-                  <h3 className="font-tenor text-2xl font-semibold text-foreground">
+                  <h3 className="font-tenor text-xl sm:text-2xl text-foreground">
                     Autenticidade garantida
                   </h3>
-                  <p className="text-body-elegant">
+                  <p className="text-body-elegant text-sm sm:text-base">
                     Cada bolsa passa por rigoroso processo de autenticação.
                     Garantimos a originalidade de todas as nossas peças.
                   </p>
@@ -249,13 +239,13 @@ const Index = () => {
 
               <ScrollReveal animation="fade-up" delay={200}>
                 <div className="text-center space-y-4">
-                  <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                    <Star className="h-10 w-10 text-primary" />
+                  <div className="w-16 sm:w-20 h-16 sm:h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
+                    <Star className="h-8 sm:h-10 w-8 sm:w-10 text-primary" />
                   </div>
-                  <h3 className="font-tenor text-2xl font-semibold text-foreground">
+                  <h3 className="font-tenor text-xl sm:text-2xl text-foreground">
                     Curadoria especializada
                   </h3>
-                  <p className="text-body-elegant">
+                  <p className="text-body-elegant text-sm sm:text-base">
                     Seleção cuidadosa das mais belas e exclusivas bolsas de
                     luxo, com foco em autenticidade e sofisticação.
                   </p>
@@ -264,13 +254,13 @@ const Index = () => {
 
               <ScrollReveal animation="fade-right" delay={400}>
                 <div className="text-center space-y-4">
-                  <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                    <Truck className="h-10 w-10 text-primary" />
+                  <div className="w-16 sm:w-20 h-16 sm:h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
+                    <Truck className="h-8 sm:h-10 w-8 sm:w-10 text-primary" />
                   </div>
-                  <h3 className="font-tenor text-2xl font-semibold text-foreground">
+                  <h3 className="font-tenor text-xl sm:text-2xl text-foreground">
                     Entrega segura
                   </h3>
-                  <p className="text-body-elegant">
+                  <p className="text-body-elegant text-sm sm:text-base">
                     Atendimento personalizado via WhatsApp. Envio com embalagem
                     de luxo e seguro incluso.
                   </p>
@@ -284,16 +274,16 @@ const Index = () => {
         <InstagramFeed />
 
         {/* WhatsApp Group Section */}
-        <section className="py-20 bg-background">
+        <section className="py-12 sm:py-16 md:py-20 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ScrollReveal animation="fade-up">
-              <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
+              <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
                 Entre para o nosso Grupo VIP
               </h2>
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={200}>
-              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-xl">
+              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-base sm:text-lg md:text-xl">
                 Receba novidades exclusivas, lançamentos e ofertas especiais
                 diretamente no seu WhatsApp.
               </p>
@@ -305,14 +295,13 @@ const Index = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="btn-gold text-lg px-8 py-4">
+                <Button className="btn-gold text-base sm:text-lg px-8 py-3 sm:py-4">
                   Entrar no Grupo VIP
                 </Button>
               </a>
             </ScrollReveal>
           </div>
         </section>
-
       </main>
 
       <Footer />

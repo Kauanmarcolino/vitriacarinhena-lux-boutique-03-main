@@ -22,26 +22,27 @@ const Catalog = () => {
   };
 
   // Marcas e tipos disponíveis
- const brands = [
-  "Balenciaga",
-  "Bottega",
-  "Burberry",
-  "Celine",
-  "Chanel",
-  "Dior",
-  "Gucci",
-  "Hermés",
-  "Jacquemus",
-  "Loewe",
-  "Louis Vuitton",
-  "Picotin",
-  "Prada",
-  "Roman",
-  "Saint Laurent",
-  "Valentino",
-  "YSL",
-  "Todos",
-];
+  const brands = [
+    "Balenciaga",
+    "Bottega",
+    "Burberry",
+    "Celine",
+    "Chanel",
+    "Dior",
+    "Gucci",
+    "Hermés",
+    "Jacquemus",
+    "Loewe",
+    "Louis Vuitton",
+    "Picotin",
+    "Prada",
+    "Roman",
+    "Rimowa",
+    "Saint Laurent",
+    "Valentino",
+    "YSL",
+    "Todos",
+  ];
 
   const tiposDisponiveis = ["Todos", "Bolsa", "Carteira", "Mala", "Sapatos"];
 
@@ -51,8 +52,7 @@ const Catalog = () => {
     const brandMatch =
       brandFilter === "Todos" ||
       product.name.toLowerCase().includes(brandFilter.toLowerCase());
-    const tipoMatch =
-      tipoItem === "Todos" || product.tipoItem === tipoItem;
+    const tipoMatch = tipoItem === "Todos" || product.tipoItem === tipoItem;
     return nameMatch && brandMatch && tipoMatch;
   });
 
@@ -189,18 +189,36 @@ const Catalog = () => {
                           </p>
 
                           <div className="mt-auto space-y-4">
-                            <span className="font-tenor text-2xl font-semibold text-primary block">
+                            <span
+                              className={`font-tenor text-2xl font-semibold block ${
+                                product.vendido
+                                  ? "text-gray-500"
+                                  : "text-primary"
+                              }`}
+                            >
                               {product.price.split("(")[0].trim()}
                             </span>
 
-                            <Button
-                              onClick={() =>
-                                handleWhatsAppClick(product.name, product.price)
-                              }
-                              className="w-full btn-gold"
-                            >
-                              Comprar pelo WhatsApp
-                            </Button>
+                            {product.vendido ? (
+                              <Button
+                                disabled
+                                className="w-full bg-gray-600 text-white cursor-not-allowed"
+                              >
+                                Vendido
+                              </Button>
+                            ) : (
+                              <Button
+                                onClick={() =>
+                                  handleWhatsAppClick(
+                                    product.name,
+                                    product.price
+                                  )
+                                }
+                                className="w-full btn-gold"
+                              >
+                                Comprar pelo WhatsApp
+                              </Button>
+                            )}
                           </div>
                         </div>
                       </CardContent>
@@ -213,7 +231,10 @@ const Catalog = () => {
         </section>
 
         {/* Produtos Semi-Novos */}
-        <section id="produtos-seminovos" className="py-16 border-t border-border">
+        <section
+          id="produtos-seminovos"
+          className="py-16 border-t border-border"
+        >
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-10">
               Second Hand

@@ -299,16 +299,6 @@ const Index = () => {
               </p>
             </ScrollReveal>
 
-            <ScrollReveal animation="fade-up" delay={400}>
-              <div className="max-w-3xl mx-auto mb-10">
-                <img
-                  src={bolsaGrupo}
-                  alt="Grupo VIP no WhatsApp"
-                  className="w-full rounded-2xl shadow-elegant object-cover"
-                />
-              </div>
-            </ScrollReveal>
-
             <ScrollReveal animation="fade-up" delay={600}>
               <a
                 href="https://chat.whatsapp.com/BtZVVpyhCJM7RLjS1zdfns"
@@ -323,42 +313,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-20 bg-secondary/20">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <ScrollReveal animation="fade-up">
-              <h2 className="font-tenor text-4xl md:text-5xl text-foreground mb-4">
-                Encontre sua bolsa dos sonhos
-              </h2>
-            </ScrollReveal>
-
-            <ScrollReveal animation="fade-up" delay={200}>
-              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-xl">
-                Entre em contato conosco e descubra a peça perfeita para
-                complementar seu estilo
-              </p>
-            </ScrollReveal>
-
-            <ScrollReveal animation="fade-up" delay={400}>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button
-                  onClick={handleWhatsAppClick}
-                  className="btn-gold text-lg px-8 py-4"
-                >
-                  Falar pelo whatsApp
-                </Button>
-
-                <Button
-                  asChild
-                  variant="outline"
-                  className="btn-outline-gold text-lg px-8 py-4"
-                >
-                  <Link to="/catalogo">Ver catálogo completo</Link>
-                </Button>
-              </div>
-            </ScrollReveal>
-          </div>
-        </section>
       </main>
 
       <Footer />

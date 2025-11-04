@@ -233,12 +233,21 @@ const Product = () => {
 
                 {/* Action Buttons */}
                 <div className="space-y-4 pt-6">
-                  <Button
-                    onClick={handleWhatsAppClick}
-                    className="w-full btn-gold text-lg py-4"
-                  >
-                    Comprar pelo WhatsApp
-                  </Button>
+                  {product.vendido ? (
+                    <Button
+                      disabled
+                      className="w-full bg-gray-600 text-white cursor-not-allowed text-lg py-4"
+                    >
+                      Vendido
+                    </Button>
+                  ) : (
+                    <Button
+                      onClick={handleWhatsAppClick}
+                      className="w-full btn-gold text-lg py-4"
+                    >
+                      Comprar pelo WhatsApp
+                    </Button>
+                  )}
 
                   <div className="flex space-x-4">
                     <Button

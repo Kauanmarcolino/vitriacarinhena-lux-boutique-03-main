@@ -281,6 +281,30 @@ import b1081 from "@/assets/b108/ea391c75-b325-4863-9336-44096816ec28.jpeg";
 
 import b1091 from "@/assets/b109/5fcab93a-08e4-4be9-bfd1-8197a75f2d4d.jpeg";
 
+import b1101 from "@/assets/b110/fff939a1-11fa-4be0-ae53-0a01d5a29571.jpeg";
+
+import b1111 from "@/assets/b111/e73a65cd-4487-4250-9a91-bb73746127e1.jpeg";
+
+import b1121 from "@/assets/b112/c198f599-091f-4102-9236-73adc36ecbe8.jpeg";
+
+import b1131 from "@/assets/b113/90b3829c-922e-401e-bdd8-60ac105a6275.jpeg";
+
+import b1141 from "@/assets/b114/20955edb-0060-45a0-9b13-9c52f4a8002a.jpeg";
+
+import b1151 from "@/assets/b115/d5a6f648-b07a-4318-bd78-185af1db1266.jpeg";
+
+import b1161 from "@/assets/b116/3977d530-2607-4816-911e-39a2dc2dec39.jpeg";
+
+import b1171 from "@/assets/b117/5fc41171-6313-4e0d-8428-f6a98cfdbe60.jpeg";
+
+import b1181 from "@/assets/b118/a28f7873-2537-429f-a540-fdd3bdaed0d8.jpeg";
+
+import b1191 from "@/assets/b119/dbdefa1c-afaf-4369-92c2-6a9c29417faf.jpeg";
+
+import b1201 from "@/assets/b120/ca553dd1-53d3-44f8-b301-6e9138153eac.jpeg";
+
+import b1211 from "@/assets/b121/5517a1b2-6798-46d8-a842-110cebf6b335.jpeg";
+
 export const products = {
   "1": {
     id: 1,
@@ -1817,8 +1841,8 @@ material: "Couro Epsom com ferragens douradas",
     id: 66,
     name: "Dior Book Tote",
     tipoItem: "Bolsa",
-    price: "R$11.990,00 (Até 12x com acréscimo da maquininha)",
-    originalPrice: "",
+    price: "R$10.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "R$32.000,00",
      vendido: false,
     condition: "seminovo",
     description:
@@ -2911,6 +2935,270 @@ color: "Marrom caramelo com ferragens douradas",
 material: "Couro liso com acabamento rígido e ferragens metálicas douradas",
     images: [b1091],
   }, 
+
+  "110": {
+    id: 110,
+    name: "Louis Vuitton Metis",
+    tipoItem: "Bolsa",
+    price: "R$15.590,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+ description: 'A Louis Vuitton Pochette Métis é um verdadeiro ícone de praticidade e estilo. Compacta, mas surpreendentemente espaçosa, é confeccionada no clássico canvas Monogram com ferragens douradas e fecho tipo S-lock. Com alça de mão e alça longa removível em couro ajustável, adapta-se perfeitamente ao uso diário ou ocasiões especiais.',
+features: [
+  'Canvas Monogram clássico da Louis Vuitton',
+  'Fecho frontal tipo S-lock dourado com assinatura LV',
+  'Três compartimentos internos + bolso externo com zíper',
+  'Alça longa removível e ajustável para uso tiracolo ou crossbody',
+  'Alça superior em couro para uso na mão',
+],
+dimensions: '25cm × 19cm × 7cm',
+color: 'Marrom com ferragens douradas',
+material: 'Canvas Monogram e couro natural',
+    images: [b1101],
+  }, 
+
+   "111": {
+    id: 111,
+    name: "Bottega Veneta Loop",
+    tipoItem: "Bolsa",
+    price: "R$6.900,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description: 'A Bottega Veneta Loop Camera Bag é a definição de sofisticação discreta. Confeccionada em couro intrecciato verde-claro, apresenta design estruturado e contemporâneo com fechamento em zíper e alça transversal ajustável. O detalhe em nó lateral adiciona charme ao visual minimalista. Ideal para o uso diário com estilo refinado e atemporal.Impecável. Com dust bag e caixa.',
+features: [
+  'Couro intrecciato artesanal em verde-claro',
+  'Fechamento superior com zíper metálico',
+  'Alça longa ajustável em couro com detalhe de nó lateral',
+  'Formato compacto estilo camera bag',
+  'Interior forrado com compartimento interno',
+],
+dimensions: 'Aproximadamente 19cm × 12cm × 6cm',
+color: 'Verde-claro (menta)',
+material: 'Couro de bezerro macio trançado à mão',
+    images: [b1111],
+  }, 
+
+  "112": {
+    id: 112,
+    name: "Gabrielle Chanel",
+    tipoItem: "Bolsa",
+    price: "R$16.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description: 'A Chanel Gabrielle Small Hobo Bag é uma peça moderna e ousada, que combina perfeitamente o estilo urbano com a sofisticação atemporal da maison. Feita em couro matelassê branco com base estruturada em couro preto, possui alça dupla com corrente dourada e prateada, além de pingente com o icônico logo CC. Seu design versátil permite uso no ombro, cruzado ou até como mochila.',
+features: [
+  'Corpo em couro branco matelassê com base em couro preto',
+  'Alça dupla em corrente entrelaçada em couro (dourada + prateada)',
+  'Pingente com o logo CC clássico em metal',
+  'Interior espaçoso com bolsos organizadores',
+  'Design versátil: pode ser usada de várias formas (ombro, transversal, mochila)',
+],
+dimensions: 'Aproximadamente 20cm × 15cm × 8cm',
+color: 'Branco com base preta',
+material: 'Couro de bezerro e couro granulado com ferragens metálicas',
+    images: [b1121],
+  }, 
+
+   "113": {
+    id: 113,
+    name: "Chanel Prateada",
+    tipoItem: "Bolsa",
+    price: "R$12.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description: 'A Chanel Mini Flap Bag Prateada é uma peça única e glamourosa, perfeita para quem ama ousadia com sofisticação. Com acabamento metálico prateado texturizado sobre couro preto, fecho clássico com o logo CC e corrente entrelaçada, essa edição especial ainda traz um charm exclusivo com formato facetado. Ideal para ocasiões noturnas ou para dar destaque a produções elegantes.',
+features: [
+  'Couro com acabamento metálico prateado texturizado',
+  'Fecho frontal com o icônico logo CC em metal',
+  'Alça de corrente entrelaçada em couro preto',
+  'Pingente decorativo exclusivo com design facetado',
+  'Formato compacto tipo mini flap clássico da Chanel',
+],
+dimensions: '20cm × 13cm × 6cm',
+color: 'Prata metálico e preto',
+material: 'Couro texturizado com acabamento metalizado',
+    images: [b1131],
+  }, 
+
+  "114": {
+    id: 114,
+    name: "Louis Vuitton Monogram",
+    tipoItem: "Bolsa",
+    price: "R$7.100,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+description: 'A Louis Vuitton Pochette Multicolor Monogram é uma edição icônica desenvolvida em parceria com o artista Takashi Murakami. Com estampa vibrante sobre fundo preto e detalhes em couro natural, essa peça colecionável traz o clássico formato pochette com fivela decorativa frontal. Um mix de arte, moda e nostalgia que valoriza qualquer coleção.',
+features: [
+  'Canvas Monogram Multicolor sobre fundo preto (edição Takashi Murakami)',
+  'Detalhes em couro natural com acabamento envelhecido',
+  'Fivela frontal decorativa com fecho magnético',
+  'Formato compacto tipo pochette com alça de ombro fixa',
+  'Peça de coleção vintage e desejada por fashionistas',
+],
+dimensions: 'Aproximadamente 22cm × 13cm × 4cm',
+color: 'Preto com Monogram multicolorido',
+material: 'Canvas e couro natural',
+    images: [b1141],
+  }, 
+
+  "115": {
+    id: 115,
+    name: "Dior Saddle Vintage",
+    tipoItem: "Bolsa",
+    price: "R$16.900,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description: 'A Dior Saddle Bag Vintage é um ícone de estilo e atitude, eternizado nas passarelas dos anos 2000. Esta versão rara apresenta tecido bordado em padrão geométrico vermelho e bege, com alça estruturada em couro preto e ferragens douradas. O fecho em aba com a clássica letra “D” pendente adiciona sofisticação ao design curvo e ousado. Uma peça de colecionador que transforma qualquer look.',
+features: [
+  'Tecido bordado com padrão geométrico em vermelho, bege e branco',
+  'Design curvo icônico em formato de sela',
+  'Fecho em aba com detalhe metálico “D” pendurado',
+  'Alça curta em couro preto com ferragens douradas',
+  'Modelo vintage raro e muito desejado por colecionadores',
+],
+dimensions: 'Aproximadamente 26cm × 20cm × 6,5cm',
+color: 'Vermelho, bege e branco com detalhes em preto e dourado',
+material: 'Tecido bordado e couro',
+    images: [b1151],
+  }, 
+
+  "116": {
+    id: 116,
+    name: "Chanel Tote",
+    tipoItem: "Bolsa",
+    price: "R$20.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+description: 'A Chanel Deauville Tote em couro preto é uma variação sofisticada do clássico modelo da maison. Confeccionada inteiramente em couro granulado de alta qualidade, apresenta o logo Chanel Paris em tachas metálicas e alças duplas para uso na mão ou no ombro. Ampla e estruturada, é ideal para o dia a dia elegante ou como bolsa de viagem de luxo.',
+features: [
+  'Couro preto granulado de alta durabilidade',
+  'Logo Chanel Paris com tachas metálicas aplicadas',
+  'Alças curtas em couro e alça longa com corrente entrelaçada',
+  'Interior espaçoso com compartimentos organizadores',
+  'Fechamento em zíper e estrutura reforçada',
+],
+dimensions: 'Aproximadamente 38cm × 28cm × 15cm',
+color: 'Preto com ferragens prateadas',
+material: 'Couro granulado premium',
+    images: [b1161],
+  }, 
+
+  "117": {
+    id: 117,
+    name: "Chanel 22",
+    tipoItem: "Bolsa",
+    price: "R$39.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description: 'A Chanel 22 Bag é uma das criações mais modernas da maison, unindo praticidade e sofisticação. Confeccionada em couro branco macio com quilting matelassê e acabamento leve, traz o logo CHANEL em destaque na parte frontal e alça de corrente entrelaçada com couro para uso no ombro. Seu fecho tipo saco com franzido e design desestruturado adicionam um toque contemporâneo e despojado ao clássico Chanel.',
+features: [
+  'Couro macio com quilting matelassê em padrão diamante',
+  'Logo CHANEL aplicado em destaque na parte frontal',
+  'Fecho com cordão franzido estilo saco',
+  'Alça de corrente entrelaçada com couro branco',
+  'Modelo leve, espaçoso e versátil para o dia a dia',
+],
+dimensions: 'Aproximadamente 35cm × 38cm × 7cm',
+color: 'Branco com detalhes pretos',
+material: 'Couro de bezerro macio com ferragens metálicas',
+    images: [b1171],
+  }, 
+
+  "118": {
+    id: 118,
+    name: "Chanel In The Mix Tote Bege",
+    tipoItem: "Bolsa",
+    price: "R$8.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description: 'A Chanel In The Mix Tote Bag na cor bege é uma peça versátil e elegante da maison francesa. Confeccionada em couro de cordeiro extremamente macio, combina o quilting matelassê clássico com estrutura flexível e visual despojado. Possui alças de mão reforçadas e alça longa em corrente com couro entrelaçado, oferecendo diversas formas de uso. Espaçosa e atemporal, é perfeita para o dia a dia com sofisticação.',
+features: [
+  'Couro de cordeiro bege com toque ultra macio',
+  'Quilting matelassê clássico da Chanel',
+  'Alças de mão estruturadas + alça longa com corrente dourada e couro',
+  'Logo CC metálico frontal em tom ouro envelhecido',
+  'Interior amplo com compartimentos organizadores',
+],
+dimensions: '38cm × 30cm × 15cm',
+color: 'Bege claro',
+material: 'Couro de cordeiro com ferragens douradas',
+    images: [b1181],
+  }, 
+
+  "119": {
+    id: 119,
+    name: "Valentino Roman Stud",
+    tipoItem: "Bolsa",
+    price: "R$8.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description: 'A Valentino Roman Stud Top Handle Bag em vermelho é a união perfeita entre atitude e elegância. Confeccionada em couro nappa macio com acabamento matelassê oversized, apresenta as emblemáticas tachas douradas Roman Stud aplicadas em cada interseção. Com alça superior estruturada e opções de alça longa (corrente dourada ou couro com studs), é uma peça versátil e impactante, perfeita para elevar qualquer look.',
+features: [
+  'Couro nappa vermelho com acabamento matelassê maxi',
+  'Tachas douradas Roman Stud em toda a superfície',
+  'Fecho frontal giratório (twist-lock) em metal dourado',
+  'Alça superior rígida + alça longa em couro e corrente dourada removíveis',
+  'Interior forrado com compartimento principal e bolso interno',
+],
+dimensions: 'Aproximadamente 23cm × 16cm × 10cm',
+color: 'Vermelho com ferragens douradas',
+material: 'Couro nappa italiano',
+    images: [b1191],
+  },
+
+   "120": {
+    id: 120,
+    name: "Louis Vuitton Papillon",
+    tipoItem: "Bolsa",
+    price: "R$6.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+description: 'A Valentino Roman Stud Top Handle Bag em vermelho é a união perfeita entre atitude e elegância. Confeccionada em couro nappa macio com acabamento matelassê oversized, apresenta as emblemáticas tachas douradas Roman Stud aplicadas em cada interseção. Com alça superior estruturada e opções de alça longa (corrente dourada ou couro com studs), é uma peça versátil e impactante, perfeita para elevar qualquer look.',
+features: [
+  'Couro nappa vermelho com acabamento matelassê maxi',
+  'Tachas douradas Roman Stud em toda a superfície',
+  'Fecho frontal giratório (twist-lock) em metal dourado',
+  'Alça superior rígida + alça longa em couro e corrente dourada removíveis',
+  'Interior forrado com compartimento principal e bolso interno',
+],
+dimensions: 'Aproximadamente 23cm × 16cm × 10cm',
+color: 'Vermelho com ferragens douradas',
+material: 'Couro nappa italiano',
+    images: [b1201],
+  },
+
+  "121": {
+    id: 121,
+    name: "Dior Saddle Bag Monogram",
+    tipoItem: "Bolsa",
+    price: "R$17.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+description: 'A Dior Saddle Bag Monogram Oblique é um dos maiores ícones da maison francesa. Com seu formato curvo inconfundível e estampa em canvas jacquard com o monograma "Dior Oblique", a peça une o espírito dos anos 2000 com a sofisticação atemporal da Dior. Possui fecho magnético sob aba com detalhe metálico “D” pendurado e alça de ombro em couro, ideal para looks marcantes e elegantes.',
+features: [
+  'Canvas jacquard Dior Oblique azul-marinho e bege',
+  'Fecho com aba e pingente metálico “D” prateado',
+  'Alça curta de ombro em couro preto com ferragens metálicas',
+  'Design curvo icônico inspirado na sela de cavalo',
+  'Peça statement para looks elegantes e contemporâneos',
+],
+dimensions: 'Aproximadamente 25,5cm × 20cm × 6,5cm',
+color: 'Bege e azul-marinho',
+material: 'Canvas jacquard e couro',
+    images: [b1211],
+  },
 };
 
 

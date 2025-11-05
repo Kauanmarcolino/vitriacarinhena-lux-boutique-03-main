@@ -39,42 +39,41 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       <Header />
       <VipPopup />
 
       <main>
         {/* Hero Section */}
-        <section className="relative flex items-center justify-center bg-background animate-crazy-hero min-h-[90vh] sm:min-h-screen pt-8 sm:pt-12 lg:pt-16 pb-0">
+        <section className="relative flex items-center justify-center bg-background overflow-hidden h-screen sm:h-[90vh] md:h-screen">
+          {/* Imagem de fundo cobrindo tudo */}
+          <img
+            src={heroBackground}
+            alt="Bolsas de luxo elegante com padrão VC"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+          />
 
-          <div className="absolute inset-0 overflow-hidden">
-            <img
-              src={heroBackground}
-              alt="Bolsas de luxo elegante com padrão VC"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-b from-transparent to-background" />
-          </div>
-
-          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center transform -translate-y-[24%] sm:-translate-y-[26%] lg:-translate-y-[28%] transition-transform duration-500">
+          {/* Conteúdo centralizado */}
+          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center mt-[-4%] sm:mt-[-6%] md:mt-[-8%] lg:mt-[-10%]">
             <ScrollReveal animation="fade-up" delay={200}>
-              <h1 className="font-tenor text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-6 max-w-[22rem] sm:max-w-3xl mx-auto">
+              <h1 className="font-tenor text-[2rem] sm:text-[2.8rem] md:text-[3.4rem] lg:text-[3.8rem] leading-tight text-foreground mb-4 max-w-[22rem] sm:max-w-3xl mx-auto">
                 <span className="block">Bolsas de luxo</span>
                 <span className="block text-primary mt-1">autênticas</span>
               </h1>
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={400}>
-              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-base sm:text-lg md:text-xl">
-                Descubra nossa curadoria exclusiva de bolsas de luxo autênticas.
-                Cada peça é cuidadosamente selecionada para refletir elegância e
-                sofisticação.
+              <p className="text-luxury-subtitle text-muted-foreground max-w-2xl mx-auto mb-8 text-sm sm:text-lg md:text-xl px-2">
+                Explore nossa curadoria exclusiva de bolsas de luxo selecionadas com elegância.
               </p>
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={600}>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button asChild className="btn-gold text-base sm:text-lg px-8 py-3 sm:py-4">
+                <Button
+                  asChild
+                  className="btn-gold text-base sm:text-lg px-8 py-3 sm:py-4"
+                >
                   <Link to="/catalogo">
                     Ver catálogo
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -98,10 +97,12 @@ const Index = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
               <ScrollReveal animation="fade-left">
-                <div className="space-y-6 text-center md:text-left">
+                <div className="space-y-6 text-center md:text-left px-2 sm:px-0">
                   <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground">
                     Curadoria exclusiva por
-                    <span className="text-primary block">Vitória Carinhena</span>
+                    <span className="text-primary block">
+                      Vitória Carinhena
+                    </span>
                   </h2>
 
                   <p className="text-body-elegant text-base sm:text-lg leading-relaxed">
@@ -121,7 +122,7 @@ const Index = () => {
               </ScrollReveal>
 
               <ScrollReveal animation="fade-right" delay={200}>
-                <div className="relative mx-auto max-w-sm sm:max-w-md md:max-w-none">
+                <div className="relative mx-auto max-w-[85%] sm:max-w-md md:max-w-none">
                   <div className="absolute -inset-4 bg-[#c69296]/50 blur-xl rounded-3xl z-0" />
                   <div className="aspect-[4/6] overflow-hidden rounded-2xl shadow-elegant relative z-10">
                     <img
@@ -141,7 +142,7 @@ const Index = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 sm:mb-16">
               <ScrollReveal animation="fade-up">
-                <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
+                <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground mb-4 leading-snug">
                   Peças em destaque
                 </h2>
               </ScrollReveal>
@@ -179,12 +180,14 @@ const Index = () => {
                           </h3>
                         </Link>
 
-                        <span className="font-tenor text-2xl sm:text-3xl text-primary mb-6 block">
+                        <span className="font-tenor text-2xl sm:text-3xl text-primary mb-6 block font-bold">
                           {product.price}
                         </span>
 
                         <Button asChild className="w-full text-base sm:text-lg">
-                          <Link to={`/produto/${product.id}`}>Ver detalhes</Link>
+                          <Link to={`/produto/${product.id}`}>
+                            Ver detalhes
+                          </Link>
                         </Button>
                       </div>
                     </CardContent>
@@ -212,7 +215,7 @@ const Index = () => {
 
         {/* Trust Indicators */}
         <section className="py-12 sm:py-16 md:py-20 bg-background">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="text-center mb-12 sm:mb-16">
               <ScrollReveal animation="fade-up">
                 <h2 className="font-tenor text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">

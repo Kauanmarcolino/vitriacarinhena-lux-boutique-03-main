@@ -7,9 +7,10 @@ import bagProduct6 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.00 (2).j
 import bagProduct7 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.00 (3).jpeg";
 import bagProduct8 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.00.jpeg";
 import bagProduct9 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (1).jpeg";
+
 import bagProduct10 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg";
-import bagProduct11 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (3).jpeg";
-import bagProduct12 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01.jpeg";
+
+import bagProduct11 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01.jpeg";
 
 import bagProduct21 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02 (1).jpeg";
 import bagProduct22 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg";
@@ -25,6 +26,7 @@ import bagProduct35 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.23 (1).
 import bagProduct36 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.23 (2).jpeg";
 import bagProduct37 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.23.jpeg";
 import bagProduct38 from "@/assets/b3/WhatsApp Image 2025-09-25 at 16.35.24.jpeg";
+import bagProduct39 from "@/assets/b3/0df5ae13-d706-4e11-a05f-151a3fe6f8c8.jpeg";
 
 import bagProduct41 from "@/assets/b4/WhatsApp Image 2025-09-25 at 16.36.18.jpeg";
 import bagProduct42 from "@/assets/b4/WhatsApp Image 2025-09-25 at 16.36.25.jpeg";
@@ -57,12 +59,16 @@ import bagProduct97 from "@/assets/b9/WhatsApp Image 2025-09-25 at 16.40.01.jpeg
 import bagProduct98 from "@/assets/b9/WhatsApp Image 2025-09-25 at 16.40.07.jpeg";
 import bagProduct99 from "@/assets/b9/WhatsApp Image 2025-09-25 at 16.40.09 (1).jpeg";
 import bagProduct910 from "@/assets/b9/WhatsApp Image 2025-09-25 at 16.40.09.jpeg";
+import bagProduct911 from "@/assets/b9/3f23910f-a6d4-4aeb-90d4-7050d7e106d4.jpeg";
 
 import bagProduct101 from "@/assets/b10/815e3aa4-9586-4b76-82d4-a95cafab3718.jpeg";
+import bagProduct102 from "@/assets/b10/c6b5fb04-2ce0-4dea-90e1-2204581c5102.jpeg";
 
-import bagProduct111 from "@/assets/b11/6d99d9b9-3be4-421e-9fe3-6d839464116d.jpeg";
+import bagProduct111 from "@/assets/b11/99b98fbc-dda0-4c89-b9d2-027001a9631f.jpeg";
+import bagProduct112 from "@/assets/b11/6d99d9b9-3be4-421e-9fe3-6d839464116d.jpeg";
 
 import bagProduct121 from "@/assets/b12/7b442f74-0f97-4920-a493-1c518b32a00c.jpeg";
+import bagProduct122 from "@/assets/b12/6bf8db83-e405-4448-8674-2e1ba9693f7d.jpeg";
 
 import bagProduct131 from "@/assets/b13/d98558a0-b85e-4bfe-8105-74dc1012e46b.jpeg";
 
@@ -71,6 +77,7 @@ import bagProduct141 from "@/assets/b14/803e351f-7f54-43ea-9115-dcaefb4b2bba.jpe
 import bagProduct151 from "@/assets/b15/56003f20-4e45-40d2-a781-2563fceefc9b.jpeg";
 import bagProduct152 from "@/assets/b15/69148a2b-07ef-4dd2-9684-d83eafe85747.jpeg";
 import bagProduct153 from "@/assets/b15/cc642856-e9f9-49b8-9899-4d6fc75ff43e.jpeg";
+import bagProduct154 from "@/assets/b15/2315cbae-6608-4286-9c5e-fc439ba02ee8.jpeg";
 
 import bagProduct161 from "@/assets/b16/ef40d182-6830-4d97-b896-3793f2c599ba.jpeg";
 
@@ -84,61 +91,39 @@ import bagProduct201 from "@/assets/b20/faf91c05-93c3-4929-94a5-3b4c9b406d3d.jpe
 
 import bagProduct211 from "@/assets/b21/575c8698-7e17-4480-8d90-2ace1c901fc0.jpeg";
 import bagProduct212 from "@/assets/b21/9ee219e6-1c34-4c5f-b1d8-072913965f62.jpeg";
+import bagProduct213 from "@/assets/b21/98c41a05-9cce-4ffd-abda-ee4ba5c43958.jpeg";
+import bagProduct214 from "@/assets/b21/261fcac6-30e2-46ce-b202-001d3abd1aeb.jpeg";
 
 import bagProduct221 from "@/assets/b22/51bfd83d-22fd-4acf-906e-e2bf3d42010c.jpeg";
+import bagProduct222 from "@/assets/b22/35cc47f7-59ef-40c8-8e88-52bdd7ee7f20.jpeg";
 
 import bagProduct231 from "@/assets/b23/89f6b50e-88b0-4aab-b0fe-f87ada26b2b1.jpeg";
+import bagProduct232 from "@/assets/b23/558ae0e8-2811-422b-b4ed-e161be89184e.jpeg";
 
 import bagProduct251 from "@/assets/b25/edb1f5cf-4863-4aad-8ab2-103f0139b4d0.jpeg";
+import bagProduct252 from "@/assets/b25/350581db-48c3-42fa-b0b2-a9634c664368.jpeg";
 
 import bagProduct261 from "@/assets/b26/7f889f44-0d5b-4712-b7f8-3641e8f69054.jpeg";
 
 import bagProduct271 from "@/assets/b27/fa55db27-1539-4a79-a112-82105294eab5.jpeg";
+import bagProduct272 from "@/assets/b27/a3288c9f-3a28-4142-a42b-f987f0991a03.jpeg";
 
 import bagProduct281 from "@/assets/b28/5e682206-e17d-42c9-86b8-22e8a96d921e.jpeg";
 import bagProduct282 from "@/assets/b28/c8f1d0d8-d016-4182-a18a-3690bc66063d.jpeg";
+import bagProduct283 from "@/assets/b28/670e2d41-5061-44bb-a1c5-cacd6bcb4f0e.jpeg";
 
 import bagProduct291 from "@/assets/b29/2b1eb8d6-882b-49c1-ac44-9d5c1311d849.jpeg";
 import bagProduct292 from "@/assets/b29/4bc84cc9-3f36-4237-9eb6-cf1720c13df6.jpeg";
 
 import bagProduct301 from "@/assets/b30/26574af5-21bb-4225-86f1-82f0da59737b.jpeg"
 
-import bagProduct311 from "@/assets/b31/e20cecae-4a71-441c-9771-86c2eb2056f3.jpeg";
-
 import bagProduct321 from "@/assets/b32/ba1522fa-03eb-4b93-aada-a88c8fce83e8.jpeg";
 import bagProduct322 from "@/assets/b32/db0b52e9-5830-4c96-818e-8fd6092547d1.jpeg";
 import bagProduct323 from "@/assets/b32/de767af8-cfa9-496f-a5c6-165a1e548f59.jpeg";
 import bagProduct324 from "@/assets/b32/e04ef09a-a424-4441-af82-4eca88490da5.jpeg";
 import bagProduct325 from "@/assets/b32/21d641c9-ebf6-4b84-a638-e423156f9bf3.jpeg";
+import bagProduct326 from "@/assets/b32/6ba2079a-ed54-4d5e-a89c-abe27988735e.jpeg";
 
-import bagProduct331 from "@/assets/b33/9c5274fa-c6ec-46c2-8cba-63f3222142de.jpeg";
-
-import bagProduct341 from "@/assets/b34/fccd0123-a7a3-4219-ad76-c880b1fcb9bb.jpeg";
-
-import bagProduct351 from "@/assets/b35/ff336358-e8bc-451c-af53-f3bceb1b4fac.jpeg";
-
-import bagProduct361 from "@/assets/b36/9477101d-79da-4bff-affa-1b855036771a.jpeg";
-
-import bagProduct371 from "@/assets/b37/13a4a119-5529-45d0-9d3a-0d72768b72c6.jpeg";
-
-import bagProduct381 from "@/assets/b38/3d469cef-9699-4578-87d4-a2a7446ef84c.jpeg";
-
-import bagProduct391 from "@/assets/b39/2cbdb739-c2f1-4cfb-bbd5-7756462f2c8b.jpeg";
-import bagProduct392 from "@/assets/b39/3a5bfb77-8c82-40c1-9578-7c742f16bc86.jpeg";
-import bagProduct393 from "@/assets/b39/8995a28b-4ea3-43fb-8132-82fa93adb2c5.jpeg";
-
-import bagProduct401 from "@/assets/b40/217d1e3b-e763-43df-8a64-99f4570084b4.jpeg";
-import bagProduct402 from "@/assets/b40/2a01ca2f-942c-4296-98ae-ac22abdea2fe.jpeg";
-import bagProduct403 from "@/assets/b40/3d93141d-be33-4990-9f83-c5c3618e7607.jpeg";
-import bagProduct404 from "@/assets/b40/43cb8e5f-ec12-4d4c-8a4f-453a31aff9be.jpeg";
-import bagProduct405 from "@/assets/b40/741442bf-31bb-4b47-a005-815a19a1b906.jpeg";
-import bagProduct406 from "@/assets/b40/87e46386-94b1-4bf3-9569-af76e5ec08d5.jpeg";
-import bagProduct407 from "@/assets/b40/918600bf-9766-462f-ba72-9e4817a15271.jpeg";
-import bagProduct408 from "@/assets/b40/c2c6bd86-7d7a-47a0-9ff6-e5b3335076b7.jpeg";
-
-import bagProduct411 from "@/assets/b41/bbf3a7c5-b0b1-44f9-808c-c22fd546ac0a.jpeg";
-
-import bagProduct421 from "@/assets/b42/720820be-293d-4deb-a940-c761fc8a2d97.jpeg";
 import bagProduct422 from "@/assets/b43/WhatsApp Image 2025-10-29 at 14.41.04_760e73d8.jpg";
 import bagProduct423 from "@/assets/b44/WhatsApp Image 2025-10-29 at 14.41.05_df24a0a0.jpg";
 import bagProduct424 from "@/assets/b45/WhatsApp Image 2025-10-29 at 14.41.05_6ccc5811.jpg";
@@ -148,9 +133,7 @@ import bagProduct47_2 from "@/assets/b47/WhatsApp Image 2025-10-29 at 14.41.06_b
 import bagProduct48_1 from "@/assets/b48/WhatsApp Image 2025-10-29 at 14.41.06_cddcac30.jpg";
 import bagProduct49_1 from "@/assets/b49/WhatsApp Image 2025-10-29 at 14.41.06_23083e6c.jpg";
 import bagProduct50_1 from "@/assets/b50/WhatsApp Image 2025-10-29 at 14.41.06_57874a8e.jpg";
-import bagProduct51_1 from "@/assets/b51/WhatsApp Image 2025-10-29 at 14.41.06_be856941.jpg";
-import bagProduct51_2 from "@/assets/b51/WhatsApp Image 2025-10-29 at 14.41.07_209cad19.jpg";
-import bagProduct52_1 from "@/assets/b52/WhatsApp Image 2025-10-29 at 14.41.07_9d88dfb7.jpg";
+
 import bagProduct53_1 from "@/assets/b53/WhatsApp Image 2025-10-29 at 14.41.07_ab60be68.jpg";
 import bagProduct54_1 from "@/assets/b54/WhatsApp Image 2025-10-29 at 14.41.07_7cd632e9.jpg";
 import bagProduct55_1 from "@/assets/b55/WhatsApp Image 2025-10-29 at 14.41.07_b5ecf62f.jpg";
@@ -200,6 +183,7 @@ import b711 from "@/assets/b71/c5b2aa85-7c44-4bd5-b2b8-bb2da7e9a242.jpeg";
 import b721 from "@/assets/b72/1587d2ad-6421-44be-8f3a-2668a2af49bd.jpeg";
 
 import b731 from "@/assets/b73/29e05a1c-f959-4d84-919b-bd8c4b5d3302.jpeg";
+import b732 from "@/assets/b73/795d10cd-3618-4018-bc41-041c5001dc2e.jpeg";
 
 import b741 from "@/assets/b74/02598173-11c2-4be7-a973-2c9a6d199d25.jpeg";
 import b742 from "@/assets/b74/19cec8d8-4d9e-460a-b7c5-2332000a680b.jpeg";
@@ -212,17 +196,9 @@ import b751 from "@/assets/b75/fa908708-647a-444f-be69-4648c67d605b.jpeg";
 
 import b761 from "@/assets/b76/3e0be2db-95bf-4195-a3d9-68762f459f55.jpeg";
 
-import b771 from "@/assets/b77/7bfcb374-d3c8-42f7-937f-c3db467ac18a.jpeg";
-
 import b781 from  "@/assets/b78/798cd557-6eb4-4491-ba33-b813ba9834a3.jpeg";
 
 import b791 from "@/assets/b79/703cf029-8653-4c40-90bd-1122f822ba6e.jpeg";
-
-import b801 from "@/assets/b80/8d620f3f-9ebb-46f5-97b9-b61ddd5d9fdf.jpeg";
-
-import b811 from "@/assets/b81/67ee25af-5b09-467c-abdc-a626c0e85ea9.jpeg";
-
-import b821 from "@/assets/b82/dd97bf61-4a26-436a-ae36-c12774e8998c.jpeg";
 
 import b831 from "@/assets/b83/8f19652d-571c-4b2f-9c8e-b7f11ffa8310.jpeg";
 
@@ -238,16 +214,6 @@ import b871 from "@/assets/b87/8ae0cd6c-57b2-452b-8a8c-496003db8623.jpeg";
 import b881 from "@/assets/b88/4d27855c-252a-486b-8cdf-40492b7e6ffb.jpeg";
 
 import b891 from "@/assets/b89/3d2e4302-59f1-4813-a3aa-c897db9fb6ee.jpeg";
-
-import b901 from "@/assets/b90/f38f6482-25bc-42ae-9e36-cd414db338e1.jpeg";
-
-import b911 from "@/assets/b91/da184c35-b321-44f8-be38-1edcce7f5995.jpeg";
-
-import b921 from "@/assets/b92/14a73a21-31e1-4e5a-b145-a40a69704c57.jpeg";
-
-import b931 from "@/assets/b93/5880b26b-9ce7-47c7-ba5f-67fe9418bd7b.jpeg";
-
-import b941 from "@/assets/b94/9b25e24c-0945-4ec1-a734-c8da73400a64.jpeg";
 
 import b951 from "@/assets/b95/a4d785bf-8c7d-406f-b2ff-7d4e79d3b4eb.jpeg";
 
@@ -267,19 +233,9 @@ import b1011 from "@/assets/b101/6acefb4b-cdef-4fc7-b08c-0d219838dcbc.jpeg";
 import b1021 from "@/assets/b102/2eeb946a-4178-4ca9-adc0-66d39b88cc7b.jpeg";
 import b1022 from "@/assets/b102/87cb1e98-c24a-4978-b470-5080fecbc90a.jpeg";
 
-import b1031 from "@/assets/b103//8d021564-b452-4db4-ba7d-88b65ceec096.jpeg";
-
-import b1041 from "@/assets/b104/52fe93f2-4829-4e03-b555-0fecd786813a.jpeg";
-
-import b1051 from "@/assets/b105/04df3589-45e5-46ce-8bff-4954fb0bfc96.jpeg";
-
 import b1061 from "@/assets/b106/2db8eed3-8355-449d-8a8b-7de32d512781.jpeg";
 
-import b1071 from "@/assets/b107/be92dede-7a73-42b6-9241-fdc168c87051.jpeg";
-
 import b1081 from "@/assets/b108/ea391c75-b325-4863-9336-44096816ec28.jpeg";
-
-import b1091 from "@/assets/b109/5fcab93a-08e4-4be9-bfd1-8197a75f2d4d.jpeg";
 
 import b1101 from "@/assets/b110/fff939a1-11fa-4be0-ae53-0a01d5a29571.jpeg";
 
@@ -301,9 +257,6 @@ import b1181 from "@/assets/b118/a28f7873-2537-429f-a540-fdd3bdaed0d8.jpeg";
 
 import b1191 from "@/assets/b119/dbdefa1c-afaf-4369-92c2-6a9c29417faf.jpeg";
 
-import b1201 from "@/assets/b120/ca553dd1-53d3-44f8-b301-6e9138153eac.jpeg";
-
-import b1211 from "@/assets/b121/5517a1b2-6798-46d8-a842-110cebf6b335.jpeg";
 
 export const products = {
   "1": {
@@ -329,6 +282,7 @@ export const products = {
     color: "Marrom com detalhes caramelo",
     material: "Canvas Monogram e couro natural",
     images: [
+      bagProduct10,
       bagProduct1,
       bagProduct2,
       bagProduct3,
@@ -338,9 +292,7 @@ export const products = {
       bagProduct7,
       bagProduct8,
       bagProduct9,
-      bagProduct10,
       bagProduct11,
-      bagProduct12,
     ],
   },
   "2": {
@@ -394,6 +346,7 @@ export const products = {
     color: "Branco",
     material: "Couro caviar",
     images: [
+      bagProduct39,
       bagProduct31,
       bagProduct32,
       bagProduct33,
@@ -519,6 +472,7 @@ export const products = {
     color: "nude/bege sofisticado",
     material: "couro com acabamento envernizado",
     images: [
+      bagProduct911,
       bagProduct91,
       bagProduct92,
       bagProduct93,
@@ -552,7 +506,7 @@ export const products = {
     color: "Preto",
     material: "Couro premium italiano",
 
-    images: [bagProduct101],
+    images: [bagProduct102,bagProduct101],
   },
 
   "11": {
@@ -575,7 +529,7 @@ export const products = {
     dimensions: "Aproximadamente 23cm × 17cm × 9cm",
     color: "Preto",
     material: "Couro italiano matelassê",
-    images: [bagProduct111],
+    images: [bagProduct111, bagProduct112],
   },
 
   "12": {
@@ -597,7 +551,7 @@ export const products = {
     dimensions: "35 BR",
     color: "Preto",
     material: "Couro premium italiano",
-    images: [bagProduct121],
+    images: [bagProduct122, bagProduct121],
   },
 
   "13": {
@@ -666,7 +620,7 @@ export const products = {
     color: "Preto (ou variações em cores neutras/clássicas)",
     material: "Couro premium (Saffiano ou couro liso)",
 
-    images: [bagProduct152, bagProduct151, bagProduct153],
+    images: [bagProduct154, bagProduct152, bagProduct151, bagProduct153],
   },
 
   "16": {
@@ -809,7 +763,7 @@ export const products = {
     color: "Bege com detalhes em marrom e ferragens douradas",
     material: "Lona GG Supreme e couro natural com ferragens metálicas",
 
-    images: [bagProduct211, bagProduct212],
+    images: [bagProduct213,bagProduct214,bagProduct211, bagProduct212],
   },
 
   "22": {
@@ -833,7 +787,7 @@ export const products = {
     color: "Preto e cinza escuro (Monogram Eclipse)",
     material: "Canvas Monogram Eclipse e couro legítimo",
 
-    images: [bagProduct221],
+    images: [bagProduct222, bagProduct221],
   },
 
   "23": {
@@ -857,7 +811,7 @@ export const products = {
     color: "Preta com costura branca e ferragens prateadas",
     material: "Couro legítimo granulado com acabamento artesanal",
 
-    images: [bagProduct231],
+    images: [bagProduct232, bagProduct231],
   },
 
   "25": {
@@ -881,7 +835,7 @@ export const products = {
     color: "Bege taupe com ferragens douradas",
     material: "Couro macio com ferragens metálicas douradas",
 
-    images: [bagProduct251],
+    images: [bagProduct252, bagProduct251],
   },
 
   "26": {
@@ -929,7 +883,7 @@ export const products = {
     color: "Bege claro com ferragens douradas",
     material: "Couro matelassê com ferragens metálicas douradas",
 
-    images: [bagProduct271],
+    images: [bagProduct272, bagProduct271],
   },
 
   "28": {
@@ -954,7 +908,7 @@ export const products = {
     material:
       "Couro liso italiano com detalhes em tecido e ferragens metálicas douradas",
 
-    images: [bagProduct281, bagProduct282],
+    images: [bagProduct283, bagProduct281, bagProduct282],
   },
 
   "29": {
@@ -979,7 +933,7 @@ export const products = {
     material:
       "Canvas GG Supreme e couro com ferragens metálicas prateadas envelhecidas",
 
-    images: [bagProduct291, bagProduct292],
+    images: [bagProduct291],
   },
 
   "30": {
@@ -1024,7 +978,7 @@ features: [
 dimensions: "Aproximadamente 11cm × 18cm × 3cm",
 color: "Nude rosado com ferragens douradas",
 material: "Couro liso com ferragens metálicas douradas",
-images: [bagProduct321, bagProduct322, bagProduct323, bagProduct324, bagProduct325],
+images: [bagProduct326, bagProduct321, bagProduct322, bagProduct323, bagProduct324, bagProduct325],
   },
 
   "43": {
@@ -1723,7 +1677,7 @@ dimensions:
   "Aproximadamente 16cm × 10cm × 4cm",
 color: "Bege e ébano com ferragens prateadas",
 material: "Canvas GG Supreme e suede com ferragens metálicas",
-    images: [b731],
+    images: [b732, b731],
   },
 
    "74": {

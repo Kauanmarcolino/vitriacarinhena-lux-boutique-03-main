@@ -18,7 +18,7 @@ const Index = () => {
     {
       id: 1,
       name: "Mala Louis Vuitton Monogram",
-      price: "R$7.490,00",
+      price: "R$8.990,00",
       image: bagProduct1,
     },
     {

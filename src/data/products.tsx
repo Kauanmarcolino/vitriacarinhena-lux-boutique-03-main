@@ -113,7 +113,6 @@ import bagProduct282 from "@/assets/b28/c8f1d0d8-d016-4182-a18a-3690bc66063d.jpe
 import bagProduct283 from "@/assets/b28/670e2d41-5061-44bb-a1c5-cacd6bcb4f0e.jpeg";
 
 import bagProduct291 from "@/assets/b29/2b1eb8d6-882b-49c1-ac44-9d5c1311d849.jpeg";
-import bagProduct292 from "@/assets/b29/4bc84cc9-3f36-4237-9eb6-cf1720c13df6.jpeg";
 
 import bagProduct301 from "@/assets/b30/26574af5-21bb-4225-86f1-82f0da59737b.jpeg"
 
@@ -198,7 +197,6 @@ import b761 from "@/assets/b76/3e0be2db-95bf-4195-a3d9-68762f459f55.jpeg";
 
 import b781 from  "@/assets/b78/798cd557-6eb4-4491-ba33-b813ba9834a3.jpeg";
 
-import b791 from "@/assets/b79/703cf029-8653-4c40-90bd-1122f822ba6e.jpeg";
 
 import b831 from "@/assets/b83/8f19652d-571c-4b2f-9c8e-b7f11ffa8310.jpeg";
 
@@ -493,7 +491,7 @@ export const products = {
     price: "R$3.590,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "novo",
-     vendido: false,
+     vendido: true,
     description:
       "A sofisticada YSL Envelope Micro Bag combina o clássico design envelope com o luxo atemporal da Maison Saint Laurent. Feita em couro premium com acabamento matelassê e o icônico monograma YSL em metal dourado na aba frontal. Compacta e versátil, pode ser usada a tiracolo ou como clutch, ideal para eventos elegantes e ocasiões especiais. Acompanha caixa, dust bag, sacola Autenticada RA",
     features: [
@@ -797,7 +795,7 @@ export const products = {
     price: "R$3.490,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "seminovo",
-     vendido: false,
+     vendido: true,
     description:
       "A Carteira Hermés é a perfeita fusão entre sofisticação artesanal e funcionalidade moderna. Confeccionada em couro de alta qualidade com textura granulada, apresenta costura contrastante e acabamento impecável — símbolos da excelência da maison francesa. Seu design elegante traz compartimentos bem distribuídos para cartões, notas e moedas, além de um fecho metálico discreto com o icônico detalhe Hermés. Um acessório que reflete luxo, discrição e tradição em cada detalhe.",
     features: [
@@ -1779,30 +1777,6 @@ material: "Couro liso de alta qualidade",
     images: [b781],
   },
 
-  "79": {
-    id: 79,
-    name: "YSL Envelope Micro Bag",
-    tipoItem: "Bolsa",
-     vendido: false,
-    price: "R$3.590,00 (Até 12x com acréscimo da maquininha)",
-    originalPrice: "-",
-    condition: "novo",
-   description:
-  "A Envelope Micro Bag da Saint Laurent é uma peça delicada e icônica, que traduz a essência do luxo parisiense em uma versão compacta e sofisticada. Confeccionada em couro matelassê off-white, apresenta o monograma YSL em metal dourado e corrente fina que adiciona um toque refinado. Ideal para eventos ou ocasiões em que o estilo minimalista é o destaque.",
-features: [
-  "Confeccionada em couro matelassê de alta qualidade na cor off-white",
-  "Logo YSL em metal dourado na aba frontal",
-  "Fechamento por botão de pressão oculto",
-  "Alça de corrente fina em metal envelhecido para uso no ombro ou transversal",
-  "Interior forrado em tecido com compartimento para cartões",
-],
-dimensions:
-  "Aproximadamente 11cm × 8cm × 3cm",
-color: "Off-white com ferragens douradas",
-material: "Couro matelassê com ferragens metálicas",
-    images: [b791],
-  },
-
   "83": {
     id: 83,
     name: "Bolsa Gucci Jackie 1961 Small Bag Monograma",
@@ -2217,7 +2191,7 @@ material: "Couro legítimo com ferragens em metal dourado",
     price: "R$5.500,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "novo",
-    vendido: false,
+    vendido: true,
  description:
     "A Rimowa Essential Cabin é um ícone do design contemporâneo em viagens. Criada para oferecer leveza, resistência e elegância, é confeccionada em policarbonato de alta durabilidade com acabamento brilhante e estrutura de alumínio reforçada. Seu design minimalista, com linhas verticais marcantes, reflete a tradição alemã de precisão e sofisticação, sendo ideal para viagens curtas ou de negócios.",
   features: [
@@ -2441,7 +2415,7 @@ material: 'Couro de cordeiro com ferragens douradas',
     price: "R$8.990,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "seminovo",
-    vendido: false,
+    vendido: true,
 description: 'A Valentino Roman Stud Top Handle Bag em vermelho é a união perfeita entre atitude e elegância. Confeccionada em couro nappa macio com acabamento matelassê oversized, apresenta as emblemáticas tachas douradas Roman Stud aplicadas em cada interseção. Com alça superior estruturada e opções de alça longa (corrente dourada ou couro com studs), é uma peça versátil e impactante, perfeita para elevar qualquer look.',
 features: [
   'Couro nappa vermelho com acabamento matelassê maxi',

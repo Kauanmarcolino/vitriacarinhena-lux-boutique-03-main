@@ -405,8 +405,8 @@ export const products = {
     id: 6,
     name: "Louis Vuitton Monogram Cardholder",
     tipoItem: "Carteira",
-    price: "R$12.990,00 (10x de R$1415,00)",
-    originalPrice: "R$ 15.000",
+    price: "R$1.490,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
     condition: "seminovo",
      vendido: false,
     description:

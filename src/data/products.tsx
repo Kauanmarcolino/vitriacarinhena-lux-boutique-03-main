@@ -537,7 +537,7 @@ export const products = {
     price: "R$5.250,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "novo",
-     vendido: false,
+     vendido: true,
     description:
       "A elegante Hermés Oran em couro preto premium, com acabamento refinado e silhueta minimalista que reflete o luxo discreto da maison. Compacta e versátil, pode transitar do dia à noite com facilidade, sendo um investimento atemporal para quem aprecia estilo clássico.",
     features: [

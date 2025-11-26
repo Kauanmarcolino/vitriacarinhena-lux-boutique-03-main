@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import heroBackground from "@/assets/hero-background.png";
 import fotoVi from "@/assets/fotoVi.jpeg";
-import bagProduct1 from "@/assets/b1/WhatsApp Image 2025-09-25 at 16.35.01 (2).jpeg";
+import bagProduct1 from "@/assets/b122/873c815f-23de-4da0-a230-d9313ad8c64d.jpg";
 import bagProduct2 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg";
 import InstagramFeed from "@/components/InstagramFeed";
 import VipPopup from "@/components/VipPopup";
@@ -17,8 +17,8 @@ const Index = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "Mala Louis Vuitton Monogram",
-      price: "R$8.990,00",
+      name: "Ysl Cassandre",
+      price: "R$6.990,00",
       image: bagProduct1,
     },
     {

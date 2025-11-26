@@ -255,6 +255,12 @@ import b1181 from "@/assets/b118/a28f7873-2537-429f-a540-fdd3bdaed0d8.jpeg";
 
 import b1191 from "@/assets/b119/dbdefa1c-afaf-4369-92c2-6a9c29417faf.jpeg";
 
+import b1221 from "@/assets/b122/873c815f-23de-4da0-a230-d9313ad8c64d.jpg";
+
+import b1231 from "@/assets/b123/dbd3a8c1-94da-48c2-80c9-f680af8e5bbe.jpg";
+
+import b1241 from "@/assets/b124/33acb6cb-3db9-4972-b60c-e261e92bd18a.jpg";
+
 
 export const products = {
   "1": {
@@ -1010,7 +1016,7 @@ images: [bagProduct326, bagProduct321, bagProduct322, bagProduct323, bagProduct3
     price: "R$10.990,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "seminovo",
-     vendido: false,
+     vendido: true,
     description:
       "A icônica Louis Vuitton Speedy 30 em Canvas Damier Ébène é um clássico atemporal da maison francesa. Com design elegante e estrutura leve, é perfeita para o dia a dia e viagens curtas. Seu formato espaçoso e detalhes em couro marrom trazem praticidade e sofisticação em uma só peça.",
     features: [
@@ -1347,7 +1353,7 @@ material: "Canvas Monogram com detalhes em couro natural",
     price: "R$6.500,00 (10x de 708,00)",
     originalPrice: "",
     condition: "seminovo",
-     vendido: false,
+     vendido: true,
     description:
   "A Alma BB Damier Ebene da Louis Vuitton é uma das bolsas mais elegantes e reconhecidas da maison. Inspirada no design Art Déco original de 1934, combina sofisticação clássica com praticidade contemporânea. O canvas Damier Ebene e os acabamentos em couro liso criam uma harmonia refinada, enquanto a alça removível permite uso versátil, tanto na mão quanto a tiracolo.",
 features: [
@@ -1590,7 +1596,7 @@ material: "Palha natural trançada e couro legítimo",
     price: "R$6.500,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "seminovo",
-     vendido: false,
+     vendido: true,
    description:
   "A Gucci GG Marmont Mini é uma das bolsas mais desejadas da maison italiana, conhecida pelo design elegante e versátil. Confeccionada em couro matelassê preto com padrão chevron, apresenta o icônico logo duplo GG em metal dourado. Compacta e atemporal, é perfeita para compor looks sofisticados tanto de dia quanto à noite.",
 features: [
@@ -2428,6 +2434,76 @@ dimensions: 'Aproximadamente 23cm × 16cm × 10cm',
 color: 'Vermelho com ferragens douradas',
 material: 'Couro nappa italiano',
     images: [b1191],
+  },
+
+  "122": {
+    id: 122,
+    name: "Ysl Cassandre",
+    tipoItem: "Bolsa",
+    price: "R$6.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description:
+    "A YSL Wallet on Chain Cassandre é um clássico da Saint Laurent, combinando elegância, minimalismo e acabamento sofisticado. Confeccionada em couro granulado com costura matelassê em Chevron, traz o icônico monograma YSL em metal dourado como destaque. Compacta, versátil e estruturada, pode ser usada como carteira, clutch ou bolsa transversal graças à corrente dourada removível.",
+  features: [
+    "Couro granulado premium com costura matelassê Chevron",
+    "Monograma YSL em metal dourado",
+    "Fecho frontal com tampa estruturada",
+    "Corrente dourada removível para usar como clutch ou crossbody",
+    "Interior forrado com compartimentos para cartões e espaço principal",
+  ],
+  dimensions: "Aproximadamente 22cm × 14cm × 4cm",
+  color: "Bege nude com ferragens douradas",
+  material: "Couro granulado (grained calfskin)",
+    images: [b1221],
+  },
+
+  "123": {
+    id: 123,
+    name: "Gucci Blondie Mini GG Matelassé ",
+    tipoItem: "Bolsa",
+    price: "R$8.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+description:
+    "A Gucci Blondie Mini GG Matelassé é a definição de delicadeza e sofisticação. Confeccionada em couro matelassê com o icônico padrão GG bordado, traz o emblemático logo G dobrado em metal dourado no centro. Versátil, acompanha duas alças — uma de corrente dourada elegante e outra larga esportiva — permitindo múltiplas formas de uso. Uma peça charmosa, moderna e atemporal.",
+  features: [
+    "Couro matelassê com monograma GG bordado",
+    "Logo G dobrado em metal dourado",
+    "Acompanha 2 alças: corrente dourada e alça larga esportiva",
+    "Fecho superior com zíper",
+    "Interior forrado com compartimento principal amplo",
+    "Acompanha caixa e dust bag",
+  ],
+  dimensions: "Aproximadamente 24cm × 14cm × 6cm",
+  color: "Rosa blush com ferragens douradas",
+  material: "Couro matelassê italiano",
+    images: [b1231],
+  },
+
+  "124": {
+    id: 124,
+    name: "Gucci Espadrille GG Canvas Dourado",
+    tipoItem: "Sapatos",
+    price: "R$1.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+ description:
+    "A Gucci Espadrille GG Canvas Dourado combina conforto e sofisticação em um design clássico. Confeccionada em lona premium com o icônico monograma GG e detalhes de abelhas douradas bordadas, traz acabamento em couro preto e solado de corda trançada. Um modelo leve, elegante e versátil para o dia a dia.",
+  features: [
+    "Lona GG Supreme com abelhas douradas bordadas",
+    "Acabamento em couro preto",
+    "Solado em corda trançada estilo espadrille",
+    "Palmilha confortável revestida em tecido",
+    "Acompanha caixa e dust bag"
+  ],
+  dimensions: "Tamanho 35 BR",
+  color: "Bege monograma com detalhes dourados e preto",
+  material: "Lona GG Supreme + couro + corda natural",
+    images: [b1241],
   },
 };
 

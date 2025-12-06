@@ -9,24 +9,39 @@ import ScrollReveal from "@/components/ScrollReveal";
 import heroBackground from "@/assets/hero-background.png";
 import fotoVi from "@/assets/fotoVi.jpeg";
 import bagProduct1 from "@/assets/b122/873c815f-23de-4da0-a230-d9313ad8c64d.jpg";
-import bagProduct2 from "@/assets/b2/WhatsApp Image 2025-09-25 at 16.35.02.jpeg";
+import bagProduct2 from "@/assets/b2/8156070a-de18-4040-800b-124d702f1e42.jpg";
+import bagProduct3 from "@/assets/b124/33acb6cb-3db9-4972-b60c-e261e92bd18a.jpg";
 import InstagramFeed from "@/components/InstagramFeed";
 import VipPopup from "@/components/VipPopup";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Index = () => {
   const featuredProducts = [
     {
-      id: 1,
+      id: 128,
       name: "Ysl Cassandre",
       price: "R$6.990,00",
       image: bagProduct1,
     },
     {
-      id: 2,
-      name: "Louis Vuitton NeoNoé Monogram",
-      price: "R$12.990,00",
+      id: 123,
+      name: "Gucci Blondie Mini GG Matelassé Leather",
+      price: "R$8.990,00",
       image: bagProduct2,
     },
+    {
+      id: 124,
+      name: "Gucci Espadrille GG Canvas Dourado",
+      price: "R$1.990,00",
+      image: bagProduct3,
+    },
+    
   ];
 
   const handleWhatsAppClick = () => {
@@ -154,47 +169,52 @@ const Index = () => {
               </ScrollReveal>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
-              {featuredProducts.map((product, index) => (
-                <ScrollReveal
-                  key={product.id}
-                  animation="fade-up"
-                  delay={(index + 1) * 200}
-                >
-                  <Card className="card-luxury hover-lift group h-full flex flex-col">
-                    <CardContent className="p-0">
-                      <Link to={`/produto/${product.id}`}>
-                        <div className="aspect-square overflow-hidden rounded-t-xl">
-                          <img
-                            src={product.image}
-                            alt={product.name}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                          />
-                        </div>
-                      </Link>
+            <div className="max-w-5xl mx-auto">
+  <Carousel className="w-full">
+    <CarouselContent>
+      {featuredProducts.map((product, index) => (
+        <CarouselItem key={product.id} className="basis-full sm:basis-1/2 lg:basis-1/3">
+          <ScrollReveal animation="fade-up" delay={(index + 1) * 200}>
+            <Card className="card-luxury hover-lift group h-full flex flex-col">
+              <CardContent className="p-0">
+                <Link to={`/produto/${product.id}`}>
+                  <div className="aspect-square overflow-hidden rounded-t-xl">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                </Link>
 
-                      <div className="p-6 sm:p-8 text-center flex flex-col justify-between min-h-[200px] sm:min-h-[240px]">
-                        <Link to={`/produto/${product.id}`}>
-                          <h3 className="font-tenor text-xl sm:text-2xl text-foreground group-hover:text-primary transition-colors mb-2">
-                            {product.name}
-                          </h3>
-                        </Link>
+                <div className="p-6 sm:p-8 text-center flex flex-col justify-between min-h-[200px] sm:min-h-[240px]">
+                  <Link to={`/produto/${product.id}`}>
+                    <h3 className="font-tenor text-xl sm:text-2xl text-foreground group-hover:text-primary transition-colors mb-2">
+                      {product.name}
+                    </h3>
+                  </Link>
 
-                        <span className="font-tenor text-2xl sm:text-3xl text-primary mb-6 block font-bold">
-                          {product.price}
-                        </span>
+                  <span className="font-tenor text-2xl sm:text-3xl text-primary mb-6 block font-bold">
+                    {product.price}
+                  </span>
 
-                        <Button asChild className="w-full text-base sm:text-lg">
-                          <Link to={`/produto/${product.id}`}>
-                            Ver detalhes
-                          </Link>
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </ScrollReveal>
-              ))}
+                  <Button asChild className="w-full text-base sm:text-lg">
+                    <Link to={`/produto/${product.id}`}>Ver detalhes</Link>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </ScrollReveal>
+        </CarouselItem>
+      ))}
+    </CarouselContent>
+
+    {/* Setas laterais */}
+    <CarouselPrevious />
+    <CarouselNext />
+  </Carousel>
             </div>
+
 
             <ScrollReveal animation="fade-up" delay={600}>
               <div className="text-center mt-12">

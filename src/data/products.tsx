@@ -255,11 +255,19 @@ import b1181 from "@/assets/b118/a28f7873-2537-429f-a540-fdd3bdaed0d8.jpeg";
 
 import b1191 from "@/assets/b119/dbdefa1c-afaf-4369-92c2-6a9c29417faf.jpeg";
 
-import b1221 from "@/assets/b122/873c815f-23de-4da0-a230-d9313ad8c64d.jpg";
-
 import b1231 from "@/assets/b123/dbd3a8c1-94da-48c2-80c9-f680af8e5bbe.jpg";
 
 import b1241 from "@/assets/b124/33acb6cb-3db9-4972-b60c-e261e92bd18a.jpg";
+
+import b1251 from "@/assets/b125/f34ab3da-ac26-48e5-bef7-eafc6ee38ed1.jpg";
+
+import b1261 from "@/assets/b126/a595eaff-464e-4719-9850-5469d1fde59a.jpg";
+
+import b1271 from "@/assets/b127/8350fc83-0810-48e0-aa16-5218509eac4c.jpg";
+
+import b1281 from "@/assets/b128/592d11d1-b573-46e8-8207-4dd0200b18db.jpg";
+
+import b1282 from "@/assets/b128/918f408a-abfd-4b35-aa8f-83d6a2f39ad4.jpg";
 
 
 export const products = {
@@ -565,7 +573,7 @@ export const products = {
     price: "R$27.990,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "novo",
-     vendido: false,
+     vendido: true,
     description:
       "A elegante Chanel Trendy CC combina o clássico da maison com uma silhueta estruturada e contemporânea. Confeccionada em couro de carneiro (lambskin) ou couro de alta qualidade, apresenta o icônico fecho CC, alça de corrente entrelaçada em couro e uma alça superior rígida para uso na mão ou no ombro. Interior compartimentado e design refinado fazem dela uma peça versátil para o dia ou a noite.",
     features: [
@@ -587,7 +595,7 @@ export const products = {
     price: "R$14.200,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "novo",
-     vendido: false,
+     vendido: true,
     description:
       "A sofisticada Saint Laurent Gaby Vanity Case na cor caramelo combina elegância e versatilidade numa silhueta estruturada em couro premium. Com o icônico monograma YSL em metal dourado, esta peça pode ser usada como bolsa de ombro ou crossbody graças à alça de corrente ajustável ou removível. Ideal para quem busca luxo discreto com personalidade.",
     features: [
@@ -947,7 +955,7 @@ export const products = {
     price: "R$14.990,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "novo",
-     vendido: false,
+     vendido: true,
     description: "A YSL LouLou Puffer Toy é uma versão compacta e sofisticada da icônica linha LouLou. Confeccionada em couro macio matelassê com o monograma YSL dourado, combina luxo e conforto em um design versátil. Seu formato acolchoado e estrutura leve garantem elegância casual, ideal tanto para o dia quanto para a noite. A corrente dourada com detalhe em couro permite uso no ombro ou transversal, refletindo o equilíbrio entre o clássico e o moderno característico da Maison Saint Laurent.",
   features: [
     "Couro macio matelassê na cor branca com acabamento acetinado",
@@ -1668,7 +1676,7 @@ material: "Canvas Monogram com detalhes em couro natural",
     price: "R$4.500,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
     condition: "novo",
-     vendido: false,
+     vendido: true,
    description:
   "A Dionysus GG Supreme Mini da Gucci é um ícone de elegância moderna e refinamento italiano. Confeccionada em canvas GG Supreme com acabamento em suede, o modelo traz o fecho metálico em formato de cabeça de tigre — símbolo marcante da linha Dionysus. Compacta e sofisticada, é ideal para ocasiões que pedem estilo e praticidade.",
 features: [
@@ -2436,29 +2444,6 @@ material: 'Couro nappa italiano',
     images: [b1191],
   },
 
-  "122": {
-    id: 122,
-    name: "Ysl Cassandre",
-    tipoItem: "Bolsa",
-    price: "R$6.990,00 (Até 12x com acréscimo da maquininha)",
-    originalPrice: "",
-    condition: "seminovo",
-    vendido: false,
-description:
-    "A YSL Wallet on Chain Cassandre é um clássico da Saint Laurent, combinando elegância, minimalismo e acabamento sofisticado. Confeccionada em couro granulado com costura matelassê em Chevron, traz o icônico monograma YSL em metal dourado como destaque. Compacta, versátil e estruturada, pode ser usada como carteira, clutch ou bolsa transversal graças à corrente dourada removível.",
-  features: [
-    "Couro granulado premium com costura matelassê Chevron",
-    "Monograma YSL em metal dourado",
-    "Fecho frontal com tampa estruturada",
-    "Corrente dourada removível para usar como clutch ou crossbody",
-    "Interior forrado com compartimentos para cartões e espaço principal",
-  ],
-  dimensions: "Aproximadamente 22cm × 14cm × 4cm",
-  color: "Bege nude com ferragens douradas",
-  material: "Couro granulado (grained calfskin)",
-    images: [b1221],
-  },
-
   "123": {
     id: 123,
     name: "Gucci Blondie Mini GG Matelassé ",
@@ -2504,6 +2489,110 @@ description:
   color: "Bege monograma com detalhes dourados e preto",
   material: "Lona GG Supreme + couro + corda natural",
     images: [b1241],
+  },
+
+  "125": {
+    id: 125,
+    name: "Chanel WOC (Wallet on Chain Azul royal)",
+    tipoItem: "Bolsa",
+    price: "R$13.900,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "R$14.900,00",
+    condition: "seminovo",
+    vendido: false,
+  description:
+    "A Chanel Wallet On Chain (WOC) Azul Royal é um dos modelos mais desejados da maison, unindo praticidade e sofisticação em um design compacto e icônico. Confeccionada em couro de alta qualidade com o clássico matelassê Chanel, traz a elegância atemporal da marca em um tom vibrante de azul royal. Ideal para quem busca leveza e estilo, é perfeita tanto para o dia quanto para eventos noturnos.",
+  features: [
+    "Couro azul royal com costura matelassê clássica Chanel",
+    "Logo CC metálica central em dourado",
+    "Alça longa em corrente dourada entrelaçada em couro",
+    "Fecho por aba frontal com botão de pressão",
+    "Interior em couro e tecido com compartimentos para cartões, zíper interno e bolso principal",
+    "Acompanha dust bag, cartão de autenticidade e sacola Chanel",
+    "Design compacto, elegante e versátil — ideal para ocasiões especiais ou uso diário"
+  ],
+  dimensions:
+    "Aproximadamente 19cm × 12cm × 4cm",
+  color: "Azul royal com ferragens douradas",
+  material: "Couro legítimo com costura matelassê e ferragens em metal dourado",
+    images: [b1251],
+  },
+
+  "126": {
+    id: 126,
+    name: "YSL Lou Câmera bag",
+    tipoItem: "Bolsa",
+    price: "R$8.990,00  (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+   description:
+    "A Saint Laurent Lou Camera Bag é um dos modelos mais icônicos da marca, combinando elegância descontraída com um design compacto e funcional. Nesta versão em ráfia tecida com detalhes em couro preto, a bolsa traz um ar sofisticado e veranil, mantendo o luxo característico da YSL. Leve, prática e versátil, é ideal para o dia a dia ou passeios casuais.",
+  features: [
+    "Corpo em ráfia tecida com acabamento natural",
+    "Detalhes, cantos e alça em couro preto",
+    "Logo YSL metálica em dourado na parte frontal",
+    "Zíper superior com puxador finalizado em tassel de couro",
+    "Alça longa ajustável para uso lateral ou crossbody",
+    "Interior forrado com compartimento único e bolsinho interno",
+    "Acompanha dust bag e caixa Saint Laurent"
+  ],
+  dimensions:
+    "Aproximadamente 23cm × 15cm × 6cm",
+  color: "Ráfia natural com detalhes em preto e ferragens douradas",
+  material: "Ráfia tecida e couro legítimo com ferragens em metal dourado",
+    images: [b1261],
+  },
+
+  "127": {
+    id: 127,
+    name: "Speedy",
+    tipoItem: "Bolsa",
+    price: "R$8.490,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "seminovo",
+    vendido: false,
+   description:
+    "A Louis Vuitton Speedy Monogram é um dos modelos mais clássicos e reconhecidos da maison, criada originalmente como uma versão compacta das malas de viagem da marca. Confeccionada em canvas Monogram com detalhes em couro natural Vachetta, combina leveza, praticidade e elegância atemporal. É perfeita para o uso diário, oferecendo espaço interno ótimo e estilo icônico.",
+  features: [
+    "Canvas Monogram clássico da Louis Vuitton",
+    "Detalhes e alças em couro natural Vachetta",
+    "Ferragens metálicas douradas",
+    "Zíper superior com puxador LV",
+    "Alças de mão estruturadas e alça longa ajustável (modelo Bandoulière)",
+    "Interior espaçoso com bolso plano",
+    "Acompanha dust bag e caixa Louis Vuitton"
+  ],
+  dimensions:
+    "Aproximadamente 30cm × 21cm × 17cm (Speedy 30)",
+  color: "Monogram marrom com detalhes em couro natural",
+  material: "Canvas Monogram e couro Vachetta com ferragens douradas",
+    images: [b1271],
+  },
+
+  "128": {
+    id: 128,
+    name: "YSL Cassandre",
+    tipoItem: "Bolsa",
+    price: "R$6.990,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+    description:
+    "A Saint Laurent Cassandre Wallet on Chain é um clássico moderno da maison, combinando elegância minimalista com funcionalidade. Confeccionada em couro texturizado com quilting em formato chevron, traz o icônico monograma YSL em metal dourado, tornando-se uma peça sofisticada e versátil para diversas ocasiões. Compacta e estruturada, pode ser usada como bolsa de ombro, transversal ou como clutch.",
+  features: [
+    "Couro texturizado com quilting chevron",
+    "Monograma YSL metálico em dourado na aba frontal",
+    "Alça longa em corrente dourada com reforço em couro",
+    "Fecho por botão magnético na aba",
+    "Interior com slots para cartões, bolso com zíper e compartimento principal",
+    "Design elegante, estruturado e versátil",
+    "Acompanha caixa e dust bag Saint Laurent"
+  ],
+  dimensions:
+    "Aproximadamente 22cm × 14cm × 4cm",
+  color: "Bege nude com ferragens douradas",
+  material: "Couro legítimo texturizado com ferragens em metal dourado",
+    images: [b1281, b1282],
   },
 };
 

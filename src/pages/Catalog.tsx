@@ -76,6 +76,9 @@ const Catalog = () => {
     (p) => p.condition === "seminovo"
   );
 
+  filteredNovos.sort((a, b) => (a.vendido === b.vendido ? 0 : a.vendido ? 1 : -1));
+filteredSemiNovos.sort((a, b) => (a.vendido === b.vendido ? 0 : a.vendido ? 1 : -1));
+
   return (
     <div className="min-h-screen bg-background">
       <Header />

@@ -269,6 +269,76 @@ import b1281 from "@/assets/b128/592d11d1-b573-46e8-8207-4dd0200b18db.jpg";
 
 import b1282 from "@/assets/b128/918f408a-abfd-4b35-aa8f-83d6a2f39ad4.jpg";
 
+import b1291 from "@/assets/b129/b129.jfif";
+
+import b1301 from "@/assets/b130/ce81349e-bbc5-4cb6-826e-cba5dd412a35.jfif";
+
+import b1311 from "@/assets/b131/ca61cd79-4121-4025-91aa-146a69509918.jfif";
+
+import b1312 from "@/assets/b131/1fc62827-c179-4e62-9e42-8d184b140d99.jfif";
+
+import b1321 from "@/assets/b132/a0962640-6dd7-46ab-908f-54de0d9fa0d3.jfif";
+
+import b1331 from "@/assets/b133/90d82199-a6ab-4a56-a7c9-6c22f4386ce4.jfif";
+
+import b1341 from "@/assets/b134/dc149f61-45cc-4f73-9e1e-209d29b2fa36.jfif";
+
+import b1342 from "@/assets/b134/38d76df6-3179-4602-b94a-dd19bcaaed4c.jfif";
+
+import b1351 from "@/assets/b135/c1ed6adf-49f6-4463-8df6-1717d7964331.jfif";
+
+import b1352 from "@/assets/b135/cd257538-9466-4a0f-ae6e-dec39c99d143.jfif";
+
+import b1361 from "@/assets/b136/1a31e6ee-749d-495b-be51-075a49381e3c.jfif";
+
+import b1371 from "@/assets/b137/d2ea129a-0b63-45bf-8547-0c891af72a92.jfif";
+
+import b1372 from "@/assets/b137/eb71b019-e075-4c4e-8dca-b77cc19b83e1.jfif";
+
+import b1381 from "@/assets/b138/04d53dda-0df1-429c-9ecd-02dd56e590be.jfif";
+
+import b1391 from "@/assets/b139/00148ed8-c1b5-4f29-85ee-85829640cf90.jfif";
+
+import b1401 from "@/assets/b140/3f71af08-4270-4d5d-a1d3-5ee81e4abf91.jfif";
+
+import b1402 from "@/assets/b140/cc2ea745-8590-4258-a76a-699597423bd0.jfif";
+
+import b1411 from "@/assets/b141/2c75adc8-7969-4713-93f2-d5d46159551b.jfif";
+
+import b1412 from "@/assets/b141/9d89f335-8420-4e18-9a4a-6df82a60736c.jfif";
+
+import b1413 from "@/assets/b141/ebc924f9-65c0-413a-855a-a34784e435bc.jfif";
+
+import b1421 from "@/assets/b142/58ceb0dd-016d-4ed9-b57a-431a1a005611.jfif";
+
+import b1431 from "@/assets/b143/a762de5e-1337-4081-9666-250b155eeab6.jfif";
+
+import b1441 from "@/assets/b144/acf8c245-318b-48ae-8714-cb4c05dfcd0d.jfif";
+
+import b1442 from "@/assets/b144/fa22aec8-37b5-4b17-a521-cfed04150f4b.jfif";
+
+import b1451 from "@/assets/b145/3d1e23fe-989d-4618-9e7f-50a22d78a3f6.jfif";
+
+import b1461 from "@/assets/b146/3a53b056-5763-4319-915b-d8472d8f45b1.jfif";
+
+import b1462 from "@/assets/b146/40edaeed-5da0-4f5c-847c-a5da733f1d56.jfif";
+
+import b1463 from "@/assets/b146/55cd0f5f-e2d5-4137-8708-984b15c02d6e.jfif";
+
+import b1464 from "@/assets/b146/WhatsApp Image 2026-02-04 at 14.53.02 (1).jpeg";
+
+import b1465 from "@/assets/b146/WhatsApp Image 2026-02-04 at 14.53.02.jpeg";
+
+import b1466 from "@/assets/b146/WhatsApp Image 2026-02-04 at 14.53.03.jpeg";
+
+import b1467 from "@/assets/b146/fe6e9d0f-393b-4d3d-801b-3c68fc1b55be.jfif";
+
+import b1471 from "@/assets/b147/1db34eea-7e4f-4a24-ae29-e1b597b797b3.jfif";
+
+import b1481  from "@/assets/b148/0d1c7115-4f4f-4ed7-9969-37f37752b534.jfif";
+
+import b1491 from "@/assets/b149/46a342d9-34cb-488c-9959-6ddb671358a8.jfif";
+
 
 export const products = {
   "1": {
@@ -2594,6 +2664,553 @@ description:
   material: "Couro legítimo texturizado com ferragens em metal dourado",
     images: [b1281, b1282],
   },
+
+  "129": {
+    id: 129,
+    name: "Tênis Gucci Ace",
+    tipoItem: "Sapatos",
+    price: "R$2.500,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+    description:
+     "O Tênis Gucci Ace é um dos modelos mais icônicos da marca italiana, reconhecido pelo design clean e atemporal. Confeccionado em couro branco premium, apresenta a clássica faixa verde e vermelha na lateral e o bordado da abelha dourada, símbolo de identidade e sofisticação da Gucci. Versátil e elegante, transita facilmente entre produções casuais e sofisticadas. Completo com caixa e dust bag.",
+  features: [
+     "Couro branco premium de alta qualidade",
+    "Faixa lateral verde e vermelha característica da Gucci",
+    "Bordado de abelha dourada na lateral",
+    "Fechamento por cadarço",
+    "Solado de borracha resistente",
+    "Design clássico, elegante e atemporal",
+    "Acompanha caixa e dust bag Gucci"
+  ],
+  dimensions:
+     " Número BR 41 / 41,5",
+  color: "Branco com faixa verde e vermelha e detalhes dourados",
+  material: "Couro legítimo com solado em borracha",
+    images: [b1291],
+  },
+
+  "130": {
+    id: 130,
+     name: "Gucci Demetra Green",
+    tipoItem: "Sapatos",
+    price: "R$2.000,00 (Até 12x com acréscimo da maquininha)",
+    originalPrice: "",
+    condition: "novo",
+    vendido: false,
+     description:
+    "O Tênis Gucci Demetra Green combina design contemporâneo com a proposta sustentável da Gucci. Produzido com o material Demetra, desenvolvido pela própria marca, une aparência premium, conforto e menor impacto ambiental. O visual esportivo é equilibrado por detalhes verdes no solado e na lateral, garantindo um estilo moderno e versátil para o dia a dia.",
+  features: [
+    "Material Demetra desenvolvido pela Gucci",
+    "Design esportivo com acabamento premium",
+    "Detalhes verdes na lateral e no solado",
+    "Fechamento por cadarço",
+    "Solado em borracha para maior conforto e durabilidade",
+    "Modelo sustentável e contemporâneo",
+    "Produto completo com caixa e dust bag Gucci"
+  ],
+  dimensions:
+    "Solado com aproximadamente 3cm",
+  color: "Branco com detalhes verdes",
+  material: "Material Demetra e solado em borracha",
+  images: [b1301],
+},
+
+"131": {
+  id: 131,
+  name: "Gucci Sneaker GG Canvas",
+  tipoItem: "Sapatos",
+  price: "R$4.200,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "O Tênis Gucci Sneaker em GG Canvas combina o DNA clássico da marca com um visual contemporâneo. O modelo traz o icônico monograma GG em canvas, detalhes em couro liso e acabamento premium. Acompanha duas opções de cadarços, permitindo variação no estilo, e oferece conforto aliado a um design sofisticado para uso diário.",
+  features: [
+    "Canvas GG monogramado exclusivo da Gucci",
+    "Detalhes em couro liso com acabamento premium",
+    "Duas opções de cadarços (tradicional e esportivo)",
+    "Fechamento por cadarço",
+    "Solado em borracha para conforto e durabilidade",
+    "Design moderno com identidade clássica da marca",
+    "Produto completo com caixa, dust bag e livretos Gucci"
+  ],
+  dimensions:
+    "Numeração BR 38.5 / 39",
+  color: "Bege GG com detalhes em verde claro e off-white",
+  material: "Canvas GG e couro legítimo com solado em borracha",
+  images: [b1311, b1312],
+},
+
+"132": {
+  id: 132,
+  name: "Prada Monolith Loafer",
+  tipoItem: "Sapatos",
+  price: "R$3.500,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "O Prada Monolith Loafer é um dos modelos mais icônicos e contemporâneos da Prada, conhecido pela sola robusta e design marcante. Confeccionado em couro liso de alta qualidade, traz o tradicional logo triangular esmaltado na parte frontal. O solado Monolith em borracha confere personalidade, conforto e durabilidade, sendo uma peça statement para produções modernas.",
+  features: [
+    "Couro liso premium com acabamento polido",
+    "Logo triangular Prada esmaltado na parte frontal",
+    "Modelo slip-on estilo loafer",
+    "Solado Monolith em borracha com visual robusto",
+    "Construção sólida e confortável",
+    "Design icônico e contemporâneo da Prada",
+    "Acompanha dust bag Prada"
+  ],
+  dimensions:
+    "Numeração BR 37 (sola marcada 38)",
+  color: "Preto",
+  material: "Couro legítimo com solado em borracha",
+  images: [b1321],
+},
+
+"133": {
+  id: 133,
+  name: "Louis Vuitton LV Trainer",
+  tipoItem: "Sapatos",
+  price: "R$5.500,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "O Tênis Louis Vuitton LV Trainer é um dos modelos mais emblemáticos da maison, inspirado no universo dos sneakers de basquete e reinterpretado com o luxo característico da marca. A versão feminina combina couro legítimo com detalhes em denim monogramado LV, trazendo acabamento premium, identidade forte e alto nível de conforto.",
+  features: [
+    "Combinação de couro legítimo com denim monogramado LV",
+    "Assinatura LV em relevo no cabedal",
+    "Design inspirado em sneakers de basquete",
+    "Fechamento por cadarço",
+    "Solado em borracha com excelente amortecimento",
+    "Modelo icônico da linha LV Trainer",
+    "Acompanha caixa, dust bag e sacola Louis Vuitton"
+  ],
+  dimensions:
+    "Numeração BR 36 / 36,5",
+  color: "Azul e branco com monograma LV",
+  material: "Couro legítimo e denim com solado em borracha",
+  images: [b1331],
+},
+
+"134": {
+  id: 134,
+  name: "Jacquemus Le Bambino",
+  tipoItem: "Bolsa",
+  price: "R$4.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Jacquemus Le Bambino é um dos modelos mais icônicos da marca francesa, conhecida pelo design minimalista e proporções estruturadas. Confeccionada em couro liso de alta qualidade, apresenta silhueta reta, alça superior rígida e assinatura Jacquemus em metal dourado na parte frontal. Moderna e elegante, é uma bolsa versátil que se destaca tanto em produções casuais quanto sofisticadas.",
+  features: [
+    "Couro liso premium com acabamento fosco",
+    "Design estruturado e minimalista característico da Jacquemus",
+    "Alça superior rígida para uso à mão",
+    "Alça longa removível em couro para uso transversal ou no ombro",
+    "Fechamento superior com aba magnética",
+    "Logo Jacquemus em metal dourado na parte frontal",
+    "Acompanha dust bag Jacquemus"
+  ],
+  dimensions:
+    "Aproximadamente 28cm × 13cm × 6cm",
+  color: "Taupe / marrom acinzentado com ferragens douradas",
+  material: "Couro legítimo com ferragens em metal dourado",
+  images: [b1341, b1342],
+},
+
+"135": {
+  id: 135,
+  name: "Valentino Wallet on Chain",
+  tipoItem: "Bolsa",
+  price: "R$4.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Valentino Wallet on Chain é uma peça elegante e funcional que une o refinamento da marca italiana com praticidade. Confeccionada em couro granulado de alta qualidade, apresenta o icônico logotipo VLogo em relevo na aba frontal e corrente dourada, permitindo uso transversal, no ombro ou como clutch. Compacta e sofisticada, é ideal para ocasiões que pedem estilo e leveza.",
+  features: [
+    "Couro granulado premium com acabamento sofisticado",
+    "VLogo Valentino em relevo na aba frontal",
+    "Alça longa em corrente dourada removível",
+    "Pode ser usada como bolsa transversal, de ombro ou clutch",
+    "Fechamento por aba com botão magnético",
+    "Interior funcional com compartimentos para cartões e itens essenciais",
+    "Produto completo com caixa e dust bag Valentino"
+  ],
+  dimensions:
+    "Aproximadamente 19cm × 12cm × 4cm",
+  color: "Rosa pink com ferragens douradas",
+  material: "Couro legítimo granulado com ferragens em metal dourado",
+  images: [b1351, b1352],
+},
+
+"136": {
+  id: 136,
+  name: "Gucci Ophidia Round Floral",
+  tipoItem: "Bolsa",
+  price: "R$5.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Gucci Ophidia Round Floral é uma bolsa icônica da maison italiana, reconhecida pelo formato circular e pela combinação do clássico canvas GG Supreme com estampa floral. O modelo traz a tradicional faixa Web verde e vermelha e o logotipo Double G em metal dourado, resultando em uma peça sofisticada, feminina e marcante.",
+  features: [
+    "Canvas GG Supreme com estampa floral exclusiva",
+    "Detalhes em couro liso com acabamento premium",
+    "Faixa Web verde e vermelha característica da linha Ophidia",
+    "Logotipo Double G em metal dourado",
+    "Alça longa em corrente dourada para uso transversal ou no ombro",
+    "Formato redondo estruturado",
+    "Produto completo com caixa e dust bag Gucci"
+  ],
+  dimensions:
+    "Aproximadamente 18cm × 18cm × 5cm",
+  color: "Estampa GG com flores multicoloridas e detalhes em amarelo",
+  material: "Canvas GG Supreme e couro legítimo com ferragens em metal dourado",
+  images: [b1361],
+},
+
+"137": {
+  id: 137,
+  name: "Valentino Garavani Rockstud Spike",
+  tipoItem: "Bolsa",
+  price: "R$6.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Valentino Garavani Rockstud Spike é uma das bolsas mais icônicas da marca, reconhecida pelo design marcante com aplicações Rockstud e acabamento sofisticado. Confeccionada em couro legítimo, apresenta estrutura elegante, fecho frontal metálico e alça longa em corrente, sendo uma peça de destaque para produções modernas e refinadas.",
+  features: [
+    "Couro legítimo com acabamento premium",
+    "Aplicações Rockstud metálicas ao redor da bolsa",
+    "Fecho frontal com detalhe metálico Valentino",
+    "Alça longa em corrente para uso no ombro ou transversal",
+    "Design estruturado e elegante",
+    "Ferragens douradas com proteção plástica",
+    "Acompanha dust bag Valentino"
+  ],
+  dimensions:
+    "Aproximadamente 20cm × 14cm × 6cm",
+  color: "Preto com ferragens douradas",
+  material: "Couro legítimo com ferragens em metal dourado",
+  images: [b1371, b1372],
+},
+
+"138": {
+  id: 138,
+  name: "Chanel Gabrielle",
+  tipoItem: "Bolsa",
+  price: "R$16.000,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Chanel Gabrielle é um dos modelos mais icônicos da maison, criada para unir elegância, modernidade e praticidade. Confeccionada em couro com acabamento texturizado e base estruturada, apresenta design versátil que permite uso no ombro, transversal ou duplo. Os detalhes em corrente com mix de metais e o charme atemporal da Chanel fazem desta bolsa uma peça sofisticada e extremamente desejada.",
+  features: [
+    "Couro legítimo com acabamento texturizado",
+    "Design estruturado com base rígida",
+    "Alça em corrente com mix de metais dourado e prateado",
+    "Pode ser usada no ombro ou transversal",
+    "Assinatura Chanel com ferragens icônicas",
+    "Modelo versátil e contemporâneo da linha Gabrielle",
+    "Produto completo com caixa, dust bag e acessórios",
+    "Certificada Entrupy de autenticidade"
+  ],
+  dimensions:
+    "Aproximadamente 20cm × 15cm × 8cm",
+  color: "Preto com ferragens em mix de metais",
+  material: "Couro legítimo com ferragens em metal",
+  images: [b1381],
+},
+
+"139": {
+  id: 139,
+  name: "Chanel Clássica",
+  tipoItem: "Bolsa",
+  price: "R$16.000,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Chanel Classic Flap é o maior ícone da maison francesa, símbolo absoluto de elegância atemporal. Confeccionada em couro matelassê com acabamento premium, traz o fecho CC turn-lock e a tradicional alça em corrente entrelaçada em couro. Versátil e sofisticada, pode ser usada no ombro ou transversal, sendo uma peça indispensável de coleção.",
+  features: [
+    "Couro legítimo com costura matelassê clássica",
+    "Fecho CC turn-lock icônico Chanel",
+    "Alça em corrente entrelaçada em couro",
+    "Design estruturado e atemporal",
+    "Interior em couro com compartimentos funcionais",
+    "Modelo clássico e altamente valorizado da Chanel",
+    "Acompanha dust bag e certificado Entrupy de autenticidade"
+  ],
+  dimensions:
+    "Aproximadamente 25cm × 15cm × 7cm",
+  color: "Preto",
+  material: "Couro legítimo com ferragens em metal",
+  images: [b1391],
+},
+
+"140": {
+  id: 140,
+  name: "Louis Vuitton Tivoli PM",
+  tipoItem: "Bolsa",
+  price: "R$8.590,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Louis Vuitton Tivoli PM é uma bolsa elegante e funcional da linha Monogram, conhecida pelo design feminino com pregas frontais e estrutura sofisticada. Confeccionada em canvas Monogram com acabamento em couro natural, oferece ótimo espaço interno para o dia a dia, mantendo o estilo clássico característico da maison francesa.",
+  features: [
+    "Canvas Monogram Louis Vuitton",
+    "Detalhes em couro natural (vachetta)",
+    "Alças duplas em couro para uso à mão ou no braço",
+    "Fechamento superior em zíper com pingente LV",
+    "Interior em tecido com bolso interno",
+    "Design estruturado com pregas frontais",
+    "Acompanha dust bag Louis Vuitton"
+  ],
+  dimensions:
+    "Aproximadamente 33cm × 21cm × 15cm",
+  color: "Monogram marrom com detalhes em couro natural",
+  material: "Canvas Monogram e couro natural",
+  images: [b1401, b1402],
+},
+
+"141": {
+  id: 141,
+  name: "Prada Re-Edition 2005",
+  tipoItem: "Bolsa",
+  price: "R$7.200,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Prada Re-Edition 2005 é uma releitura icônica de um dos modelos mais emblemáticos da marca, unindo estética retrô com funcionalidade contemporânea. Confeccionada em nylon premium, apresenta design compacto, bolso removível e múltiplas opções de uso graças às duas alças, tornando-se uma bolsa versátil e extremamente desejada.",
+  features: [
+    "Nylon premium característico da Prada",
+    "Logo triangular Prada em metal esmaltado",
+    "Bolso frontal removível com zíper",
+    "Duas alças: corrente metálica e alça longa ajustável",
+    "Fechamento superior em zíper",
+    "Design icônico da linha Re-Edition",
+    "Produto completo com caixa, dust bag e nota fiscal"
+  ],
+  dimensions:
+    "Aproximadamente 22cm × 18cm × 6cm",
+  color: "Bege",
+  material: "Nylon premium com ferragens em metal",
+  images: [b1412, b1411, b1413],
+},
+
+"142": {
+  id: 142,
+  name: "Burberry Lola Floral",
+  tipoItem: "Bolsa",
+  price: "R$6.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Burberry Lola Floral é uma bolsa sofisticada que combina o design contemporâneo da linha Lola com um acabamento marcante em estampa floral. Confeccionada em couro Saffiano, traz o icônico monograma TB em metal dourado na aba frontal e alça em corrente, resultando em uma peça elegante, moderna e de forte identidade visual.",
+  features: [
+    "Couro Saffiano premium com estampa floral",
+    "Monograma TB Burberry em metal dourado na parte frontal",
+    "Alça longa em corrente dourada para uso no ombro ou transversal",
+    "Fechamento por aba com botão magnético",
+    "Design estruturado e elegante da linha Lola",
+    "Acabamento refinado e alta durabilidade",
+    "Acompanha dust bag e certificado Entrupy de autenticidade"
+  ],
+  dimensions:
+    "Aproximadamente 19cm × 13cm × 5cm",
+  color: "Preto com estampa floral e ferragens douradas",
+  material: "Couro Saffiano com ferragens em metal dourado",
+  images: [b1421],
+},
+
+"143": {
+  id: 143,
+  name: "Óculos Gucci",
+  tipoItem: "Óculos",
+  price: "R$990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "Os Óculos Gucci apresentam um design clássico e elegante, característico da maison italiana. Com armação sofisticada e acabamento premium, trazem hastes com as tradicionais cores verde e vermelho da marca, garantindo estilo atemporal e versatilidade para diferentes ocasiões.",
+  features: [
+    "Armação de alta qualidade com acabamento premium",
+    "Design clássico e elegante Gucci",
+    "Hastes com detalhe nas cores icônicas da marca",
+    "Lentes escuras para proteção e conforto visual",
+    "Modelo leve e confortável para uso diário",
+    "Produto completo com caixa e dust bag Gucci"
+  ],
+  dimensions:
+    "Tamanho padrão adulto",
+  color: "Preto com detalhes em verde e vermelho",
+  material: "Acetato de alta qualidade",
+  images: [b1431],
+},
+
+"144": {
+  id: 144,
+  name: "Óculos Christian Dior",
+  tipoItem: "Óculos",
+  price: "R$1.890,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "Os Óculos Christian Dior apresentam design sofisticado e contemporâneo, com armação marcante e acabamento refinado. O modelo combina estética fashion com conforto, ideal para compor produções modernas com a assinatura elegante da maison francesa.",
+  features: [
+    "Armação de alta qualidade com acabamento premium",
+    "Design moderno e elegante Dior",
+    "Lentes escuras para conforto e proteção visual",
+    "Modelo leve e confortável",
+    "Assinatura Christian Dior no estojo",
+    "Produto completo com caixa e dust bag Dior"
+  ],
+  dimensions:
+    "Tamanho padrão adulto",
+  color: "Rosa claro com lentes escuras",
+  material: "Acetato de alta qualidade",
+  images: [b1441, b1442],
+},
+
+"145": {
+  id: 145,
+  name: "Óculos Celine",
+  tipoItem: "Óculos",
+  price: "R$2.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "Os Óculos Celine unem design sofisticado e estética minimalista, assinatura marcante da maison francesa. Com armação metálica elegante e lentes escuras, o modelo oferece estilo atemporal e conforto. Acompanha bolsinha em couro que pode ser utilizada como porta-óculos ou porta-celular, trazendo praticidade e versatilidade ao conjunto.",
+  features: [
+    "Armação metálica com acabamento premium",
+    "Design elegante e minimalista Celine",
+    "Lentes escuras para conforto visual",
+    "Hastes com assinatura discreta da marca",
+    "Bolsinha em couro que pode ser usada como porta-óculos ou porta-celular",
+    "Produto completo com bolsinha Celine"
+  ],
+  dimensions:
+    "Tamanho padrão adulto",
+  color: "Dourado com lentes escuras e bolsinha marrom",
+  material: "Metal e acetato com bolsinha em couro",
+  images: [b1451],
+},
+
+"146": {
+  id: 146,
+  name: "Louis Vuitton Capucines MM",
+  tipoItem: "Bolsa",
+  price: "R$21.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Louis Vuitton Capucines MM é um ícone de sofisticação da maison francesa, reconhecida pelo design elegante e construção impecável. Confeccionada em couro Taurillon granulado, apresenta o emblemático monograma LV em metal dourado e alça superior estruturada. Um modelo clássico e atemporal, ideal para ocasiões formais e uso refinado no dia a dia.",
+  features: [
+    "Couro Taurillon granulado de alta qualidade",
+    "Monograma LV em metal dourado na parte frontal",
+    "Alça superior rígida com acabamento premium",
+    "Fechamento por aba com opção de uso interno ou externo do logo",
+    "Interior em couro com compartimentos organizadores",
+    "Design elegante e atemporal da linha Capucines",
+    "Produto completo com nota fiscal e certificado Entrupy"
+  ],
+  dimensions:
+    "Aproximadamente 31cm × 20cm × 11cm",
+  color: "Lilás / lavanda com ferragens douradas",
+  material: "Couro Taurillon com ferragens em metal dourado",
+  images: [b1461, b1462, b1463, b1464, b1465, b1466, b1467],
+},
+
+"147": {
+  id: 147,
+  name: "Coach MM",
+  tipoItem: "Bolsa",
+  price: "R$1.190,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "seminovo",
+  vendido: false,
+  description:
+    "A Coach MM é uma bolsa funcional e elegante, ideal para o dia a dia. Confeccionada em couro liso de alta qualidade, apresenta design estruturado com alça superior e detalhes metálicos discretos, oferecendo praticidade sem abrir mão do estilo característico da marca.",
+  features: [
+    "Couro liso com acabamento premium",
+    "Design estruturado no tamanho médio (MM)",
+    "Alça superior para uso à mão",
+    "Fechamento superior com zíper",
+    "Ferragens metálicas com acabamento sofisticado",
+    "Interior espaçoso para uso diário",
+    "Bolsa em bom estado de conservação"
+  ],
+  dimensions:
+    "Tamanho médio (MM)",
+  color: "Preto com ferragens douradas",
+  material: "Couro legítimo com ferragens em metal",
+  images: [b1471],
+},
+
+"148": {
+  id: 148,
+  name: "Coach Cassie 19",
+  tipoItem: "Bolsa",
+  price: "R$2.490,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Coach Cassie 19 é uma das bolsas mais desejadas da marca, conhecida pelo design clássico e funcional. Confeccionada em couro granulado de alta qualidade, apresenta estrutura compacta com aba frontal e fecho turn-lock icônico da Coach. Versátil e elegante, pode ser usada no ombro ou transversal, sendo uma peça esgotada em loja e altamente procurada.",
+  features: [
+    "Couro granulado premium",
+    "Fecho turn-lock icônico Coach",
+    "Design estruturado e compacto",
+    "Alça longa ajustável e removível",
+    "Modelo versátil para uso no ombro ou transversal",
+    "Bolsa esgotada em loja",
+    "Produto novo, sem uso"
+  ],
+  dimensions:
+    "Aproximadamente 19cm × 14cm × 7cm",
+  color: "Bege claro",
+  material: "Couro legítimo com ferragens em metal dourado",
+  images: [b1481],
+},
+
+"149": {
+  id: 149,
+  name: "Coach Swinger",
+  tipoItem: "Bolsa",
+  price: "R$1.990,00 (Até 12x com acréscimo da maquininha)",
+  originalPrice: "",
+  condition: "novo",
+  vendido: false,
+  description:
+    "A Coach Swinger é um modelo icônico da marca, inspirado nos designs clássicos dos anos 90 e reinterpretado com acabamento contemporâneo. Confeccionada em couro liso de alta qualidade, possui silhueta compacta e elegante, sendo ideal para produções versáteis do dia à noite.",
+  features: [
+    "Couro liso premium com acabamento refinado",
+    "Design compacto e atemporal da linha Swinger",
+    "Duas opções de alças: corrente dourada e alça longa em couro crossbody",
+    "Fechamento superior com zíper",
+    "Modelo versátil para uso no ombro ou transversal",
+    "Bolsa nova, sem uso",
+    "Acompanha dust bag Coach"
+  ],
+  dimensions:
+    "Aproximadamente 23cm × 13cm × 7cm",
+  color: "Preto",
+  material: "Couro legítimo com ferragens em metal dourado",
+  images: [b1491],
+},
+
+
+
 };
 
 

@@ -28,6 +28,7 @@ const Catalog = () => {
     "Burberry",
     "Celine",
     "Chanel",
+    "Coach",
     "Dior",
     "Gucci",
     "Hermés",

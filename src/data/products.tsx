@@ -521,8 +521,8 @@ export const products = {
     images: [bagProduct102,bagProduct101],
   },
 
-  "11": {
-    id: 11,
+  "128": {
+    id: 128,
     name: "YSL LOULOU",
     tipoItem: "Bolsa",
     price: "R$14.490,00 (Até 12x com acréscimo da maquininha)",
@@ -832,7 +832,7 @@ export const products = {
     tipoItem: "Bolsa",
     price: "R$7.990,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
-    condition: "seminovo",
+    condition: "novo",
      vendido: false,
     description:
       "A YSL Lou Camera Bag é um ícone contemporâneo da elegância parisiense. Confeccionada em couro macio com costura matelassê em padrão chevron, apresenta o monograma YSL em metal dourado no centro — símbolo do estilo atemporal da maison. Compacta e versátil, possui alça longa ajustável e charmosa tassel lateral, perfeita para uso no ombro ou transversal. Um clássico moderno que une praticidade, sofisticação e design refinado.",
@@ -2450,7 +2450,7 @@ material: 'Couro nappa italiano',
     tipoItem: "Bolsa",
     price: "R$8.990,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
-    condition: "seminovo",
+    condition: "novo",
     vendido: false,
 description:
     "A Gucci Blondie Mini GG Matelassé é a definição de delicadeza e sofisticação. Confeccionada em couro matelassê com o icônico padrão GG bordado, traz o emblemático logo G dobrado em metal dourado no centro. Versátil, acompanha duas alças — uma de corrente dourada elegante e outra larga esportiva — permitindo múltiplas formas de uso. Uma peça charmosa, moderna e atemporal.",
@@ -2497,7 +2497,7 @@ description:
     tipoItem: "Bolsa",
     price: "R$13.900,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "R$14.900,00",
-    condition: "seminovo",
+    condition: "novo",
     vendido: false,
   description:
     "A Chanel Wallet On Chain (WOC) Azul Royal é um dos modelos mais desejados da maison, unindo praticidade e sofisticação em um design compacto e icônico. Confeccionada em couro de alta qualidade com o clássico matelassê Chanel, traz a elegância atemporal da marca em um tom vibrante de azul royal. Ideal para quem busca leveza e estilo, é perfeita tanto para o dia quanto para eventos noturnos.",
@@ -2549,7 +2549,7 @@ description:
     tipoItem: "Bolsa",
     price: "R$8.490,00 (Até 12x com acréscimo da maquininha)",
     originalPrice: "",
-    condition: "seminovo",
+    condition: "novo",
     vendido: false,
    description:
     "A Louis Vuitton Speedy Monogram é um dos modelos mais clássicos e reconhecidos da maison, criada originalmente como uma versão compacta das malas de viagem da marca. Confeccionada em canvas Monogram com detalhes em couro natural Vachetta, combina leveza, praticidade e elegância atemporal. É perfeita para o uso diário, oferecendo espaço interno ótimo e estilo icônico.",
@@ -2569,8 +2569,8 @@ description:
     images: [b1271],
   },
 
-  "128": {
-    id: 128,
+  "11": {
+    id: 11,
     name: "YSL Cassandre",
     tipoItem: "Bolsa",
     price: "R$6.990,00 (Até 12x com acréscimo da maquininha)",

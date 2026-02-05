@@ -70,13 +70,29 @@ const Catalog = () => {
     );
   }
 
+  const produtosNovosPrioritarios = [11, 125, 127, 126, 123]; 
   // Separação por condição
-  const filteredNovos = filteredProducts.filter((p) => p.condition === "novo");
+  let filteredNovos = filteredProducts.filter((p) => p.condition === "novo");
   const filteredSemiNovos = filteredProducts.filter(
     (p) => p.condition === "seminovo"
   );
 
-  filteredNovos.sort((a, b) => (a.vendido === b.vendido ? 0 : a.vendido ? 1 : -1));
+  filteredNovos = filteredNovos.sort((a, b) => {
+  const idxA = produtosNovosPrioritarios.indexOf(a.id);
+  const idxB = produtosNovosPrioritarios.indexOf(b.id);
+
+  // Ambos estão na lista prioritária → ordenar pela ordem definida no array
+  if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+
+  // A está na lista prioritária
+  if (idxA !== -1) return -1;
+
+  // B está na lista prioritária
+  if (idxB !== -1) return 1;
+
+  // Nenhum está na lista prioritária → ordenar por vendido
+  return a.vendido === b.vendido ? 0 : a.vendido ? 1 : -1;
+});
 filteredSemiNovos.sort((a, b) => (a.vendido === b.vendido ? 0 : a.vendido ? 1 : -1));
 
   return (
